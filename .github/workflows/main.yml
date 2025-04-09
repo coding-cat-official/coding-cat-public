@@ -2,7 +2,7 @@ name: Validate Problems
 
 on:
   push:
-    branches: ["python-test-script]
+    branches: ["python-test-script"]
 
 jobs:
   validate:
