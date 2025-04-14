@@ -1,0 +1,16 @@
+name: Validate Problems
+
+on:
+  pull_request:
+    branches: ["staging", "main"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Run Validator
+        run: python validate_problems.py
+  
