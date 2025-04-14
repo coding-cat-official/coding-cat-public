@@ -1,4 +1,4 @@
-def remove_vowels(word: str, y_is_a_vowel: bool) -> str:
+def remove_vowels_2(word: str, y_is_a_vowel: bool) -> str:
     vowels = "aeiouAEIOU"
     vowels += "yY" if y_is_a_vowel else ""
     result = ""
