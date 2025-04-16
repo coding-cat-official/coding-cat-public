@@ -1,1 +1,4 @@
-Generate `n` Fibonacci numbers. Given an integer argument `n`, generate a list of the first `n` Fibonacci numbers.
+Write a function `make_fibonacci(n: int) -> List[int]` which generates a list of `n` Fibonacci numbers.
+
+For example:
+- `make_fibonacci(6) → [0, 1, 1, 2, 3, 5]`
