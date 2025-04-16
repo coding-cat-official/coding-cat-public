@@ -7,10 +7,9 @@ Write a function `double_n-th(str,n)` that when given a string and  integer `n`,
 
 
 For example:
-- If `(programming,2)` is inputted, the output is `prroggraammminng`.
-- If `("two",2)`, is inputted, the output is `"twwo"`.
-- If `("three",3)`, is inputted, the output is `"thrree"`.
-- If `("hi",3)`, is inputted, the output is `hi`.
-- If `("bonjour",-2)`, is inputted, the output is `""`.
-- If `("null",0)`, is inputted, the output is `""`.
-- If `("",-2)`, is inputted, the output is `""`.
+- `double_n-th("programming", 2)` → `"prroggraammminng"`
+- `double_n-th("hi", 3)` → `"hi"`
+- `double_n-th("bonjour", -2)` → `""`
+- `double_n-th("null", 0)` → `""`
+- `double_n-th("", -2)` → `""`
+
