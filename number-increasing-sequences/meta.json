@@ -1,7 +1,7 @@
 {
   "title": "Number of Increasing Sequences",
   "name": "nbr_increasing_sequences",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "author": "Jerome Lavoie",
   "category": "list-2"
 }
