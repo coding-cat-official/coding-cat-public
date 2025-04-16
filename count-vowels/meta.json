@@ -1,7 +1,7 @@
 {
-  "title": "Counting vowels",
+  "title": "Counting Vowels",
   "name": "count_vowels",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "author": "Oliver",
   "category": "string-2"
 }
