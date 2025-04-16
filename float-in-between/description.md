@@ -1,1 +1,4 @@
-Write a function `float_in_between(x: float, y: float, z: float) -> bool` that takes three floating-point numbers as input: `x`, `y`, and `z`. The function should return `True` if the first input `x` is strictly between the other two inputs `y` and `z` (i.e., `x` is greater than the smaller of `y` and `z` and less than the larger of `y` and `z`), and `False` otherwise. For example, if the inputs are `5.0, 3.0, 8.0`, the output should be `True` because `5.0` is between `3.0` and `8.0`.
+Write a function `float_in_between(x: float, y: float, z: float) -> bool` that returns `True` if `x` is strictly between `y` and `z` (i.e., greater than the smaller of the two and less than the larger), and `False` otherwise. 
+
+For example:
+- `float_in_between(5.0, 3.0, 8.0) → True` → `5.0` is between `3.0` and `8.0`.
