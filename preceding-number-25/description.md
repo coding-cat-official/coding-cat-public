@@ -1,4 +1,3 @@
-
 Given a list of integers of length 5, for every `2` in the list, add the number `5` in front of it, and for every `5` in the list, add the number `2` in front of it. If there are no `2`s or `5`s, return the original list.
 
 
