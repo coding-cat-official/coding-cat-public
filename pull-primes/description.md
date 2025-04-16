@@ -3,8 +3,8 @@ Write a function `pull_primes(list)`, where the list contains 4 positive integer
 For the sake of simplicity, assume that we only care for the prime factors 2, 3, 5, 7 and 11
 
 For example:
-- [1, 3, 12, 14] returns [1, 3]
-- [12, 13, 41, 62] returns [13, 41]
-- [12, 14, 16, 18] returns `There are no prime numbers in this list`
+- `pull_primes([1, 3, 12, 14])` → `[1, 3]`
+- `pull_primes([12, 13, 41, 62])` → `[13, 41]`
+- `pull_primes([12, 14, 16, 18])` → `There are no prime numbers in this list`
 
-Hint: Modulo is required
+**Hint:** Modulo is required
