@@ -1,7 +1,7 @@
 {
   "title": "Vowel Finder",
   "name": "vowel_finder",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "author": "Luke Assaad",
-  "category": "list-2"
+  "category": "List-2: Iterating"
 }

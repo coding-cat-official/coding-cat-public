@@ -1,7 +1,7 @@
 {
-  "title": "Sum of the first half of a list",
+  "title": "Sum of the First Half of a List",
   "name": "sum_first_half",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "author": "Aidan Hacking",
-  "category": "list-2"
+  "category": "List-2: Iterating"
 }

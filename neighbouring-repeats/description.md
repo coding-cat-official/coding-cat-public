@@ -3,6 +3,6 @@ Write a function `neighbour_repeat(word: str) -> str` that removes any identical
 
 
 For example:
-- `NeighbourRepeat("hello") -> heo`
-- `NeighbourRepeat("awesome") -> awesome`
-- `NeighbourRepeat("aaaaabbbcde") -> cde`
+- `NeighbourRepeat("hello")` → `heo`  
+- `NeighbourRepeat("awesome")` → `awesome`  
+- `NeighbourRepeat("aaaaabbbcde")` → `cde`  

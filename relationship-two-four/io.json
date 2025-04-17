@@ -5,7 +5,7 @@
   },
   {
     "input": [[-2, -1, -4]],
-    "output": true
+    "output": false
   },
   {
     "input": [[-4, -2, 1, 2, 4]],
@@ -16,7 +16,7 @@
     "output": false
   },
   {
-    "input": [[-4, 1, 2, 8]],
+    "input": [[4, 1, 2, 8]],
     "output": true
   }
 ]

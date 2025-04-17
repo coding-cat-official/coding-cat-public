@@ -5,7 +5,7 @@
   },
   {
     "input": [4, 8, 3],
-    "output": false
+    "output": true
   },
   {
     "input": [10, 2, 7],

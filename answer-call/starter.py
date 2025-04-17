@@ -1,1 +1,1 @@
-def answer_cell(morning: bool, mom: bool, is_asleep: bool) -> bool:
+def answer_call(morning: bool, mom: bool, is_asleep: bool) -> bool:

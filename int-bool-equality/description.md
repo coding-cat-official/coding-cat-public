@@ -1,1 +1,7 @@
-Write a function `int_bool_equality(n: int, b: bool) -> bool` that takes an integer `n` and a boolean `b` as inputs. The function should return `True` if the integer `n` is equal to `1` when `b` is `True` and equal to `0` when `b` is `False`. In other words, the function should return `True` if `n` equals `1` and `b` is `True`, or if `n` equals `0` and `b` is `False`. Otherwise, it should return `False`. For example, if the inputs are `1` and `True`, the output should be `True`.
+Write a function `int_bool_equality(n: int, b: bool) -> bool` that takes an integer `n` and a boolean `b` as inputs. The function should return `True` if the integer `n` is equal to `1` when `b` is `True` and equal to `0` when `b` is `False`. 
+
+For example:
+- `int_bool_equality(1, True)` → `True`
+- `int_bool_equality(0, False)` → `True`
+- `int_bool_equality(1, False)` → `False`
+- `int_bool_equality(0, True)` → `False`
