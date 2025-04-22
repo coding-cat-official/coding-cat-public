@@ -3,5 +3,9 @@
   "name": "elementArranger",
   "difficulty": "medium",
   "author": "Alex Segal",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

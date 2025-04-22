@@ -3,5 +3,8 @@
   "name": "boolean_xor",
   "difficulty": "easy",
   "author": "ChatGPT",
-  "category": "Logic"
+  "category": "Logic",
+  "question_type": [
+    "coding"
+  ]
 }

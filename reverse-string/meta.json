@@ -3,5 +3,9 @@
   "name": "reverse_string",
   "difficulty": "easy",
   "author": "Erica Bournival",
-  "category": "String-2"
+  "category": "String-2",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

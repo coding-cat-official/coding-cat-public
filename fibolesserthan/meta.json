@@ -1,7 +1,11 @@
 {
-    "title": "Fibonacci Less Than",
-    "name": "fibo_lessthan",
-    "difficulty": "hard",
-    "author": "Jesus Monroy IV",
-    "category": "List-2: Iterating"
+  "title": "Fibonacci Less Than",
+  "name": "fibo_lessthan",
+  "difficulty": "hard",
+  "author": "Jesus Monroy IV",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

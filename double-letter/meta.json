@@ -1,7 +1,11 @@
 {
-    "title": "Double Letter",
-    "name": "double_letter",
-    "difficulty": "easy",
-    "author": "Cyprus",
-    "category": "String-2"
+  "title": "Double Letter",
+  "name": "double_letter",
+  "difficulty": "easy",
+  "author": "Cyprus",
+  "category": "String-2",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

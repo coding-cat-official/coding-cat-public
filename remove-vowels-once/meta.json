@@ -3,5 +3,9 @@
   "name": "remove_vowels_once",
   "difficulty": "medium",
   "author": "Janie Punski",
-  "category": "String-2"
+  "category": "String-2",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

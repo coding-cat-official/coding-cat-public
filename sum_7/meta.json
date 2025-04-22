@@ -3,5 +3,9 @@
   "name": "sum_7",
   "difficulty": "medium",
   "author": "James Ferdinand Combista",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

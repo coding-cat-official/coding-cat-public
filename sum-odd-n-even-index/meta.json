@@ -1,7 +1,11 @@
 {
-	"title": "Sum Odd n Even",
-	"name": "sum_oddneven_list",
-	"difficulty": "easy",
-	"author": "Mehmet-Ali ALER Akdeniz",
-	"category": "List-2: Iterating"
+  "title": "Sum Odd n Even",
+  "name": "sum_oddneven_list",
+  "difficulty": "easy",
+  "author": "Mehmet-Ali ALER Akdeniz",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

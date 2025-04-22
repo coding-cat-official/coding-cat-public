@@ -3,5 +3,9 @@
   "name": "alpha_order",
   "difficulty": "medium",
   "author": "Zaccaria Broomhall Bedont",
-  "category": "String-3"
+  "category": "String-3",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

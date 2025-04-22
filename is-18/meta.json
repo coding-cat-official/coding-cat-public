@@ -1,7 +1,11 @@
 {
-    "title": "Is 18",
-    "name": "is_18",
-    "difficulty": "medium",
-    "author": "Leo Keeren-Hall",
-    "category": "List-2: Iterating"
+  "title": "Is 18",
+  "name": "is_18",
+  "difficulty": "medium",
+  "author": "Leo Keeren-Hall",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

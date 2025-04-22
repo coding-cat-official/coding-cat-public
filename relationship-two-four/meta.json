@@ -3,5 +3,9 @@
   "name": "four_two_relationship",
   "difficulty": "hard",
   "author": "Nicole Slanina",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

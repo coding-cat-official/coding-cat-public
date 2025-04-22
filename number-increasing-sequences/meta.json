@@ -3,5 +3,9 @@
   "name": "nbr_increasing_sequences",
   "difficulty": "medium",
   "author": "Jerome Lavoie",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

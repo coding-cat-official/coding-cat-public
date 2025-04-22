@@ -3,5 +3,8 @@
   "name": "count_pairs",
   "difficulty": "medium",
   "author": "Noah Vezina",
-  "category": "String-2"
+  "category": "String-2",
+  "question_type": [
+    "coding"
+  ]
 }

@@ -3,5 +3,8 @@
   "name": "intersecting_metro",
   "difficulty": "easy",
   "author": "Eric Mayhew",
-  "category": "Logic"
+  "category": "Logic",
+  "question_type": [
+    "coding"
+  ]
 }

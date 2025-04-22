@@ -1,10 +1,10 @@
 {
-	"title": "Sum of Elements",
-	"name": "unique_sum",
-	"difficulty": "medium",
-	"author": "Elsa Zhang",
-	"category": "List-2: Iterating"
-
+  "title": "Sum of Elements",
+  "name": "unique_sum",
+  "difficulty": "medium",
+  "author": "Elsa Zhang",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding"
+  ]
 }
-
-

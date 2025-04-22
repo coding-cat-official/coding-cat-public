@@ -3,5 +3,9 @@
   "name": "median_num",
   "difficulty": "easy",
   "author": "Zabrina",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

@@ -1,8 +1,10 @@
 {
-    "title": "Exponential List Check",
-    "name": "exponential_list_check",
-    "difficulty": "easy",
-    "author": "Sandor Balogh",
-    "category": "List-2: Iterating"
+  "title": "Exponential List Check",
+  "name": "exponential_list_check",
+  "difficulty": "easy",
+  "author": "Sandor Balogh",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding"
+  ]
 }
-    

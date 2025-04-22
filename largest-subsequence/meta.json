@@ -2,6 +2,10 @@
   "title": "Largest Subsequence",
   "name": "largest_sum",
   "difficulty": "hard",
-  "author": "Loïc Arthur Ndjiongue Nzenang",
-  "category": "List-2: Iterating"
+  "author": "Lo\u00efc Arthur Ndjiongue Nzenang",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

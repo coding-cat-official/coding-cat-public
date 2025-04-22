@@ -3,5 +3,8 @@
   "name": "strings_args",
   "difficulty": "easy",
   "author": "Narshael",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding"
+  ]
 }
