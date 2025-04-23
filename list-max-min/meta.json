@@ -3,5 +3,8 @@
   "name": "list_max_min",
   "difficulty": "medium",
   "author": "Sebastian Soto",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding"
+  ]
 }

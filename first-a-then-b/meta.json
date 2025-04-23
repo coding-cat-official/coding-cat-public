@@ -3,5 +3,9 @@
   "name": "first_a_then_b",
   "difficulty": "medium",
   "author": "Logan Fink",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

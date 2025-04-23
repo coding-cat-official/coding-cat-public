@@ -3,5 +3,9 @@
   "name": "add_evens",
   "difficulty": "medium",
   "author": "Alexander Park",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

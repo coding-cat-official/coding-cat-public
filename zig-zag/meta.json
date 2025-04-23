@@ -3,5 +3,8 @@
   "name": "zig_zag",
   "difficulty": "medium",
   "author": "Alexandra Lesan",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding"
+  ]
 }

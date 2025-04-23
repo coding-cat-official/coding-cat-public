@@ -1,7 +1,11 @@
 {
-	"title": "Ordered Sequence",
-	"name": "ordered_sequence",
-	"difficulty": "easy",
-	"author": "Adam Idhoumad",
-	"category": "List-2: Iterating"
+  "title": "Ordered Sequence",
+  "name": "ordered_sequence",
+  "difficulty": "easy",
+  "author": "Adam Idhoumad",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

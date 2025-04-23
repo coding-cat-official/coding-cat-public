@@ -3,5 +3,8 @@
   "name": "is_between",
   "difficulty": "easy",
   "author": "ChatGPT",
-  "category": "Logic"
+  "category": "Logic",
+  "question_type": [
+    "coding"
+  ]
 }

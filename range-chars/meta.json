@@ -3,5 +3,9 @@
   "name": "range_chars",
   "difficulty": "hard",
   "author": "Samuel Corsi-House",
-  "category": "String-2"
+  "category": "String-2",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

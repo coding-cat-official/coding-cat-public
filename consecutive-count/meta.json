@@ -3,5 +3,9 @@
   "name": "consecutive_count",
   "difficulty": "medium",
   "author": "Toranj",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

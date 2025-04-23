@@ -3,5 +3,9 @@
   "name": "remove_vowels_2",
   "difficulty": "medium",
   "author": "Felix Egan",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

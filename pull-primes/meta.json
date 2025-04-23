@@ -3,5 +3,8 @@
   "name": "pull_primes",
   "difficulty": "medium",
   "author": "Julian",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding"
+  ]
 }

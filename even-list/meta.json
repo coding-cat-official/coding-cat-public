@@ -3,5 +3,9 @@
   "name": "even_list",
   "difficulty": "easy",
   "author": "Yashika Kashyap",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

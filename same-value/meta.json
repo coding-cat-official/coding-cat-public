@@ -3,5 +3,9 @@
   "name": "is_same",
   "difficulty": "easy",
   "author": "Mattieux Fournier",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

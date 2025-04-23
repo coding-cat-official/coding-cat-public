@@ -1,7 +1,10 @@
 {
-	"title": "Grade Calculator",
-	"name": "final_grade",
-	"difficulty": "medium",
-	"author": "Jongmin Lee",
-	"category": "List-2: Iterating"
+  "title": "Grade Calculator",
+  "name": "final_grade",
+  "difficulty": "medium",
+  "author": "Jongmin Lee",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding"
+  ]
 }

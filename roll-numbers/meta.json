@@ -3,5 +3,9 @@
   "name": "assign_roll_numbers",
   "difficulty": "medium",
   "author": "Mohammad Safwan Khan",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

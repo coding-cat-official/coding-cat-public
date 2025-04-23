@@ -3,5 +3,9 @@
   "name": "middle_characters",
   "difficulty": "medium",
   "author": "Sara Isabella Barajas-Cruz",
-  "category": "String-2"
+  "category": "String-2",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

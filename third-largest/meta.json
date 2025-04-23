@@ -3,5 +3,9 @@
   "name": "Third_Largest",
   "difficulty": "easy",
   "author": "Rayan Khadhri",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

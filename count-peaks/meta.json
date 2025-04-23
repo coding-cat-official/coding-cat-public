@@ -3,5 +3,9 @@
   "name": "count_peaks",
   "difficulty": "medium",
   "author": "Evan Luo",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

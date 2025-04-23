@@ -3,5 +3,9 @@
   "name": "double_nth",
   "difficulty": "easy",
   "author": "David Hack",
-  "category": "String-1"
+  "category": "String-1",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

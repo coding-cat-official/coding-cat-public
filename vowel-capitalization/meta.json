@@ -3,5 +3,9 @@
   "name": "vowel_caps",
   "difficulty": "medium",
   "author": "Ke Yin Ji",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

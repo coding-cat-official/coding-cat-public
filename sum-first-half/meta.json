@@ -3,5 +3,8 @@
   "name": "sum_first_half",
   "difficulty": "easy",
   "author": "Aidan Hacking",
-  "category": "List-2: Iterating"
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding"
+  ]
 }

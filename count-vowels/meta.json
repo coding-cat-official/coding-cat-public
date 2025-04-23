@@ -3,5 +3,9 @@
   "name": "count_vowels",
   "difficulty": "easy",
   "author": "Oliver",
-  "category": "String-2"
+  "category": "String-2",
+  "question_type": [
+    "coding",
+    "mutation"
+  ]
 }

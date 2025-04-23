@@ -3,5 +3,8 @@
   "name": "repeated_numbers",
   "difficulty": "easy",
   "author": "ChatGPT",
-  "category": "Fundamentals"
+  "category": "Fundamentals",
+  "question_type": [
+    "coding"
+  ]
 }
