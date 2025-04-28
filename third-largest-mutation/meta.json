@@ -1,0 +1,10 @@
+{
+  "title": "Third Largest",
+  "name": "third_largest_mutation",
+  "difficulty": "easy",
+  "author": "Rayan Khadhri",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}

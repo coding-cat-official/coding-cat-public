@@ -1,0 +1,10 @@
+{
+  "title": "Vowel Finder",
+  "name": "vowel_finder_mutation",
+  "difficulty": "easy",
+  "author": "Luke Assaad",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}

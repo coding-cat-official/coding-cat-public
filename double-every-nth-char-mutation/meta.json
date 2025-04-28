@@ -1,0 +1,10 @@
+{
+  "title": "Double Every Nth Character",
+  "name": "double_every_nth_char_mutation",
+  "difficulty": "easy",
+  "author": "Maha El Filali",
+  "category": "String-2",
+  "question_type": [
+    "mutation"
+  ]
+}

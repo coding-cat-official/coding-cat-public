@@ -1,0 +1,22 @@
+[
+  {
+    "input": ["coding"],
+    "output": "coding"
+  },
+  {
+    "input": ["mississippi"],
+    "output": "miiii"
+  },
+  {
+    "input": ["abcaabbcccaaa"],
+    "output": "abc"
+  },
+  {
+    "input": ["x"],
+    "output": "x"
+  },
+  {
+    "input": [""],
+    "output": ""
+  }
+]

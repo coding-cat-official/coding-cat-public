@@ -1,0 +1,22 @@
+[
+  {
+    "input": [["banana",123,"cherry"]],
+    "output": ["banana","cherry"]
+  },
+  {
+    "input": [[]],
+    "output": []
+  },
+  {
+    "input": [["no","way",3.14]],
+    "output": ["no","way"]
+  },
+  {
+    "input": [[true,[1,2]]],
+    "output": []
+  },
+  {
+    "input": [[6,"nervous",26,"vulture",7]],
+    "output": ["nervous","vulture"]
+  }
+]

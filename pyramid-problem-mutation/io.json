@@ -1,0 +1,22 @@
+[
+  {
+    "input": [3, 9, 5],
+    "output": "That's a big pyramid!"
+  },
+  {
+    "input": [0, 3, 12],
+    "output": "Baby pyramid"
+  },
+  {
+    "input": [-7, 4, 1],
+    "output": "Baby pyramid"
+  },
+  {
+    "input": [2, 3, 5],
+    "output": "Baby pyramid"
+  },
+  {
+    "input": [250, 1, 0.3],
+    "output": "I mean, it's alright..."
+  }
+]

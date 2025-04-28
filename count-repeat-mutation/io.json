@@ -1,0 +1,26 @@
+[
+    {
+      "input": ["xyzcvvzx", "b"],
+      "output": 0
+    },
+    {
+      "input": ["xyvxx", "x"],
+      "output": 1
+    },
+    {
+      "input": ["xxxxvxxxxxxxvxvx", "x"],
+      "output": 2
+    },
+    {
+      "input": [" ", "x"],
+      "output": 0
+    },
+    {
+      "input": ["hello", "l"],
+      "output": 1
+    },
+    {
+        "input": ["RAHHahh", "h"],
+        "output": 1
+    }
+  ]

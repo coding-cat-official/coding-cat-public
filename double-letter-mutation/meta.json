@@ -1,0 +1,10 @@
+{
+  "title": "Double Letter",
+  "name": "double_letter_mutation",
+  "difficulty": "easy",
+  "author": "Cyprus",
+  "category": "String-2",
+  "question_type": [
+    "mutation"
+  ]
+}

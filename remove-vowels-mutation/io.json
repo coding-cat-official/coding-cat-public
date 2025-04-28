@@ -1,0 +1,22 @@
+[
+  {
+    "input": ["aaaaa"],
+    "output": ""
+  },
+  {
+    "input": ["wwwww"],
+    "output": "wwwww"
+  },
+  {
+    "input": ["python"],
+    "output": "pythn"
+  },
+  {
+    "input": ["about"],
+    "output": "bt"
+  },
+  {
+    "input": ["hello world!"],
+    "output": "hll wrld!"
+  }
+]

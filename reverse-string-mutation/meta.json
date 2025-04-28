@@ -1,0 +1,10 @@
+{
+  "title": "Reverse String",
+  "name": "reverse_string_mutation",
+  "difficulty": "easy",
+  "author": "Erica Bournival",
+  "category": "String-2",
+  "question_type": [
+    "mutation"
+  ]
+}

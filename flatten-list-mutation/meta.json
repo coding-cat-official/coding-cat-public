@@ -1,0 +1,10 @@
+{
+  "title": "Flatten List",
+  "name": "flatten_list_mutation",
+  "difficulty": "hard",
+  "author": "Felix Egan",
+  "category": "List-3: Complex Loop",
+  "question_type": [
+    "mutation"
+  ]
+}

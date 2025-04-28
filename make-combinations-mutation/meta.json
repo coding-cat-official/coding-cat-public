@@ -1,0 +1,10 @@
+{
+  "title": "Make Combinations",
+  "name": "make_combinations_mutation",
+  "difficulty": "easy",
+  "author": "Tariq",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "input": ["blood", "flood"],
+    "output": "lood"
+  },
+  {
+    "input": ["blame", "grown"],
+    "output": ""
+  },
+  {
+    "input": ["ixixixixi", "xixixixix"],
+    "output": "ixixixixi"
+  },
+  {
+    "input": ["manny", "plenty"],
+    "output": "nn"
+  },
+  {
+    "input": ["abcCdefg", "vacCgfbl"],
+    "output": "acCf"
+  },
+  {
+    "input": ["123", "435"],
+    "output": "3"
+  }
+]

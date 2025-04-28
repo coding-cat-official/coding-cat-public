@@ -1,0 +1,10 @@
+{
+  "title": "Sum of Odd Numbers",
+  "name": "sum_of_odd_numbers_mutation",
+  "difficulty": "medium",
+  "author": "Jake Di Caprio",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}

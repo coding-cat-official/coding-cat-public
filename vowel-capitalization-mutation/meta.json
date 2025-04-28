@@ -1,0 +1,10 @@
+{
+  "title": "Vowel Capitalization",
+  "name": "vowel_capitalization_mutation",
+  "difficulty": "medium",
+  "author": "Ke Yin Ji",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}

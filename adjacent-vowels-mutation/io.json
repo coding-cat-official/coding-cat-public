@@ -1,0 +1,43 @@
+[
+  {
+    "input": ["testest"],
+    "output": 0
+  },
+  {
+    "input": ["AaAaEeAa"],
+    "output": 7
+  },
+  {
+    "input": ["u u uu u u"],
+    "output": 1
+  },
+  {
+    "input": ["TikiTakaa"],
+    "output": 1
+  },
+  {
+    "input": ["AhAhB00ooOO#"],
+    "output": 3
+  },
+  {
+    "input": ["DC..Moooooon"],
+    "output": 5
+  },
+  {
+    "input": [""],
+    "output": 0
+  },
+  {
+    "input": ["aabbeeiioouu"],
+    "output": 8
+  },
+  {
+    "input": ["12345"],
+    "output": 0
+  },
+  {
+    "input": ["aeea"],
+    "output": 3
+  }
+]
+

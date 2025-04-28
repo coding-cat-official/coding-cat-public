@@ -1,0 +1,36 @@
+[
+    {
+        "input": ["hello", 2],
+        "output": "heelllo"
+    },
+    {
+        "input": ["python", 3],
+        "output": "pytthonn"
+    },
+    {
+        "input": ["code", 1],
+        "output": "ccooddee"
+    },
+    {
+        "input": ["a", 2],
+        "output": "a"
+    },
+    {
+        "input": ["test", 4],
+        "output": "testt"
+    },
+    {
+        "input": ["xyz", 5],
+        "output": "xyz"
+    },
+    {
+        "input": ["good", 2],
+        "output": "gooodd"
+    },
+    {
+        "input": ["java", 3],
+        "output": "javva"
+    }
+
+]
+
