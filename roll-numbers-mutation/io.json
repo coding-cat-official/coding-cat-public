@@ -1,0 +1,26 @@
+[
+  {
+    "input": [["James", "Eric", "Antman"]],
+    "output": [[1, "Antman"], [2, "Eric"], [3, "James"]]
+  },
+  {
+    "input": [["Khan", "Singh", "Maha", "Karl"]],
+    "output": [[1, "Karl"], [2, "Khan"], [3, "Maha"], [4, "Singh"]]
+  },
+  {
+    "input": [["A", "Aa", "a"]],
+    "output": [[1, "A"], [2, "Aa"], [3, "a"]]
+  },
+  {
+    "input": [[]],
+    "output": "Invalid list"
+  },
+  {
+    "input": [["1", "David", "$"]],
+    "output": [[1, "$"], [2, "1"], [3, "David"]]
+  },   
+  {
+    "input": [["Ferrari", "Tesla", "Honda", ""]],
+    "output": "Invalid list"
+  }
+]

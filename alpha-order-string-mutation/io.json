@@ -1,0 +1,22 @@
+[
+  {
+    "input": ["asiqmss"],
+    "output": "aimqsss"
+  },
+  {
+    "input": ["hsmslp"],
+    "output": "hlmpss"
+  },
+  {
+    "input": ["github"],
+    "output": "bghitu"
+  },
+  {
+    "input": [""],
+    "output": ""
+  },
+  {
+    "input": ["abcdef"],
+    "output": "abcdef"
+  }
+]

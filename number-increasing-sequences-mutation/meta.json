@@ -1,0 +1,10 @@
+{
+  "title": "Number of Increasing Sequences",
+  "name": "number_increasing_sequences_mutation",
+  "difficulty": "medium",
+  "author": "Jerome Lavoie",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}

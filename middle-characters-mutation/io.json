@@ -1,0 +1,22 @@
+[
+  {
+    "input": ["rawAwArawrrr"],
+    "output": 3
+  },
+  {
+    "input": ["yyYYyy"],
+    "output": 4
+  },
+  {
+    "input": ["ahHHhvdka"],
+    "output": 0
+  },
+  {
+    "input": ["HelloGUYS"],
+    "output": 0
+  },
+  {
+    "input": ["EricMayhewistTHEbest"],
+    "output": 3
+  }
+]

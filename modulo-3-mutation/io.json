@@ -1,0 +1,38 @@
+[
+  {
+    "input": ["Hello"],
+    "output": "Hleol"
+  },
+  {
+    "input": ["Description"],
+    "output": "Dcpoertnsii"
+  },
+  {
+    "input": ["Cat"],
+    "output": "Cat"
+  },
+  {
+    "input": ["coding-cat"],
+    "output": "ci-toncdga"
+  },
+  {
+    "input": ["nothing"],
+    "output": "nhgoitn"
+  },
+ 
+  {
+    "input": ["3+4/(4-6.6)"],
+    "output": "3/-6+(6)44."
+  },
+
+  {
+    "input": ["[4,6,5]"],
+    "output": "[6]4,,5"
+  },
+
+  {
+    "input": [""],
+    "output": ""
+  }
+
+]

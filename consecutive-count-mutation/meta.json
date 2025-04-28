@@ -1,0 +1,10 @@
+{
+  "title": "Consecutive count",
+  "name": "consecutive_count_mutation",
+  "difficulty": "medium",
+  "author": "Toranj",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}

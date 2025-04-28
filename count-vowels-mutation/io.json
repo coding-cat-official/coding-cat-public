@@ -1,0 +1,34 @@
+[
+  {
+    "input": ["Hello"],
+    "output": 2
+  },
+  {
+    "input": ["This is an input"],
+    "output": 5
+  },
+  {
+    "input": ["Here's a little hint"],
+    "output": 6
+  },
+  {
+    "input": ["Don't bother with capital letters"],
+    "output": 9
+  },
+  {
+    "input": ["Hello"],
+    "output": 2
+  },
+  {
+    "input": ["This is an input"],
+    "output": 5
+  },
+  {
+    "input": ["Here's a little hint"],
+    "output": 6
+  },
+  {
+    "input": ["Don't bother with capital letters"],
+    "output": 9
+  }
+]

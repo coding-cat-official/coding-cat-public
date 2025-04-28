@@ -1,0 +1,22 @@
+[
+  {
+    "input": ["Cheesecake"],
+    "output": "Chesecke"
+  },
+  {
+    "input": ["Yelp"],
+    "output": "lp"
+  },
+  {
+    "input": ["myth"],
+    "output": "mth"
+  },
+  {
+    "input": ["Crwth"],
+    "output": "Crwth"
+  },
+  {
+    "input": ["Symbol"],
+    "output": "Smbl"
+  }
+]

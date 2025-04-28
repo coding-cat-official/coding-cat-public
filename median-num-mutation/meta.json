@@ -1,0 +1,10 @@
+{
+  "title": "Median in List",
+  "name": "median_num_mutation",
+  "difficulty": "easy",
+  "author": "Zabrina",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}

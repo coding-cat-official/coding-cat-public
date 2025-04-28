@@ -1,0 +1,10 @@
+{
+  "title": "Pyramid Volume",
+  "name": "pyramid_problem_mutation",
+  "difficulty": "easy",
+  "author": "Vincent Friedl",
+  "category": "Logic",
+  "question_type": [
+    "mutation"
+  ]
+}

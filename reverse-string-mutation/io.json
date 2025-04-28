@@ -1,0 +1,22 @@
+[
+  {
+    "input": [""],
+    "output": ""
+  },
+  {
+    "input": ["Ronald McDonald"],
+    "output": "dlanoDcM dlanoR"
+  },
+  {
+    "input": ["naUfnod"],
+    "output": "donfUan"
+  },
+  {
+    "input": ["rotator"],
+    "output": "rotator"
+  },
+  {
+    "input": ["001000111010"],
+    "output": "010111000100"
+  }
+]

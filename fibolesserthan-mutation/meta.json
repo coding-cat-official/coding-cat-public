@@ -1,0 +1,10 @@
+{
+  "title": "Fibonacci Less Than",
+  "name": "fibolesserthan_mutation",
+  "difficulty": "hard",
+  "author": "Jesus Monroy IV",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}

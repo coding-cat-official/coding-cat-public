@@ -1,0 +1,10 @@
+{
+  "title": "Have 3 Threes",
+  "name": "have_three_mutation",
+  "difficulty": "medium",
+  "author": "Rowan Harris Goddard",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Range Characters",
+  "name": "range_chars_mutation",
+  "difficulty": "hard",
+  "author": "Samuel Corsi-House",
+  "category": "String-2",
+  "question_type": [
+    "mutation"
+  ]
+}

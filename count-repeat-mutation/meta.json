@@ -1,0 +1,10 @@
+{
+  "title": "Count Repeat",
+  "name": "count_repeat_mutation",
+  "difficulty": "medium",
+  "author": "Jutulli",
+  "category": "String-2",
+  "question_type": [
+    "mutation"
+  ]
+}

@@ -1,0 +1,22 @@
+[
+	{
+		"input": ["Corona"],
+		"output": "CoRoNa"
+	},
+	{
+		"input": ["Dawson"],
+		"output":"DaWsOn"
+	},
+	{
+		"input":["NO"],
+		"output":"No"
+	},
+	{
+		"input":["YESSSSS"],
+		"output":"YeSsSsS"
+	}
+]
+
+
+
+   

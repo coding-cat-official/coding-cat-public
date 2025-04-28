@@ -1,0 +1,22 @@
+[
+  {
+    "input": ["nice"],
+    "output": ["i","e"]
+  },
+  {
+    "input": ["a"],
+    "output": ["a"]
+  },
+  {
+    "input": ["VeryY lOng and complIcAtEd inpUt"],
+    "output": ["e","y","Y","O","a","o","I","A","E","i","U"]
+  },
+  {
+    "input": ["f"],
+    "output": []
+  },
+  {
+    "input": ["amicAl"],
+    "output": ["a","i","A"]
+  }
+]

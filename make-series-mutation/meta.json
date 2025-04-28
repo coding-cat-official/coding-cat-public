@@ -1,0 +1,10 @@
+{
+  "title": "make-series",
+  "name": "make_series_mutation",
+  "difficulty": "medium",
+  "author": "William Poirier",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}

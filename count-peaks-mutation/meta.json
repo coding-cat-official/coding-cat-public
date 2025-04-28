@@ -1,0 +1,10 @@
+{
+  "title": "Count Peaks",
+  "name": "count_peaks_mutation",
+  "difficulty": "medium",
+  "author": "Evan Luo",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}

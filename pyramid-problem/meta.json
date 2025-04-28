@@ -5,7 +5,6 @@
   "author": "Vincent Friedl",
   "category": "Logic",
   "question_type": [
-    "coding",
-    "mutation"
+    "coding"
   ]
 }

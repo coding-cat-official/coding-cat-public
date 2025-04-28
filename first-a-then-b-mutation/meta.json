@@ -1,0 +1,10 @@
+{
+  "title": "First A then B",
+  "name": "first_a_then_b_mutation",
+  "difficulty": "medium",
+  "author": "Logan Fink",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}
