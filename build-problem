@@ -1,23 +1,70 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-set -e
-
-die () {
-    echo "$@" >&2
-    exit 1
+die() {
+  echo "❌ $@" >&2
+  exit 1
 }
 
-cd "$1"
+if [ $# -ne 1 ]; then
+  die "Usage: $0 <problem-directory>"
+fi
 
-jq -n \
-    --arg description "$(cat description.md)" \
-    --arg starter "$(cat starter.py)" \
-    --slurpfile meta meta.json \
-    --slurpfile io io.json \
-    '{
-        starter: $starter,
-        description: $description,
-        meta: $meta[0],
-        io: $io[0],
-    }' \
-    > problem.json || die "Failed to build problem $1"
+PROB_DIR="$1"
+cd "$PROB_DIR"
+
+# read question_type array from meta.json
+question_types=$(jq -r '.question_type[]' meta.json)
+
+# common jq args: description, meta, io
+# --rawfile automatically slurps & escapes the file content as a JSON string
+jq_args=(
+  --rawfile description description.md
+  --slurpfile meta  meta.json
+  --slurpfile io    io.json
+)
+
+if echo "$question_types" | grep -qx "mutation"; then
+  # mutation‐style problem
+  jq_args+=( --rawfile solution solution.py )
+
+  # build a true JSON array of all mutation_*.py bodies
+  mutations=$( {
+    printf '['
+    sep=""
+    for f in mutation_*.py; do
+      [ -f "$f" ] || continue
+      printf "%s" "$sep"
+      jq -Rs . "$f"
+      sep=","
+    done
+    printf ']'
+  } )
+
+  jq_args+=( --argjson mutations "$mutations" )
+
+  jq -n "${jq_args[@]}" '
+    {
+      description: $description,
+      meta:        $meta[0],
+      io:          $io[0],
+      solution:    $solution,
+      mutations:   $mutations
+    }
+  ' > problem.json \
+    || die "Failed to build mutation problem in $PROB_DIR"
+
+else
+  # coding‐style problem
+  jq_args+=( --rawfile starter starter.py )
+
+  jq -n "${jq_args[@]}" '
+    {
+      description: $description,
+      starter:     $starter,
+      meta:        $meta[0],
+      io:          $io[0]
+    }
+  ' > problem.json \
+    || die "Failed to build coding problem in $PROB_DIR"
+fi
