@@ -1,4 +1,4 @@
-def is_18(birth_date: str, current_date: str) -> bool:
+def is_18_mutation(birth_date: str, current_date: str) -> bool:
     '''
     Mutation 5: Incorrectly requires age to be greater than 18 instead of at least 18.
     '''

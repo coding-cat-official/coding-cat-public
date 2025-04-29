@@ -1,4 +1,4 @@
-def adjacent_vowels(word: str) -> int:
+def adjacent_vowels_mutation(word: str) -> int:
     """
     Wrong length check
     """

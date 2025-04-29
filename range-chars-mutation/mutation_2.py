@@ -1,4 +1,4 @@
-def range_chars(a: str, b: str) -> str:
+def range_chars_mutation(a: str, b: str) -> str:
     '''
         Compares a[i - 1] with a[i] rather than comparing b[i - 1] with a[i]
     '''

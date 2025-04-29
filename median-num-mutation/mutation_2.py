@@ -1,4 +1,4 @@
-def median_num(nums):
+def median_num_mutation(nums):
     '''
     Forgetting the final division
     '''

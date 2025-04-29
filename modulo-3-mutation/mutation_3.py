@@ -1,4 +1,4 @@
-def modulo_3(str:str) -> str:
+def modulo_3_mutation(str:str) -> str:
     """
     forgot to join the lists
     """

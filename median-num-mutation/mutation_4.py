@@ -1,4 +1,4 @@
-def median_num(nums):
+def median_num_mutation(nums):
     '''
     using floor division on the sum of the two midlle numbers (float should be allowed for the final answer)
     '''

@@ -1,4 +1,4 @@
-def sum_7(list_a, list_b):
+def sum_7_mutation(list_a, list_b):
     count = 0
     # assigns a tuple that takes in all the combinations
     pairs = [(int_a, int_b) for int_a in list_a for int_b in list_b]

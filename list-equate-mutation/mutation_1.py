@@ -1,4 +1,4 @@
-def list_equate(list1, list2):
+def list_equate_mutation(list1, list2):
     """
     Forgets to iterate over both lists, and instead the program will just iterate over only one list
     """

@@ -1,4 +1,4 @@
-def longest_common_substring(a, b):
+def longest_common_substring_mutation(a, b):
     '''
         (using solution2) omit -1 in j when comparing max_len and j
     '''

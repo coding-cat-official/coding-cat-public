@@ -1,4 +1,4 @@
-def same_adjacent(str, char):
+def same_adjacent_mutation(str, char):
     '''
         Mistake: returns count regardless of adjacency
     '''

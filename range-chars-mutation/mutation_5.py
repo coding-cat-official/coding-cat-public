@@ -1,4 +1,4 @@
-def range_chars(a: str, b:str) -> str:
+def range_chars_mutation(a: str, b:str) -> str:
     result = ""
     '''
         Does result + a[i] instead of += making the result never update throughout the loop and just return an empty string

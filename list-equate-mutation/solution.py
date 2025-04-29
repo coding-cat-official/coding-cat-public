@@ -1,4 +1,4 @@
-def list_equate(list1, list2):
+def list_equate_mutation(list1, list2):
     for _ in range(2):
         for i in list1:
             temptrue = False

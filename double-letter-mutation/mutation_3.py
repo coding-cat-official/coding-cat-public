@@ -1,4 +1,4 @@
-def double_letter(word):
+def double_letter_mutation(word):
     '''
         Change comparison logic, "if result not in consonants"
         will cause the code to look at non-consonant characters instead

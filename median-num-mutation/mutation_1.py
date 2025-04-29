@@ -1,4 +1,4 @@
-def median_num(nums):
+def median_num_mutation(nums):
     '''
     checking the wrong modulo (filtering out evens instead of odds)
     '''

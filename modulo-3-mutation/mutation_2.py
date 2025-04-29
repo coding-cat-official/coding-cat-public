@@ -1,4 +1,4 @@
-def modulo_3(str:str) -> str:
+def modulo_3_mutation(str:str) -> str:
     """wrong operator used for indexing"""
     list1=[]
     list2=[]

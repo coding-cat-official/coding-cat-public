@@ -1,4 +1,4 @@
-def first_a_then_b(list_ab: list) -> list:
+def first_a_then_b_mutation(list_ab: list) -> list:
     '''
     Returning a list of [A + B] rather than A + B
     '''

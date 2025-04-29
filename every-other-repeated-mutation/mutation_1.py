@@ -1,4 +1,4 @@
-def every_other_repeated(a, b):
+def every_other_repeated_mutation(a, b):
     '''
         Mutation 1: loop goes over range that skips every other index (misses some)
     '''

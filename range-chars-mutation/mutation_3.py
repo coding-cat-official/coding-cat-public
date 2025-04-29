@@ -1,4 +1,4 @@
-def range_chars(a: str, b:str) -> str:
+def range_chars_mutation(a: str, b:str) -> str:
     '''
         Changes "<" into ">"on line 8 after the second or statement making that condition always False which removes the logic that checks if a matches b
     '''

@@ -1,4 +1,4 @@
-def modulo_3(str:str) -> str:
+def modulo_3_mutation(str:str) -> str:
     """
     Incorrect 'for loop' iteration boundary(short by 3)
     """

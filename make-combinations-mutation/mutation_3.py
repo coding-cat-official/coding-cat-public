@@ -1,4 +1,4 @@
-def make_combinations(letters, numbers):
+def make_combinations_mutation(letters, numbers):
     '''
     Uses 'letters' instead of 'numbers' in the inner loop.
     '''

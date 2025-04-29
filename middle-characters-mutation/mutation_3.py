@@ -1,4 +1,4 @@
-def middle_characters(s):
+def middle_characters_mutation(s):
     '''
     Incorrectly modifying the count
     This mutation incorrectly modifies the count by decrementing it instead of incrementing it when a match is found.

@@ -1,4 +1,4 @@
-def longest_common_substring(a, b):
+def longest_common_substring_mutation(a, b):
     '''
         wrong comparing symbols.
     '''
