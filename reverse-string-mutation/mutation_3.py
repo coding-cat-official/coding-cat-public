@@ -1,4 +1,4 @@
-def reverse_string(string):
+def reverse_string_mutation(string):
     '''
 By doing reversed_s += char, it just duplicated the original string instead of changing the order.
 '''

@@ -1,4 +1,4 @@
-def list_equate(list1, list2):
+def list_equate_mutation(list1, list2):
     """
     Function uses sorted method to equate the two lists, but forgets to return the bool.
     """

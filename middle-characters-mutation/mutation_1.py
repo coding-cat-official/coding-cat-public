@@ -1,4 +1,4 @@
-def middle_characters(s):
+def middle_characters_mutation(s):
     '''
     Incorrectly handling case sensitivity
     This mutation does not convert the string to lowercase, causing it to treat uppercase and lowercase letters as different characters.

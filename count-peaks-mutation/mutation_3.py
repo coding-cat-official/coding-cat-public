@@ -1,4 +1,4 @@
-def count_peaks(nums):
+def count_peaks_mutation(nums):
     """
         "count" variable should add a 1 not equal 1 if the if-statement is met.
     """

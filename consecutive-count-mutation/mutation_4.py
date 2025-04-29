@@ -1,4 +1,4 @@
-def consecutive_count(nums):
+def consecutive_count_mutation(nums):
     '''
     Start at position - 1
     '''

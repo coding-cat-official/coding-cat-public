@@ -1,4 +1,4 @@
-def median_num(nums):
+def median_num_mutation(nums):
     '''
     Forgetting brackets around the final return (second term is being divided by 2 instead of the whole sum)
     '''

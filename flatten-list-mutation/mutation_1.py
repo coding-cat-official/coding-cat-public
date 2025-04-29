@@ -1,4 +1,4 @@
-def flatten_list(lst):
+def flatten_list_mutation(lst):
     '''
     Changed the extend method to append method, causing the function to return a list of lists instead of a flat list.
     '''

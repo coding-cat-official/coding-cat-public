@@ -1,6 +1,6 @@
 from typing import List
 
-def vowel_finder(input: str) -> List[str]:
+def vowel_finder_mutation(input: str) -> List[str]:
     '''
         Does not check for the i and I vowels.
     '''

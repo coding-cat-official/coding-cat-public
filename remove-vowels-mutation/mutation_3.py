@@ -1,4 +1,4 @@
-def remove_vowels(strng: str) -> str:
+def remove_vowels_mutation(strng: str) -> str:
     """
     Bug: Implementation that does not create an empty result string
     """

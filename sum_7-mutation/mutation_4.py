@@ -1,4 +1,4 @@
-def sum_7(list_a, list_b):
+def sum_7_mutation(list_a, list_b):
     '''
         Return statement is inside the loop
     '''

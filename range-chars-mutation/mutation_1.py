@@ -1,4 +1,4 @@
-def range_chars(a: str, b:str) -> str:
+def range_chars_mutation(a: str, b:str) -> str:
     '''
         Should be an an empty string not an empty list
     '''

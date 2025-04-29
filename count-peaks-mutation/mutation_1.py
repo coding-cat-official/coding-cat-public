@@ -1,4 +1,4 @@
-def count_peaks(nums):
+def count_peaks_mutation(nums):
     """
         Small mistake, change the second comparison operator in the if statement.
     """

@@ -1,4 +1,4 @@
-def flatten_list(lst):
+def flatten_list_mutation(lst):
     result = []
     for i in lst:
         if type(i) == list:

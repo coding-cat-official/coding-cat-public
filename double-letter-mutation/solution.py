@@ -1,4 +1,4 @@
-def double_letter(word):
+def double_letter_mutation(word):
     '''
         Correct implementation
     '''

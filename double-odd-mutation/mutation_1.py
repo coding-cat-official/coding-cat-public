@@ -1,4 +1,4 @@
-def double_odd(i_list):
+def double_odd_mutation(i_list):
     '''
     Missing the index skip to properly check the values at odd index 
     ''' 

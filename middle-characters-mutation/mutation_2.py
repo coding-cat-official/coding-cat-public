@@ -1,4 +1,4 @@
-def middle_characters(s):
+def middle_characters_mutation(s):
     '''
     Off-by-one error in loop boundary
     This mutation does not exclude the last character from the loop, causing it to incorrectly count the last character if it matches the first character.

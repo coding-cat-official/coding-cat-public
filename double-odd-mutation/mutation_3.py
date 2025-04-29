@@ -1,4 +1,4 @@
-def double_odd(i_list):
+def double_odd_mutation(i_list):
     ''''
     using an "and" to connect the logic of the odd index and the odd value at that index instead of putting the does not equalsign in both of them 
 

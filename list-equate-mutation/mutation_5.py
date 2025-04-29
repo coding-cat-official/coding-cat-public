@@ -1,4 +1,4 @@
-def list_equate(list1, list2):
+def list_equate_mutation(list1, list2):
     """
     Mistakenly puts temptrue before the "for i" loop.
     This makes it so that so long as the first element is found in the other list, the program will always return 'True'.

@@ -1,4 +1,4 @@
-def ordered_sequence(nums):
+def ordered_sequence_mutation(nums):
     '''
     index out of range
     '''

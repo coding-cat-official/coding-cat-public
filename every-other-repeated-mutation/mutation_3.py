@@ -1,4 +1,4 @@
-def every_other_repeated(a, b):
+def every_other_repeated_mutation(a, b):
     '''
         loop looks at every consecutive number instead of every OTHER number
     '''

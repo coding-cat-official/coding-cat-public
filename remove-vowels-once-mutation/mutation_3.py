@@ -1,4 +1,4 @@
-def remove_vowels_once(word: str) -> str:
+def remove_vowels_once_mutation(word: str) -> str:
     '''
     Wrong function for the return statement
     '''

@@ -1,4 +1,4 @@
-def list_equate(list1, list2):
+def list_equate_mutation(list1, list2):
     """
     Second for-in loop is iterating over list1 by accident instead of list2
     """

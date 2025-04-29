@@ -1,4 +1,4 @@
-def is_18(birth_date: str, current_date: str) -> bool:
+def is_18_mutation(birth_date: str, current_date: str) -> bool:
     '''
     Mutation 2: Incorrectly checks birthdays in the current year using '>' instead of '<='.
     '''

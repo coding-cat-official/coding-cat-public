@@ -1,4 +1,4 @@
-def double_letter(word):
+def double_letter_mutation(word):
     '''
         Limiting the iteration to len(result)-2, 
         the loop will ignore the last two characters of the string

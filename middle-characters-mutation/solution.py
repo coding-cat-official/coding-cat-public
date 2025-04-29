@@ -1,4 +1,4 @@
-def middle_characters(s):
+def middle_characters_mutation(s):
     '''
     Correct implementation
     '''

@@ -1,4 +1,4 @@
-def every_other_repeated(a, b):
+def every_other_repeated_mutation(a, b):
     '''
         Mutation 2: instead of comparing 2 characters with 2 characters, it compares a single one with a pair
     '''

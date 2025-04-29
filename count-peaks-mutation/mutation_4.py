@@ -1,4 +1,4 @@
-def count_peaks(nums):
+def count_peaks_mutation(nums):
     """
         Forgot to return the statement.
     """

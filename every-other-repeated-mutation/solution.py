@@ -1,4 +1,4 @@
-def every_other_repeated(a, b):
+def every_other_repeated_mutation(a, b):
     count = 0
 
     for i in range(len(a) - 2):

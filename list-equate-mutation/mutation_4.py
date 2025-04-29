@@ -1,4 +1,4 @@
-def list_equate(list1, list2):
+def list_equate_mutation(list1, list2):
     """
     Flips temptrue and temptrue statements, seemingly normal.
     Would make it so that if the lists aren't the same number repeated over again, the lists do not equate.

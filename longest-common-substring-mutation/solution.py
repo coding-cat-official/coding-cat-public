@@ -1,4 +1,4 @@
-def longest_common_substring(a, b):
+def longest_common_substring_mutation(a, b):
     max_len = 0
     for i in range(len(a)):
         for j in range(len(b)):

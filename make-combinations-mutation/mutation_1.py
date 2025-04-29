@@ -1,4 +1,4 @@
-def make_combinations(letters, numbers):
+def make_combinations_mutation(letters, numbers):
     '''
     Swaps the positions of letter and number in the output pairs.
     '''

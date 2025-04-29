@@ -1,4 +1,4 @@
-def adjacent_vowels(word: str) -> int:
+def adjacent_vowels_mutation(word: str) -> int:
     count = 0
     vowels = ['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U']
     for index in range(len(word)-1):

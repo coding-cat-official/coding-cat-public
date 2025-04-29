@@ -1,4 +1,4 @@
-def flatten_list(lst):
+def flatten_list_mutation(lst):
     '''
     Changed result.append(i) to result.append(lst) rendering the function to always append the list itself instead of the element.
     '''

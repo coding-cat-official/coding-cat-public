@@ -1,4 +1,4 @@
-def count_peaks(nums):
+def count_peaks_mutation(nums):
     """
         Wrong return indentation, should be in the same level of indentation as the for statement.
     """

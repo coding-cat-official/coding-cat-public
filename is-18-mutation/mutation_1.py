@@ -1,4 +1,4 @@
-def is_18(birth_date: str, current_date: str) -> bool:
+def is_18_mutation(birth_date: str, current_date: str) -> bool:
     '''
     Mutation 1: Does not adjust age if birthday hasn't occurred yet this year.
     '''
