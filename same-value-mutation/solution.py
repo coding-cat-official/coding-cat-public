@@ -1,4 +1,4 @@
-def is_same(array):
+def same_value_mutation(array):
     '''
         Correct implementation
     '''

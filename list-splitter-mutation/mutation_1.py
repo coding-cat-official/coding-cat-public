@@ -1,4 +1,4 @@
-def elementArranger(a):
+def list_splitter_mutation(a):
     """
     Iterating while removing elements causes it to skip over some elements
     """

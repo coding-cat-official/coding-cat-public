@@ -1,4 +1,4 @@
-def sum_of_odd(lst):
+def sum_of_odd_numbers_mutation(lst):
     sum = 0
     for i in range(len(lst)):
         if lst[i] % 2 == 1:

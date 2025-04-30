@@ -1,4 +1,4 @@
-def four_two_relationship(lst):
+def relationship_two_four_mutation(lst):
     '''
         Instead of putting ==, put !=
     '''

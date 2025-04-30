@@ -1,4 +1,4 @@
-def neighbour_repeat(word: str) -> str:
+def neighbouring_repeats_mutation(word: str) -> str:
     '''
     Forgot to add a check for words of length 2
     '''

@@ -1,4 +1,4 @@
-def double_nth_char(text: str, n: int) -> str:
+def double_every_nth_char_mutation(text: str, n: int) -> str:
     """
         Incorrect comparaison operator, != instead of == in the condition if i % n == 0, will invert the logic, and the function will double every character except those at positions that are multiples of n.
     """

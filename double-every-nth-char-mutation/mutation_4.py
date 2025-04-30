@@ -1,4 +1,4 @@
-def mutation_2(text: str, n: int) -> str:
+def double_every_nth_char_mutation(text: str, n: int) -> str:
     '''
     Incorrect character multiplication, the function will triple the characters at the specified positions (rather than doubling them).
     '''

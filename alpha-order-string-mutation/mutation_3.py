@@ -1,4 +1,4 @@
-def alpha_order(word : str) -> str:
+def alpha_order_string_mutation(word : str) -> str:
         '''
             Start the first loop from index 1 instead of 0
         '''

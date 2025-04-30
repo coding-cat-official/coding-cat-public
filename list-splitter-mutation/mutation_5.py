@@ -1,4 +1,4 @@
-def elementArranger(a):
+def list_splitter_mutation(a):
     """
     Return statement indented too much
     """

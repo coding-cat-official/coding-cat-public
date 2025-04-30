@@ -1,4 +1,4 @@
-def fibo_lessthan(n):
+def fibolesserthan_mutation(n):
 
     #Not filtering non-positive integers and non-integers
 

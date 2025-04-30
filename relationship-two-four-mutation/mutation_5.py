@@ -1,4 +1,4 @@
-def four_two_relationship(lst):
+def relationship_two_four_mutation(lst):
 
     '''
        Only check the after element, not the before element 

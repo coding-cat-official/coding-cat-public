@@ -1,4 +1,4 @@
-def countRepeat(a, b):
+def count_repeat_mutation(a, b):
     '''
         No return statement
     '''

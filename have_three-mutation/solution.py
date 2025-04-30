@@ -1,4 +1,4 @@
-def have_3_threes(nums):
+def have_three_mutation(nums):
     if nums.count(3) != 3:
         return False
         

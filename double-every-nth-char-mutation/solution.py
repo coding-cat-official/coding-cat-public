@@ -1,4 +1,4 @@
-def double_nth_char(text: str, n: int) -> str:
+def double_every_nth_char_mutation(text: str, n: int) -> str:
     result = []
     for i, char in enumerate(text, start=1): 
         if i % n == 0:  

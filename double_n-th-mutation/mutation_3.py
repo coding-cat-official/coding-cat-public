@@ -1,4 +1,4 @@
-def double_nth(str,n):
+def double_n_th_mutation(str,n):
     """
     Bug: Off-by-one error in the n-th character calculation (uses `i % n` instead of `(i + 1) % n`).
     """

@@ -1,4 +1,4 @@
-def have_3_threes(nums):
+def have_three_mutation(nums):
     '''
 	Returns True just based on count
     '''

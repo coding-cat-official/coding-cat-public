@@ -1,4 +1,4 @@
-def four_two_relationship(lst):
+def relationship_two_four_mutation(lst):
     '''
     Putting wrong operations between OR and AND
     '''

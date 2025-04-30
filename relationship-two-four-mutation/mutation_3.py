@@ -1,4 +1,4 @@
-def four_two_relationship(lst):
+def relationship_two_four_mutation(lst):
     '''
         Forget a return statment after True -> None if there isn't 2 and 4 in the list
     '''
