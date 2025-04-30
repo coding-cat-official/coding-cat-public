@@ -1,4 +1,4 @@
-def have_3_threes(nums):
+def have_three_mutation(nums):
     '''
         Returns True after only 1st element
     '''

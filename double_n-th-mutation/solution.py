@@ -1,4 +1,4 @@
-def double_nth(str, n):
+def double_n_th_mutation(str, n):
     """
     Correct implementation of double_n_th function.
     """

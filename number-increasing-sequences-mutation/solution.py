@@ -1,4 +1,4 @@
-def nbr_increasing_sequences(nums):
+def number_increasing_sequences_mutation(nums):
 	'''
 	Correct implementation
 	'''

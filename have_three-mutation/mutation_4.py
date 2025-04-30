@@ -1,4 +1,4 @@
-def have_3_threes(nums):
+def have_three_mutation(nums):
     '''
 	Checks for consecutive 3's incorrectly(or instead of and)
     '''

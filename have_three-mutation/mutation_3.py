@@ -1,4 +1,4 @@
-def have_3_threes(nums):
+def have_three_mutation(nums):
     '''
         Checks for 3's in wrong direction
     '''

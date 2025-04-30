@@ -1,4 +1,4 @@
-def sum_of_odd(lst):
+def sum_of_odd_numbers_mutation(lst):
     '''
 	Returns lst instead of sum
     '''

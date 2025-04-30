@@ -1,4 +1,4 @@
-def double_nth(str,n):
+def double_n_th_mutation(str,n):
     """
     Bug: Forgets to join the list of characters into a string at the end.
     """

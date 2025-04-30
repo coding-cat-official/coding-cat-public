@@ -1,4 +1,4 @@
-def double_nth_char(text: str, n: int) -> str:
+def double_every_nth_char_mutation(text: str, n: int) -> str:
     """
         Incorrect use of str() function to convert list into string (still returns it as a list instead of a string)
     """

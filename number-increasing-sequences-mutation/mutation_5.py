@@ -1,4 +1,4 @@
-def nbr_increasing_sequences(nums):
+def number_increasing_sequences_mutation(nums):
 	'''
 	Forget to assign the incremented value to increasing_sequences_count
 	'''

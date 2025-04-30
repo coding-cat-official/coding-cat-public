@@ -1,4 +1,4 @@
-def check_id(l1, l2, target) -> bool:
+def check_same_identification_mutation(l1, l2, target) -> bool:
     """
     Bug: Assumes both lists are of the same lentgh, could cause out of bounds error
     """

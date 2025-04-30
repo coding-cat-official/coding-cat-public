@@ -1,4 +1,4 @@
-def elementArranger(a):
+def list_splitter_mutation(a):
     """
     Checks list indices instead of the elements
     """

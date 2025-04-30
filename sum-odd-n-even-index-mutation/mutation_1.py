@@ -1,4 +1,4 @@
-def sum_oddneven_list(input_list):
+def sum_odd_n_even_index_mutation(input_list):
     '''
     Summing the evens when the length is even and summing the odds when the length is odd instead of summing the evens when the length is odd and summing the odds when the length is even
     '''

@@ -1,4 +1,4 @@
-def sum_oddneven_list(input_list):
+def sum_odd_n_even_index_mutation(input_list):
     '''
     Putting the behavior for when the list length is even in the if statement for when the list length is odd and vice-versa
     '''

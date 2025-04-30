@@ -1,4 +1,4 @@
-def pyramid_volume(l, w, h):
+def pyramid_problem_mutation(l, w, h):
     v = (l*w*h/3)
     if v < 25:
         return "Baby pyramid"

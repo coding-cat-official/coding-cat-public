@@ -1,4 +1,4 @@
-def vowel_caps(s):
+def vowel_capitalization_mutation(s):
     '''
         Mutation 5: Returns a list instead of a string
     '''

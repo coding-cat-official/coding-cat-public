@@ -1,4 +1,4 @@
-def have_3_threes(nums):
+def have_three_mutation(nums):
     '''
 	Allows more than 3 3's
     '''

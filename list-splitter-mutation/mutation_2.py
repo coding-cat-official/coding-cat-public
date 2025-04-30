@@ -1,4 +1,4 @@
-def elementArranger(a):
+def list_splitter_mutation(a):
     """
     Leaves the possibility of floats getting into the new list
     """

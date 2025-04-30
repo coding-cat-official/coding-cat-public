@@ -1,4 +1,4 @@
-def double_nth(str,n):
+def double_n_th_mutation(str,n):
     """
     Bug: Repeats all characters in the string instead of only the n-th character.
     """

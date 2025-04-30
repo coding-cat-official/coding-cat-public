@@ -1,4 +1,4 @@
-def neighbour_repeat(word: str) -> str:
+def neighbouring_repeats_mutation(word: str) -> str:
     new_word = ""
     if len(word) == 1:
         return word

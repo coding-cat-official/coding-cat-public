@@ -1,4 +1,4 @@
-def largest_sum(nums, is_even):
+def largest_subsequence_mutation(nums, is_even):
     if is_even:
         nums = [num if num % 2 == 0 else 0 for num in nums]
     n = len(nums)

@@ -1,4 +1,4 @@
-def four_two_relationship(lst):
+def relationship_two_four_mutation(lst):
     '''
     Accidentally modified the loop's range -> all elements won't be checked
     '''

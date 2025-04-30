@@ -1,4 +1,4 @@
-def largest_sum(nums, is_even):
+def largest_subsequence_mutation(nums, is_even):
     '''
     max now compares the last 2 elements and return the highest
     '''

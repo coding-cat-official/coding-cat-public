@@ -1,4 +1,4 @@
-def sum_oddneven_list(input_list):
+def sum_odd_n_even_index_mutation(input_list):
     '''
     Limiting the range function as if "look ahead" for loop is used when it isn't
     '''

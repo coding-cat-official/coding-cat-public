@@ -1,4 +1,4 @@
-def sum_of_odd(lst):
+def sum_of_odd_numbers_mutation(lst):
     '''
 	Starts at range 1 instead of 0
     '''

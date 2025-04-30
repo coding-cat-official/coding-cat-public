@@ -1,4 +1,4 @@
-def check_id(l1, l2, target) -> bool:
+def check_same_identification_mutation(l1, l2, target) -> bool:
     """
     Bug: returns True or False only on the first run of the loop, poorly indented
     """

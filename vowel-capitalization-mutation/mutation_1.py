@@ -1,4 +1,4 @@
-def vowel_caps(s):
+def vowel_capitalization_mutation(s):
     '''
         Mutation 1: Replaces consonants instead of vowels
     '''
