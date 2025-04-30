@@ -1,2 +1,2 @@
-def zig_zag(str: str) -> str:
+def zig_zag(str: str) -> str: 
     
