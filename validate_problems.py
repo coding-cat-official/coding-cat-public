@@ -6,133 +6,163 @@ import sys
 import glob
 
 ROOT = '.'
-# Files common to both types
+
+# special buckets which live at top level
+SPECIAL_DIRS = {'mutation', 'haystack'}
+
+# files that every problem directory must have
 REQUIRED_COMMON = ['description.md', 'io.json', 'meta.json']
-# Meta fields that must always be present
-REQUIRED_META_FIELDS = ['title', 'name', 'difficulty', 'author', 'category', 'question_type']
 
+# fields that meta.json must define
+REQUIRED_META_FIELDS = [
+    'title',
+    'name',
+    'difficulty',
+    'author',
+    'category',
+    'question_type'
+]
+
+# track failures
 total_failures = 0
-broken_dirs = []
+broken = []
 
-def print_error(folder, msg):
+
+def slugify(name: str) -> str:
+    """Lowercase, non-alphanumerics → underscores, trim."""
+    slug = re.sub(r'\W+', '_', name.strip().lower()).strip('_')
+    return slug or 'uncategorized'
+
+
+def error(path, msg):
     global total_failures
-    print(f"{folder}: {msg}")
+    print(f"[ERROR] {path}: {msg}")
     total_failures += 1
 
-for folder in os.listdir(ROOT):
-    # Skip hidden files/dirs and non-directories
-    if folder.startswith('.'):
-        continue
-    path = os.path.join(ROOT, folder)
-    if not os.path.isdir(path):
-        continue
 
-    has_issue = False
-    # 1. Check common files exist and are non-empty
-    for fname in REQUIRED_COMMON:
-        fpath = os.path.join(path, fname)
-        if not os.path.isfile(fpath):
-            print_error(folder, f"Missing file: {fname}")
-            has_issue = True
-        elif os.path.getsize(fpath) == 0:
-            print_error(folder, f"{fname} exists but is empty.")
-            has_issue = True
+def validate_problem(problem_path, rel_path):
+    """
+    Validate one problem directory at problem_path.
+    rel_path is something like 'list_2_iterating/add-evens'.
+    """
+    # 1) common files exist & non-empty
+    for fn in REQUIRED_COMMON:
+        p = os.path.join(problem_path, fn)
+        if not os.path.isfile(p):
+            error(rel_path, f"missing file {fn}")
+        elif os.path.getsize(p) == 0:
+            error(rel_path, f"{fn} is empty")
 
-    # 2. Validate io.json
-    io_path = os.path.join(path, 'io.json')
-    if os.path.isfile(io_path) and os.path.getsize(io_path) > 0:
+    # 2) io.json is valid JSON and non-empty
+    io_p = os.path.join(problem_path, 'io.json')
+    if os.path.isfile(io_p):
         try:
-            with open(io_path, encoding='utf-8') as f:
-                io_data = json.load(f)
-            if not io_data:
-                print_error(folder, "io.json contains no test cases.")
-                has_issue = True
+            data = json.load(open(io_p, encoding='utf-8'))
+            if not data:
+                error(rel_path, "io.json contains no test cases")
         except Exception as e:
-            print_error(folder, f"io.json invalid JSON: {e}")
-            has_issue = True
+            error(rel_path, f"io.json invalid JSON: {e}")
 
-    # 3. Validate meta.json and extract question_type
-    meta_path = os.path.join(path, 'meta.json')
+    # 3) meta.json presence & fields
     meta = {}
-    if os.path.isfile(meta_path) and os.path.getsize(meta_path) > 0:
+    meta_p = os.path.join(problem_path, 'meta.json')
+    if os.path.isfile(meta_p):
         try:
-            with open(meta_path, encoding='utf-8') as f:
-                meta = json.load(f)
+            meta = json.load(open(meta_p, encoding='utf-8'))
             for field in REQUIRED_META_FIELDS:
                 if field not in meta:
-                    print_error(folder, f"meta.json missing field: {field}")
-                    has_issue = True
+                    error(rel_path, f"meta.json missing field '{field}'")
         except Exception as e:
-            print_error(folder, f"meta.json invalid JSON: {e}")
-            has_issue = True
-    else:
-        # meta.json missing or empty handled above
-        meta = {}
+            error(rel_path, f"meta.json invalid JSON: {e}")
 
     qtypes = meta.get('question_type', [])
+    name = meta.get('name', '')
+    category = meta.get('category', '')
 
-    # 4. Validate coding directories
-    if 'coding' in qtypes:
-        # starter.py must exist
-        starter_path = os.path.join(path, 'starter.py')
-        if not os.path.isfile(starter_path):
-            print_error(folder, "Missing starter.py for coding question")
-            has_issue = True
-        else:
-            # Check function name matches meta['name']
-            func_name = meta.get('name')
-            if func_name:
-                try:
-                    content = open(starter_path, encoding='utf-8').read()
-                    pattern = rf"def\s+{re.escape(func_name)}\s*\("
-                    if not re.search(pattern, content):
-                        print_error(folder, f"starter.py does not define function {func_name}()")
-                        has_issue = True
-                except Exception as e:
-                    print_error(folder, f"Error reading starter.py: {e}")
-                    has_issue = True
-        # Should not have mutation files
-        muts = glob.glob(os.path.join(path, 'mutation_*.py'))
-        if muts:
-            print_error(folder, "Coding directory should not contain mutation tests")
-            has_issue = True
-
-    # 5. Validate mutation directories
+    # 4) check placement
+    parent_dir = rel_path.split(os.sep)[0]
     if 'mutation' in qtypes:
-        # solution.py (or solution_*.py) must exist
-        sol_files = glob.glob(os.path.join(path, 'solution*.py'))
-        if not sol_files:
-            print_error(folder, "Missing solution.py for mutation question")
-            has_issue = True
-        # Must have at least one mutation test
-        muts = glob.glob(os.path.join(path, 'mutation_*.py'))
+        expected = 'mutation'
+    elif 'haystack' in qtypes:
+        expected = 'haystack'
+    else:
+        expected = slugify(category)
+    if parent_dir != expected:
+        error(rel_path, f"in '{parent_dir}' but should be in '{expected}'")
+
+    # 5) coding & haystack questions
+    if any(t in qtypes for t in ('coding', 'haystack')):
+        # starter.py must exist
+        st = os.path.join(problem_path, 'starter.py')
+        if not os.path.isfile(st):
+            error(rel_path, "missing starter.py for coding/haystack question")
+        else:
+            # ensure function def matches meta.name
+            if name:
+                content = open(st, encoding='utf-8').read()
+                pat = rf"def\s+{re.escape(name)}\s*\("
+                if not re.search(pat, content):
+                    error(rel_path, f"starter.py does not define function '{name}()'")
+        # should not have mutation files
+        muts = glob.glob(os.path.join(problem_path, 'mutation_*.py'))
+        if muts:
+            error(rel_path, "contains mutation_*.py but is a coding/haystack question")
+
+    # 6) mutation questions
+    if 'mutation' in qtypes:
+        # need solution*.py
+        sols = glob.glob(os.path.join(problem_path, 'solution*.py'))
+        if not sols:
+            error(rel_path, "missing solution.py for mutation question")
+        # need at least one mutation_x.py
+        muts = glob.glob(os.path.join(problem_path, 'mutation_*.py'))
         if not muts:
-            print_error(folder, "No mutation_*.py files in mutation question")
-            has_issue = True
-        # Should not have starter.py
-        starter_path = os.path.join(path, 'starter.py')
-        if os.path.isfile(starter_path):
-            print_error(folder, "Mutation directory should not contain starter.py")
-            has_issue = True
+            error(rel_path, "no mutation_*.py files in mutation question")
+        # must not have starter.py
+        if os.path.isfile(os.path.join(problem_path, 'starter.py')):
+            error(rel_path, "contains starter.py but is a mutation question")
 
-    # 6. Validate question_type values
-    if not set(qtypes).intersection({'coding', 'mutation'}):
-        print_error(folder, "question_type must include 'coding' or 'mutation'")
-        has_issue = True
-    if 'coding' in qtypes and 'mutation' in qtypes:
-        print_error(folder, "question_type should not include both 'coding' and 'mutation'")
-        has_issue = True
+    # 7) question_type sanity
+    allowed = {'coding', 'mutation', 'haystack'}
+    present = set(qtypes) & allowed
+    if not present:
+        error(rel_path, "question_type must include one of 'coding','mutation','haystack'")
+    if len(present) > 1:
+        error(rel_path, f"question_type has multiple of {present}; only one allowed")
 
-    if has_issue:
-        broken_dirs.append(folder)
-        print(f"{folder} failed validation.\n")
 
-# Summary and exit
-if broken_dirs:
-    print(f"{len(broken_dirs)} problem folder(s) failed validation:")
-    for d in broken_dirs:
-        print(f"  - {d}")
-    sys.exit(1)
-else:
-    print("All problem folders passed validation.")
-    sys.exit(0)
+def main():
+    # scan root-level to ensure no stray problem dirs
+    for item in os.listdir(ROOT):
+        if item.startswith('.') or item in SPECIAL_DIRS:
+            continue
+        p = os.path.join(ROOT, item)
+        if os.path.isdir(p) and os.path.isfile(os.path.join(p, 'meta.json')):
+            error(item, "problem folder found at root; must live under a category, 'mutation' or 'haystack'")
+
+    # now scan two levels deep: ROOT/<bucket>/<problem>
+    for bucket in os.listdir(ROOT):
+        bucket_path = os.path.join(ROOT, bucket)
+        if not os.path.isdir(bucket_path) or bucket.startswith('.'):
+            continue
+        # skip any non-problem container (but allow SPECIAL_DIRS + category slugs)
+        # we don't know all categories in advance, so treat any dir as potential container
+        for problem in os.listdir(bucket_path):
+            problem_path = os.path.join(bucket_path, problem)
+            if not os.path.isdir(problem_path):
+                continue
+            # only care if it's a problem dir (has meta.json)
+            if os.path.isfile(os.path.join(problem_path, 'meta.json')):
+                rel = os.path.join(bucket, problem)
+                validate_problem(problem_path, rel)
+    # exit status
+    if total_failures:
+        print(f"\n{total_failures} validation error(s) found.")
+        sys.exit(1)
+    else:
+        print("All problem directories passed validation.")
+        sys.exit(0)
+
+
+if __name__ == '__main__':
+    main()
