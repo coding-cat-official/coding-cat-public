@@ -1,14 +1,24 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+echo \n"building problems.js..."
+
 OUTFILE="problems.js"
 TMPFILE="$(mktemp).js"
 
 write(){ echo "$@" >> "$TMPFILE"; }
+
 load_name(){ jq -r .meta.name "$1/problem.json"; }
+load_category() { jq -r .meta.category "$1/problem.json"; }
+
 is_enabled(){
+  local name="$1"
+  local category="$2"
+
   if [[ -f enabled-problems ]]; then
-    grep -qx "$1" enabled-problems
+    grep -qx "$name" enabled-problems && return 0
+    grep -qx "$category" enabled-problems && return 0
+    return 1
   else
     return 0
   fi
@@ -18,8 +28,11 @@ declare -A dir_for_name
 for dir in */*/; do
   [[ -f "${dir}problem.json" ]] || continue
   d=${dir%/}
+
   name=$(load_name "$d")
-  if is_enabled "$name"; then
+  category=$(load_category "$d")
+
+  if is_enabled "$name" "$category"; then
     dir_for_name["$name"]="$d"
   fi
 done

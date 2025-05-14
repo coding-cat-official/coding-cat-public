@@ -7,6 +7,7 @@ for bucket in */; do
 
   for prob_dir in "${bucket}"*/; do
     [[ -d "$prob_dir" ]] || continue
+    echo "building $prob_dir..."
     ./build-problem "${prob_dir%/}"
   done
 done
