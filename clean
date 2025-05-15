@@ -2,5 +2,9 @@
 
 # Deletes all build artifacts
 
-rm -f problems.json
-rm */problem.json
+echo "removing all build artifacts..."
+
+rm -f problems.js
+rm **/*/problem.json
+
+echo "successfully removed all problem.json files"
