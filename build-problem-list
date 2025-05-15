@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-echo \n"building problems.js..."
+echo -e "\nbuilding problems.js..."
 
 OUTFILE="problems.js"
 TMPFILE="$(mktemp).js"
