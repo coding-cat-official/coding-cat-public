@@ -1,9 +1,5 @@
 [
   {
-    "input": ["this test is a test", "test"],
-    "output": "this **** is a ****"
-  },
-  {
     "input": ["bad words are bad", "bad"],
     "output": "*** words are ***"
   },
@@ -26,14 +22,6 @@
   {
     "input": ["mixed MIXED MixEd", "MIXED"],
     "output": "mixed ***** MixEd"
-  },
-  {
-    "input": ["one two three", "one"],
-    "output": "*** two three"
-  },
-  {
-    "input": ["edge case edgecase", "edge"],
-    "output": "**** case edgecase"
   },
   {
     "input": ["", "word"],

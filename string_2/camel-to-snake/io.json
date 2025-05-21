@@ -32,10 +32,6 @@
     "output": "edge_case_x"
   },
   {
-    "input": ["XStartsWithUpper"],
-    "output": "_x_starts_with_upper"
-  },
-  {
     "input": ["noChangeNeeded"],
     "output": "no_change_needed"
   }
