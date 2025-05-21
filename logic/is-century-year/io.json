@@ -1,0 +1,34 @@
+[
+  {
+    "input": [1900],
+    "output": true
+  },
+  {
+    "input": [2000],
+    "output": true
+  },
+  {
+    "input": [1800],
+    "output": true
+  },
+  {
+    "input": [1999],
+    "output": false
+  },
+  {
+    "input": [2023],
+    "output": false
+  },
+  {
+    "input": [101],
+    "output": false
+  },
+  {
+    "input": [0],
+    "output": true
+  },
+  {
+    "input": [-100],
+    "output": true
+  }
+]
