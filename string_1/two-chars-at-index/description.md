@@ -1,0 +1,1 @@
+Write a function `two_char_at(s: str, index: int) -> str` that returns a string length 2 starting at `index`.   If `index` is out of range for a length‑2 slice, return the first 2 characters instead.   Assume `len(s) ≥ 2`.

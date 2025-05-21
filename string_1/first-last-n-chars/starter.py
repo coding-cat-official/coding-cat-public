@@ -1,0 +1,1 @@
+def front_back_n(s: str, n: int) -> str:

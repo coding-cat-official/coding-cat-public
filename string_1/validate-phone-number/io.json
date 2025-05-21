@@ -1,0 +1,7 @@
+[
+  {"input": ["5145551234"],   "output": true},
+  {"input": ["514-555-1234"], "output": true},
+  {"input": ["514-5551234"],  "output": false},
+  {"input": ["514555123"],    "output": false},
+  {"input": ["abc-def-ghij"], "output": false}
+]

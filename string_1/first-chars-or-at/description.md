@@ -1,0 +1,1 @@
+Write a function `first_two(s: str) -> str` that returns the first two characters of `s`.   If `s` has fewer than 2 characters, substitute the missing positions with `'@'`.   Examples: `""` → `"@@"`; `"A"` → `"A@"`.

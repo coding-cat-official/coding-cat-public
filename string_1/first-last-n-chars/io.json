@@ -1,0 +1,7 @@
+[
+  {"input": ["Chocolate", 3], "output": "Choate"},
+  {"input": ["Python", 1],    "output": "Pn"},
+  {"input": ["edge", 2],      "output": "edge"},
+  {"input": ["abc", 0],       "output": ""},
+  {"input": ["aabbcc", 3],    "output": "aabbcc"}
+]

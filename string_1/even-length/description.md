@@ -1,0 +1,1 @@
+Write a function `is_even_length(s: str) -> bool` that returns `True` if the length of `s` is even and `False` otherwise.

@@ -1,0 +1,1 @@
+def remove_x_from_start(s: str) -> str:

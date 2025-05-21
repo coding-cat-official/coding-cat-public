@@ -1,0 +1,7 @@
+[
+  {"input": ["java", 0],  "output": "ja"},
+  {"input": ["java", 2],  "output": "va"},
+  {"input": ["java", 3],  "output": "ja"},
+  {"input": ["Hi",   1],  "output": "Hi"},
+  {"input": ["code", -1], "output": "co"}
+]

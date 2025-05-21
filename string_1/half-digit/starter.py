@@ -1,0 +1,1 @@
+def is_half_digit(s: str) -> bool:

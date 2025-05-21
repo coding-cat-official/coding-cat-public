@@ -1,0 +1,1 @@
+def first_two(s: str) -> str:
