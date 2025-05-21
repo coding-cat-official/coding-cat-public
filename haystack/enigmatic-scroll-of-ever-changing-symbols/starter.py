@@ -1,0 +1,1 @@
+def scroll_of_ever_changing_symbols(ultimate_scroll: str) -> str
