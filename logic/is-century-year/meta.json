@@ -1,6 +1,6 @@
 {
-  "title": "Float Is Between",
-  "name": "is_between",
+  "title": "Is Century Year",
+  "name": "is_century_year",
   "difficulty": "easy",
   "author": "ChatGPT",
   "category": "Logic",

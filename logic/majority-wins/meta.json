@@ -1,7 +1,7 @@
 {
-  "title": "Float Is Between",
-  "name": "is_between",
-  "difficulty": "easy",
+  "title": "Majority Wins",
+  "name": "majority_wins",
+  "difficulty": "medium",
   "author": "ChatGPT",
   "category": "Logic",
   "question_type": [
