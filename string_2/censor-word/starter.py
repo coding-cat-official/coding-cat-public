@@ -1,0 +1,1 @@
+def censor_word(s: str, word: str) -> str:
