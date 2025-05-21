@@ -1,8 +1,8 @@
 def third_largest_mutation(numbers):
   '''
-    Selecting the 3rd smallest instead of largest
+    Using <= instead of <
   '''
-  if len(numbers) < 4:
+  if len(numbers) <= 4:
     return "This list is too short"
 
-  return sorted(numbers)[2]
+  return sorted(numbers)[-3]

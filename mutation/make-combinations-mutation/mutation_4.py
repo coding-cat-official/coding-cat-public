@@ -1,5 +1,5 @@
 def make_combinations_mutation(letters, numbers):
     '''
-    Uses 'numbers' instead of 'letters' in the inner loop.
+    Uses tuple instead of list for the output.
     '''
-    return [[letter, number] for letter in numbers for number in numbers]
+    return [(letter, number) for letter in letters for number in numbers]

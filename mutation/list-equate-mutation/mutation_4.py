@@ -1,16 +1,16 @@
 def list_equate_mutation(list1, list2):
     """
-    Flips temptrue and temptrue statements, seemingly normal.
-    Would make it so that if the lists aren't the same number repeated over again, the lists do not equate.
-    temptrue would turn 'False' as soon as a single number in the list wasn't the same as whatever 'i' was found.
+    Mistakenly puts temptrue before the "for i" loop.
+    This makes it so that so long as the first element is found in the other list, the program will always return 'True'.
+    This happens regardless if the other elements are correct, as temptrue is stuck as 'True' until the program switches the lists.
     """
     for _ in range(2):
+        temptrue = False #mutated to be before "for i in list1" instead of after it
         for i in list1:
-            temptrue = True #mutated to be true
             for j in list2:
-                if i != j: #mutated to be does not equal to instead of equals to
-                    temptrue = False #mutated to transform into false
-            if temptrue == False: #mutated to check for false temptrue
+                if i == j:
+                    temptrue = True 
+            if temptrue == False:
                 return False
         list1, list2 = list2, list1
     return True
