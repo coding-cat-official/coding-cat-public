@@ -1,0 +1,10 @@
+{
+  "title": "Alarm Clock",
+  "name": "alarm_clock",
+  "difficulty": "easy",
+  "author": "ChatGPT",
+  "category": "Logic-1",
+  "question_type": [
+    "coding"
+  ]
+}

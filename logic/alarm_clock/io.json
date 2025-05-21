@@ -1,0 +1,30 @@
+[
+  {
+    "input": [1, false],
+    "output": "7:00"
+  },
+  {
+    "input": [0, false],
+    "output": "10:00"
+  },
+  {
+    "input": [6, false],
+    "output": "10:00"
+  },
+  {
+    "input": [2, true],
+    "output": "10:00"
+  },
+  {
+    "input": [0, true],
+    "output": "off"
+  },
+  {
+    "input": [5, true],
+    "output": "10:00"
+  },
+  {
+    "input": [6, true],
+    "output": "off"
+  }
+]
