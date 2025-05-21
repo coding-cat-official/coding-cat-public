@@ -1,6 +1,6 @@
 
 Write a function `temperature_convert(celsius: float) -> float` that converts a temperature from
-Celsius to Fahrenheit. To calcaulte this conversion, we multiple the celsius value by 9/5 then add
+Celsius to Fahrenheit. To calculate this conversion, we multiple the celsius value by 9/5 then add
 32.
 
 For example: 

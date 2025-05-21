@@ -1,8 +1,8 @@
 {
-  "title": "Repeated Numbers",
-  "name": "repeated_numbers",
+  "title": "Difference 21",
+  "name": "difference_21",
   "difficulty": "medium",
-  "author": "ChatGPT",
+  "author": "",
   "category": "Fundamentals",
   "question_type": [
     "coding"

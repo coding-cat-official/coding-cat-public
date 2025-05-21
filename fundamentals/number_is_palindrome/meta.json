@@ -1,6 +1,6 @@
 {
-  "title": "Repeated Numbers",
-  "name": "repeated_numbers",
+  "title": "Number Is Palindrome",
+  "name": "number_is_palindrome",
   "difficulty": "medium",
   "author": "ChatGPT",
   "category": "Fundamentals",
