@@ -8,20 +8,20 @@
     "output": "ongstray"
   },
   {
-    "input": ["brother may I have some oats"],
-    "output": "otherbray aymay Iway avehay omesay oatsway"
+    "input": ["brother may i have some oats"],
+    "output": "otherbray aymay iway avehay omesay oatsway"
   },
   {
     "input": ["no"],
     "output": "onay"
   },
   {
-    "input": ["I am starving brother"],
-    "output": "Iway amway arvingstay otherbray"
+    "input": ["i am starving brother"],
+    "output": "iway amway arvingstay otherbray"
   },
   {
-    "input": ["I am happy"],
-    "output": "Iway amway appyhay"
+    "input": ["i am happy"],
+    "output": "iway amway appyhay"
   },
   {
     "input": [""],
