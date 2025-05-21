@@ -1,8 +1,8 @@
 {
-  "title": "Pig Latin",
-  "name": "pig_latin",
+  "title": "First Unique Character",
+  "name": "first_unique_char",
   "difficulty": "medium",
-  "author": "ChatGPT, edited by Eric",
+  "author": "ChatGPT",
   "category": "String-2",
   "question_type": [
     "coding"
