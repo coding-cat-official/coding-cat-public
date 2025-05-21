@@ -1,7 +1,7 @@
 {
   "title": "Alarm Clock",
   "name": "alarm_clock",
-  "difficulty": "easy",
+  "difficulty": "medium",
   "author": "ChatGPT",
   "category": "Logic-1",
   "question_type": [
