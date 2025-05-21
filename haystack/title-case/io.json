@@ -1,0 +1,23 @@
+[
+  {
+    "input": ["a study of the insects beneath forgotten floorboards"],
+    "output": "A Study of the Insects Beneath Forgotten Floorboards"
+  },
+  {
+    "input": ["the hidden rooms of the janitor's wing"],
+    "output": "The Hidden Rooms of the Janitor's Wing"
+  },
+  {
+    "input": ["objects and ideas that should not exist"],
+    "output": "Objects and Ideas That Should Not Exist"
+  },
+  {
+    "input": ["an introduction to nothing"],
+    "output": "An Introduction to Nothing"
+  },
+  {
+    "input": ["on silence and other sounds"],
+    "output": "On Silence and Other Sounds"
+  }
+]
+

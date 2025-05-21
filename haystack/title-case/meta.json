@@ -1,0 +1,10 @@
+{
+  "title": "Museum Title Case",
+  "name": "museum_title_case",
+  "difficulty": "medium",
+  "author": "ChatGPT, edited by Eric",
+  "category": "string-1",
+  "question_type": [
+    "coding"
+  ]
+}

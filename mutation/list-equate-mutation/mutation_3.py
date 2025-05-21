@@ -1,5 +1,16 @@
 def list_equate_mutation(list1, list2):
     """
-    Function uses sorted method to equate the two lists, but forgets to return the bool.
+    Flips temptrue and temptrue statements, seemingly normal.
+    Would make it so that if the lists aren't the same number repeated over again, the lists do not equate.
+    temptrue would turn 'False' as soon as a single number in the list wasn't the same as whatever 'i' was found.
     """
-    sorted(list1) == sorted(list2) #mutated to not use 'return'
+    for _ in range(2):
+        for i in list1:
+            temptrue = True #mutated to be true
+            for j in list2:
+                if i != j: #mutated to be does not equal to instead of equals to
+                    temptrue = False #mutated to transform into false
+            if temptrue == False: #mutated to check for false temptrue
+                return False
+        list1, list2 = list2, list1
+    return True
