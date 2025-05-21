@@ -1,0 +1,1 @@
+def front_again(s: str) -> bool:

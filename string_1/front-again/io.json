@@ -1,0 +1,7 @@
+[
+  {"input": ["edited"],  "output": true},
+  {"input": ["edit"],    "output": false},
+  {"input": ["level"],   "output": true},
+  {"input": ["aa"],      "output": true},
+  {"input": ["abcab"],   "output": false}
+]

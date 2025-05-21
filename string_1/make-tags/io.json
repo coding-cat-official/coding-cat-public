@@ -1,0 +1,5 @@
+[
+  {"input": ["i", "Yay"], "output": "<i>Yay</i>"},
+  {"input": ["b", "Hello"], "output": "<b>Hello</b>"},
+  {"input": ["cite", "Text"], "output": "<cite>Text</cite>"}
+]

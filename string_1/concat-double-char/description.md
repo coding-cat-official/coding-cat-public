@@ -1,0 +1,1 @@
+Write a function `concat_no_double(a: str, b: str) -> str` that concatenates `a` and `b`.   If the last character of `a` is the same as the first character of `b`, omit one of them to avoid a double character.   Example: `("abc", "cat")` → `"abcat"`. 

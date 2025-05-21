@@ -1,0 +1,7 @@
+[
+  {"input": ["string"],  "output": "ri"},
+  {"input": ["abba"],    "output": "bb"},
+  {"input": ["code"],    "output": "od"},
+  {"input": ["tyty"],    "output": "yt"},
+  {"input": ["aa"],      "output": "aa"}
+]

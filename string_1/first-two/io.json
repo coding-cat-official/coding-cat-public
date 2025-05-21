@@ -1,0 +1,7 @@
+[
+  {"input": ["Hello"], "output": "He"},
+  {"input": ["X"], "output": "X"},
+  {"input": [""], "output": ""},
+  {"input": ["A"], "output": "A"},
+  {"input": ["AB"], "output": "AB"}
+]
