@@ -1,0 +1,42 @@
+[
+  {
+    "input": ["thisIsFun"],
+    "output": "this_is_fun"
+  },
+  {
+    "input": ["helloWorld"],
+    "output": "hello_world"
+  },
+  {
+    "input": ["convertMeToSnakeCase"],
+    "output": "convert_me_to_snake_case"
+  },
+  {
+    "input": ["already_snake"],
+    "output": "already_snake"
+  },
+  {
+    "input": ["JSONData"],
+    "output": "j_s_o_n_data"
+  },
+  {
+    "input": ["simple"],
+    "output": "simple"
+  },
+  {
+    "input": ["multipleWordsInRow"],
+    "output": "multiple_words_in_row"
+  },
+  {
+    "input": ["edgeCaseX"],
+    "output": "edge_case_x"
+  },
+  {
+    "input": ["XStartsWithUpper"],
+    "output": "_x_starts_with_upper"
+  },
+  {
+    "input": ["noChangeNeeded"],
+    "output": "no_change_needed"
+  }
+]
