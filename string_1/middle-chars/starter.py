@@ -1,0 +1,1 @@
+def middle_two(s: str) -> str:

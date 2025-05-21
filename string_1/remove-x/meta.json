@@ -1,0 +1,10 @@
+{
+  "title": "Remove X From Ends",
+  "name": "remove_x_from_ends",
+  "difficulty": "medium",
+  "author": "ChatGPT, edited by Eric",
+  "category": "String-1",
+  "question_type": [
+    "coding"
+  ]
+}

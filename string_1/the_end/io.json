@@ -1,0 +1,8 @@
+[
+  {"input": ["Hello", true], "output": "H"},
+  {"input": ["Hello", false], "output": "o"},
+  {"input": ["oh", true], "output": "o"},
+  {"input": ["oh", false], "output": "h"},
+  {"input": ["a", true], "output": "a"},
+  {"input": ["a", false], "output": "a"}
+]

@@ -1,0 +1,7 @@
+[
+  {"input": ["Python"], "output": "Pyt"},
+  {"input": ["code"],   "output": "co"},
+  {"input": ["ab"],     "output": "a"},
+  {"input": ["abcdabcd"], "output": "abcd"},
+  {"input": ["xyxy"],   "output": "xy"}
+]

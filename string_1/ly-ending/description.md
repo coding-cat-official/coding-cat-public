@@ -1,0 +1,1 @@
+Write a function `ends_with_ly(word: str) -> bool` that returns `True` if `word` ends with the substring `"ly"`, otherwise `False`.

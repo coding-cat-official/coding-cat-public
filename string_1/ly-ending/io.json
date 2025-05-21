@@ -1,0 +1,7 @@
+[
+  {"input": ["happily"],  "output": true},
+  {"input": ["sad"],      "output": false},
+  {"input": ["fly"],      "output": true},
+  {"input": ["LY"],       "output": false},
+  {"input": ["ly"],       "output": true}
+]

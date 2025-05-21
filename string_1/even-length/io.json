@@ -1,0 +1,7 @@
+[
+  {"input": ["abcd"],   "output": true},
+  {"input": ["abc"],    "output": false},
+  {"input": [""],       "output": true},
+  {"input": ["😊😊"],   "output": true},
+  {"input": ["x"],      "output": false}
+]

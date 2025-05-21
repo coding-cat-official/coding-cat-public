@@ -1,0 +1,10 @@
+{
+  "title": "Remove X From Start",
+  "name": "remove_x_from_start",
+  "difficulty": "hard",
+  "author": "ChatGPT, edited by Eric",
+  "category": "String-1",
+  "question_type": [
+    "coding"
+  ]
+}

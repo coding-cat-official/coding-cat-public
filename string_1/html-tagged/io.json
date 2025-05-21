@@ -1,0 +1,7 @@
+[
+  {"input": ["code"],  "output": "<code>"},
+  {"input": [""],      "output": "<>"},
+  {"input": ["123"],   "output": "<123>"},
+  {"input": ["<tag>"], "output": "<<tag>>"},
+  {"input": ["&"],     "output": "<&>"}
+]

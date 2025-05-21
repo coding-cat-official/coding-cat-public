@@ -1,0 +1,1 @@
+def two_char_at(s: str, index: int) -> str:

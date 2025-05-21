@@ -1,0 +1,7 @@
+[
+  {"input": ["hippo", "hi"],   "output": "hi"},
+  {"input": ["hippo", "xip"],  "output": "hip"},
+  {"input": ["hippo", "zip"],  "output": ""},
+  {"input": ["h",     "a"],    "output": "h"},
+  {"input": ["abc",   "abc"],  "output": "abc"}
+]

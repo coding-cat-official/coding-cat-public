@@ -1,0 +1,1 @@
+def right2(s: str) -> str:
