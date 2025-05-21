@@ -1,6 +1,6 @@
 def sum_7_mutation(list_a, list_b):
     '''
-        Return statement is inside the loop
+        Wrong operator   
     '''
     count = 0
     # assigns a tuple that takes in all the combinations
@@ -8,6 +8,7 @@ def sum_7_mutation(list_a, list_b):
 
     # directly additions and tests if the pair is a sum of 7
     for i in pairs:
-        if i[0] + i[1] == 7:
+        if i[0] - i[1] == 7:
             count += 1
-        return count
+    return count
+
