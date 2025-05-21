@@ -1,0 +1,10 @@
+{
+  "title": "Grade From Score",
+  "name": "grade_from_score",
+  "difficulty": "easy",
+  "author": "ChatGPT",
+  "category": "Fundamentals",
+  "question_type": [
+    "coding"
+  ]
+}
