@@ -1,0 +1,42 @@
+[
+  {
+    "input": ["breadjambread"],
+    "output": "jam"
+  },
+  {
+    "input": ["xxbreadjellybreadxx"],
+    "output": "jelly"
+  },
+  {
+    "input": ["breadbread"],
+    "output": ""
+  },
+  {
+    "input": ["lettucebreadmeatbreadtomato"],
+    "output": "meat"
+  },
+  {
+    "input": ["nobreadhere"],
+    "output": ""
+  },
+  {
+    "input": ["breadhamandcheesebread"],
+    "output": "hamandcheese"
+  },
+  {
+    "input": ["breadcheesebreadmeatbread"],
+    "output": "cheesebreadmeat"
+  },
+  {
+    "input": ["bread"],
+    "output": ""
+  },
+  {
+    "input": [""],
+    "output": ""
+  },
+  {
+    "input": ["tomatobreadlettucebaconbreadmayo"],
+    "output": "lettucebacon"
+  }
+]

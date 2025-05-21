@@ -1,0 +1,10 @@
+{
+  "title": "Sandwich Word",
+  "name": "sandwich_word",
+  "difficulty": "medium",
+  "author": "ChatGPT",
+  "category": "String-2",
+  "question_type": [
+    "coding"
+  ]
+}
