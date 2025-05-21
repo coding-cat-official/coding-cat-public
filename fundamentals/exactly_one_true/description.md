@@ -1,5 +1,3 @@
-Write a function `can_form_triangle(a: int, b: int, c: int) -> bool` that takes three positive integers representing side lengths and returns `True` if they can form a valid triangle. 
+Write a function exactly_one_true(a: bool, b: bool, c: bool) -> bool that takes three boolean values and returns `True` if exactly one of them is `True`, and `False` otherwise.
 
-A triangle is valid if the sum of any two sides is greater than the third side.
-
-**Hint**: You’ll need to check all three combinations of two sides.
+**Hint**: Try counting how many of the inputs are `True`.
