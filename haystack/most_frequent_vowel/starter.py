@@ -1,0 +1,1 @@
+def most_frequent_character(sentence: str) -> str:

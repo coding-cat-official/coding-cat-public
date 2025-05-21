@@ -1,0 +1,10 @@
+{
+  "title": "Counting Palindromes in a List",
+  "name": "count_palindromes",
+  "difficulty": "medium",
+  "author": "ChatGPT",
+  "category": "Haystack",
+  "question_type": [
+    "haystack"
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "input": [["level", "hello", "Madam", "No lemon, no melon"]],
+    "output": 3
+  },
+  {
+    "input": [["Was it a car or a cat I saw", "banana", "Step on no pets"]],
+    "output": 2
+  },
+  {
+    "input": [["Racecar", "civic", "deed", "not a palindrome"]],
+    "output": 3
+  },
+  {
+    "input": [["Hello", "world", "python"]],
+    "output": 0
+  },
+  {
+    "input": [["Red rum, sir, is murder", "Eva, can I see bees in a cave?", "Go hang a salami I'm a lasagna hog"]],
+    "output": 3
+  },
+  {
+    "input": [["", "A", "!!!"]],
+    "output": 3
+  }
+]

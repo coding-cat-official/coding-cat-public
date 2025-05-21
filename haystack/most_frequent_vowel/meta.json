@@ -1,0 +1,10 @@
+{
+  "title": "Finding the Most Frequent Character",
+  "name": "most_frequent_char",
+  "difficulty": "hard",
+  "author": "ChatGPT",
+  "category": "String",
+  "question_type": [
+    "haystack"
+  ]
+}

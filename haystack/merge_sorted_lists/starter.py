@@ -1,0 +1,1 @@
+def merge_sorted_lists(list1: list, list2: list) -> list:
