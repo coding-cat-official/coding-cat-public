@@ -1,6 +1,6 @@
 {
-  "title": "Boolean XNOR",
-  "name": "boolean_xnor",
+  "title": "Palindrome Number",
+  "name": "palindrome_number",
   "difficulty": "medium",
   "author": "ChatGPT",
   "category": "Logic",

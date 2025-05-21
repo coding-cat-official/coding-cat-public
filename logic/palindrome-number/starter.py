@@ -1,0 +1,1 @@
+def palindrome_number(n: int) -> bool:

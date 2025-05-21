@@ -1,7 +1,7 @@
 {
-  "title": "Float Is Between",
-  "name": "is_between",
-  "difficulty": "easy",
+  "title": "Alarm Clock",
+  "name": "alarm_clock",
+  "difficulty": "medium",
   "author": "ChatGPT",
   "category": "Logic",
   "question_type": [
