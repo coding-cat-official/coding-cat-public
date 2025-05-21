@@ -1,0 +1,10 @@
+{
+  "title": "Censor Word",
+  "name": "censor_word",
+  "difficulty": "easy",
+  "author": "ChatGPT",
+  "category": "String-2",
+  "question_type": [
+    "coding"
+  ]
+}

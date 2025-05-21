@@ -1,0 +1,30 @@
+[
+  {
+    "input": ["bad words are bad", "bad"],
+    "output": "*** words are ***"
+  },
+  {
+    "input": ["no censorship here", "xyz"],
+    "output": "no censorship here"
+  },
+  {
+    "input": ["aaa aaa aaa", "aaa"],
+    "output": "*** *** ***"
+  },
+  {
+    "input": ["nothing to hide", "to"],
+    "output": "nothing ** hide"
+  },
+  {
+    "input": ["repeat repeat repeat", "repeat"],
+    "output": "****** ****** ******"
+  },
+  {
+    "input": ["mixed MIXED MixEd", "MIXED"],
+    "output": "mixed ***** MixEd"
+  },
+  {
+    "input": ["", "word"],
+    "output": ""
+  }
+]

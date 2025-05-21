@@ -1,0 +1,1 @@
+def sandwich_word(s: str) -> str:
