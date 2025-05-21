@@ -1,0 +1,30 @@
+[
+  {
+    "input": ["apple"],
+    "output": "appleway"
+  },
+  {
+    "input": ["strong"],
+    "output": "ongstray"
+  },
+  {
+    "input": ["brother may I have some oats"],
+    "output": "otherbray aymay Iway avehay omesay oatsway"
+  },
+  {
+    "input": ["no"],
+    "output": "onay"
+  },
+  {
+    "input": ["I am starving brother"],
+    "output": "Iway amway arvingstay otherbray"
+  },
+  {
+    "input": ["I am happy"],
+    "output": "Iway amway appyhay"
+  },
+  {
+    "input": [""],
+    "output": ""
+  }
+]
