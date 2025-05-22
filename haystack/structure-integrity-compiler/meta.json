@@ -3,9 +3,9 @@
   "name": "structure_check",
   "difficulty": "easy",
   "author": "ChatGPT, refined by Eric",
-  "category": "string-2",
+  "category": "String-2",
   "question_type": [
-    "coding"
+    "haystack"
   ]
 }
 

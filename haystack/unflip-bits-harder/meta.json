@@ -3,6 +3,6 @@
   "name": "bitflip_sort_timestamped",
   "difficulty": "hard",
   "author": "ChatGPT, directed by Eric",
-  "category": "list-3",
-  "question_type": ["coding"]
+  "category": "List-3",
+  "question_type": ["haystack"]
 }

@@ -3,8 +3,8 @@
   "name": "decode_artifact",
   "difficulty": "medium",
   "author": "ChatGPT, edited by Eric",
-  "category": "list-1",
+  "category": "List-1",
   "question_type": [
-    "coding"
+    "haystack"
   ]
 }
