@@ -1,1 +1,1 @@
-def jelly_bean_duplicate_removal(jellybeans: list[str]) -> list[str]
+def jelly_bean_duplicate_removal(jellybeans: list[str]) -> list[str]:
