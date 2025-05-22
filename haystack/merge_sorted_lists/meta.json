@@ -3,7 +3,7 @@
   "name": "merge_sorted_lists",
   "difficulty": "medium",
   "author": "ChatGPT",
-  "category": "Haystack",
+  "category": "List-2: Iterating",
   "question_type": [
     "haystack"
   ]
