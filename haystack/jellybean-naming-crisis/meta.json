@@ -1,0 +1,10 @@
+{
+  "title": "The Great Jellybean Naming Convention Crisis",
+  "name": "jelly_bean_duplicate_removal",
+  "difficulty": "medium",
+  "author": "ChatGPT, edited by Emmanuelle",
+  "category": "haystack",
+  "question_type": [
+    "haystack"
+  ]
+}

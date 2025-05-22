@@ -1,0 +1,3 @@
+In the whimsical land of Sweetopolis, the Jellybean Council was responsible for naming every single jellybean flavor in the kingdom. However, the council members had a peculiar habit — every time a jellybean was created, they would excitedly shout out its flavor name and write it down in the Grand Jellybean Registry.
+
+But here’s the problem: the council was a bit forgetful and overly enthusiastic. They kept shouting the same flavor names multiple times, leading to dozens of identical entries in the registry. The King of Sweetopolis was baffled. “How can I reward the inventors if the registry is cluttered with repeated flavor names?”
