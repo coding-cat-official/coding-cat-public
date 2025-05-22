@@ -1,0 +1,26 @@
+[
+  {
+    "input": ["hello world"],
+    "output": "l"
+  },
+  {
+    "input": ["The quick brown fox jumped over the lazy dog"],
+    "output": "o"
+  },
+  {
+    "input": ["A quick brown fox!"],
+    "output": "o"
+  },
+  {
+    "input": ["apple pie and coffee"],
+    "output": "e"
+  },
+  {
+    "input": ["A simple test sentence, with punctuation!"],
+    "output": "t"
+  },
+  {
+    "input": ["I am the walrus, goo goo g'joob!"],
+    "output": "o"
+  }
+]

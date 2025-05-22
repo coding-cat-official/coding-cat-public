@@ -1,0 +1,5 @@
+You work as a data analyst for a large publishing company, and your job is to help improve their search engine algorithms. One day, you receive a dataset containing hundreds of thousands of sentences from various books, articles, and social media posts. Your task is to analyze the text to gain insights into the usage of vowels in the written content.
+
+Your manager asks you to focus on identifying which vowel appears most frequently in a given sentence. The sentences you receive may contain a mix of uppercase and lowercase letters, punctuation marks, and spaces. For the purposes of this analysis, you’ll need to ignore everything except the vowels: 'a', 'e', 'i', 'o', 'u'.
+
+After counting the occurrences of each vowel, you must return the vowel with the highest frequency. If there is a tie, return the vowel that appears first in the sentence. This analysis is important because vowels can provide insights into the linguistic structure of the text, which could help improve the accuracy of the company's text classification models.

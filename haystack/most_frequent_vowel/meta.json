@@ -1,0 +1,10 @@
+{
+  "title": "Finding the Most Frequent Vowel",
+  "name": "most_frequent_vowel",
+  "difficulty": "medium",
+  "author": "ChatGPT",
+  "category": "String",
+  "question_type": [
+    "haystack"
+  ]
+}

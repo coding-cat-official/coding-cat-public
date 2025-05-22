@@ -1,0 +1,10 @@
+{
+  "title": "Merge Sorted Lists",
+  "name": "merge_sorted_lists",
+  "difficulty": "medium",
+  "author": "ChatGPT",
+  "category": "Haystack",
+  "question_type": [
+    "haystack"
+  ]
+}
