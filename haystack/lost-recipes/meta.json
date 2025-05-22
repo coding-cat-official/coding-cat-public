@@ -3,6 +3,6 @@
   "name": "unique_ingredients",
   "difficulty": "medium",
   "author": "ChatGPT, edited by Eric",
-  "category": "Haystack",
-  "question_type": ["coding"]
+  "category": "List-2: Iterating",
+  "question_type": ["haystack"]
 }
