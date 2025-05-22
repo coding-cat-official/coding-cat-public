@@ -1,1 +1,0 @@
-def count_palindromes(strings: list) -> int:
