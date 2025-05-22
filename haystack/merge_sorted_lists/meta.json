@@ -1,7 +1,7 @@
 {
   "title": "Merge Sorted Lists",
   "name": "merge_sorted_lists",
-  "difficulty": "easy",
+  "difficulty": "medium",
   "author": "ChatGPT",
   "category": "Haystack",
   "question_type": [

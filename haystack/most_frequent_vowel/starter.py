@@ -1,1 +1,1 @@
-def most_frequent_character(sentence: str) -> str:
+def most_frequent_vowel(sentence: str) -> str:
