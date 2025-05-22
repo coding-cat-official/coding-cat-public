@@ -1,10 +1,10 @@
 [
   {
-    "input": ["onion", "chopped onion", "garlic", "onion", "tomato", "garlic", "basil"],
+    "input": [["onion", "chopped onion", "garlic", "onion", "tomato", "garlic", "basil"]],
     "output": ["onion", "chopped onion", "garlic", "tomato", "basil"]
   },
   {
-    "input": ["salt", "pepper", "salt", "olive oil", "pepper"],
+    "input": [["salt", "pepper", "salt", "olive oil", "pepper"]],
     "output": ["salt", "pepper", "olive oil"]
   },
   {
@@ -12,11 +12,11 @@
     "output": []
   },
   {
-    "input": ["flour", "sugar", "flour", "butter", "sugar", "butter"],
+    "input": [["flour", "sugar", "flour", "butter", "sugar", "butter"]],
     "output": ["flour", "sugar", "butter"]
   },
   {
-    "input": ["milk", "eggs", "milk", "vanilla", "eggs"],
+    "input": [["milk", "eggs", "milk", "vanilla", "eggs"]],
     "output": ["milk", "eggs", "vanilla"]
   }
 ]
