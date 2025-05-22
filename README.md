@@ -49,7 +49,9 @@ which is then imported by the main Coding Cat UI.
 # Enabling/disabling problems
 
 The file `enabled-problems` controls which problems actually get build into `problems.js`. It is a
-list of problem names, i.e. strings that appear under the `name` key in `meta.json`.
+list of problem names, or entire categories, i.e. strings that appear under the `name` or `category` key in `meta.json`.
 
 `enable-all-problems` is a script that generates an `enabled-problems` file listing all problems as
 enabled.
+
+If no `enabled-problems` file is defined, every problem is enabled by default.

@@ -1,1 +1,0 @@
-Write a function `repeated_numbers(n: int) -> float` that takes an integer `n` as input and returns a floating-point number where the integer `n` is repeated in the decimal part. For example, if the input is `11`, the output should be `11.11`, and if the input is `5`, the output should be `5.5`.

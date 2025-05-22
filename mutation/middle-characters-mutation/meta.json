@@ -1,0 +1,10 @@
+{
+  "title": "Middle Characters",
+  "name": "middle_characters_mutation",
+  "difficulty": "medium",
+  "author": "Sara Isabella Barajas-Cruz",
+  "category": "String-2",
+  "question_type": [
+    "mutation"
+  ]
+}

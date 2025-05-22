@@ -1,0 +1,10 @@
+{
+  "title": "Pig Latin",
+  "name": "pig_latin",
+  "difficulty": "medium",
+  "author": "ChatGPT, edited by Eric",
+  "category": "String-2",
+  "question_type": [
+    "coding"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Telemetry Bit-Flip Sort",
+  "name": "bitflip_sort",
+  "difficulty": "medium",
+  "author": "ChatGPT, directed by Eric",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "haystack"
+  ]
+}

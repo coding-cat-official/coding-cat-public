@@ -1,0 +1,10 @@
+{
+  "title": "Integer Conversion Loss",
+  "name": "integer_conversion_loss",
+  "difficulty": "medium",
+  "author": "ChatGPT",
+  "category": "Fundamentals",
+  "question_type": [
+    "coding"
+  ]
+}

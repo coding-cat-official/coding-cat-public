@@ -1,0 +1,42 @@
+[
+  {
+    "input": ["Code"],
+    "output": "CCoCodCode"
+  },
+  {
+    "input": ["abc"],
+    "output": "aababc"
+  },
+  {
+    "input": ["a"],
+    "output": "a"
+  },
+  {
+    "input": ["Go"],
+    "output": "GGo"
+  },
+  {
+    "input": ["Hello"],
+    "output": "HHeHelHellHello"
+  },
+  {
+    "input": ["A"],
+    "output": "A"
+  },
+  {
+    "input": ["xy"],
+    "output": "xxy"
+  },
+  {
+    "input": [""], 
+    "output": ""
+  },
+  {
+    "input": ["Boom"],
+    "output": "BBoBooBoom"
+  },
+  {
+    "input": ["Wow!"],
+    "output": "WWoWowWow!"
+  }
+]

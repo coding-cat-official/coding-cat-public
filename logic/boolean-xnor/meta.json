@@ -1,0 +1,10 @@
+{
+  "title": "Boolean XNOR",
+  "name": "boolean_xnor",
+  "difficulty": "medium",
+  "author": "ChatGPT",
+  "category": "Logic",
+  "question_type": [
+    "coding"
+  ]
+}

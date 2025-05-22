@@ -1,0 +1,26 @@
+[
+  {
+    "input": ["Pneumonoultramicroscopicsilicovolcanoconiosis", 10],
+    "output": "Pneumonoulltramicrosccopicsilicoovolcanoconniosis"
+  },
+  {
+    "input": ["Bunch", 2],
+    "output": "Buuncch"
+  },
+  {
+    "input": ["Cat", 4],
+    "output": "Cat"
+  },
+  {
+    "input": ["Word", 0],
+    "output": ""
+  },
+  {
+    "input": ["Negative", -1],
+    "output": ""
+  },
+  {
+    "input": ["", -1],
+    "output": ""
+  }
+]

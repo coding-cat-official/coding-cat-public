@@ -1,0 +1,8 @@
+{
+  "title": "Weather Sensor Anomalies",
+  "name": "find_jumps",
+  "difficulty": "medium",
+  "author": "ChatGPT, edited by Eric",
+  "category": "List-2: Iterating",
+  "question_type": ["haystack"]
+}

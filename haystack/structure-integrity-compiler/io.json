@@ -1,0 +1,30 @@
+[
+  {
+    "input": ["func main() { return (1 + 2); }"],
+    "output": true
+  },
+  {
+    "input": ["(print(x + y)) // good call"],
+    "output": true
+  },
+  {
+    "input": ["launch_sequence(()"],
+    "output": false
+  },
+  {
+    "input": ["system(check(1 + 2)"],
+    "output": false
+  },
+  {
+    "input": ["status = (ok) && (reboot(3))"],
+    "output": true
+  },
+  {
+    "input": ["if (user(active) && ((trial)"],
+    "output": false
+  },
+  {
+    "input": ["// this file has no logic, just a license header (c) 2044"],
+    "output": true
+  }
+]

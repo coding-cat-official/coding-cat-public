@@ -1,0 +1,10 @@
+{
+  "title": "Number of Increasing Sequences",
+  "name": "nbr_increasing_sequences",
+  "difficulty": "medium",
+  "author": "Jerome Lavoie",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding"
+  ]
+}

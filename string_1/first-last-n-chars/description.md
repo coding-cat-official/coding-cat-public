@@ -1,0 +1,1 @@
+Write a function `front_back_n(s: str, n: int) -> str` that returns the first `n` characters of `s` plus the last `n` characters of `s`.   Assume `len(s) ≥ n ≥ 0`.   Example: `("Chocolate", 3)` → `"Choate"`.

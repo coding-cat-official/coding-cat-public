@@ -1,0 +1,10 @@
+{
+  "title": "Courtroom Testimony Matcher",
+  "name": "testimony_match",
+  "difficulty": "medium",
+  "author": "ChatGPT, directed by Eric",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "haystack"
+  ]
+}

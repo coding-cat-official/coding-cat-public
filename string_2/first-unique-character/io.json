@@ -1,0 +1,34 @@
+[
+  {
+    "input": ["racecars"],
+    "output": "e"
+  },
+  {
+    "input": ["aabbcc"],
+    "output": ""
+  },
+  {
+    "input": ["alphabet"],
+    "output": "l"
+  },
+  {
+    "input": ["a"],
+    "output": "a"
+  },
+  {
+    "input": ["abacabad"],
+    "output": "c"
+  },
+  {
+    "input": ["zzzz"],
+    "output": ""
+  },
+  {
+    "input": ["empty"],
+    "output": "e"
+  },
+  {
+    "input": [""],
+    "output": ""
+  }
+]

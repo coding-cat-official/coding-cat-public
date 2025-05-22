@@ -1,0 +1,22 @@
+[
+  {
+    "input": ["bee","bear"],
+    "output": 2
+  },
+  {
+    "input": ["nghiiiii", "nghiarbre"],
+    "output": 4
+  },
+  {
+    "input": ["hehehihiheheho","hehebabaheheho"],
+    "output": 6
+  },
+  {
+    "input": ["abcf","abcd"],
+    "output": 3
+  },
+  {
+    "input": ["hey","no"],
+    "output": 0
+  }
+]

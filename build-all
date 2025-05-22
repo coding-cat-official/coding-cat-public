@@ -1,9 +1,36 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-set -e
+load_name(){ jq -r .name "$1/meta.json"; }
+load_category() { jq -r .category "$1/meta.json"; }
 
-for f in * ; do
-    if [ ! -d "$f" ] ; then continue ; fi
-    ./build-problem $f
+is_enabled(){
+  local name="$1"
+  local category="$2"
+
+  if [[ -f enabled-problems ]]; then
+    grep -qx "$name" enabled-problems && return 0
+    grep -qx "$category" enabled-problems && return 0
+    return 1
+  else
+    return 0
+  fi
+}
+
+for bucket in */; do
+  [[ -d "$bucket" ]] || continue
+  [[ "${bucket:0:1}" = "." ]] && continue
+
+  for prob_dir in "${bucket}"*/; do
+    name=$(load_name "$prob_dir")
+    category=$(load_category "$prob_dir")
+
+    if is_enabled "$name" "$category"; then
+      [[ -d "$prob_dir" ]] || continue
+      echo "building $prob_dir..."
+      ./build-problem "${prob_dir%/}"
+    else
+      echo "skipping $prob_dir..."
+    fi
+  done
 done
-

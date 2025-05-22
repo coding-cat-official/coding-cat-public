@@ -1,0 +1,34 @@
+[
+  {
+    "input": [true, false, false],
+    "output": true
+  },
+  {
+    "input": [false, true, false],
+    "output": true
+  },
+  {
+    "input": [false, false, true],
+    "output": true
+  },
+  {
+    "input": [true, true, false],
+    "output": false
+  },
+  {
+    "input": [true, false, true],
+    "output": false
+  },
+  {
+    "input": [false, true, true],
+    "output": false
+  },
+  {
+    "input": [true, true, true],
+    "output": false
+  },
+  {
+    "input": [false, false, false],
+    "output": false
+  }
+]

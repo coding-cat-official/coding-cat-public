@@ -1,0 +1,10 @@
+{
+  "title": "Longest Common Substring",
+  "name": "longest_common_substring_mutation",
+  "difficulty": "hard",
+  "author": "Le Tuong Nghi Pham",
+  "category": "List-3: Complex Loop",
+  "question_type": [
+    "mutation"
+  ]
+}

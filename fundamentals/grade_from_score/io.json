@@ -1,0 +1,42 @@
+[
+  {
+    "input": [95],
+    "output": "A"
+  },
+  {
+    "input": [85],
+    "output": "B"
+  },
+  {
+    "input": [73],
+    "output": "C"
+  },
+  {
+    "input": [60],
+    "output": "D"
+  },
+  {
+    "input": [59],
+    "output": "F"
+  },
+  {
+    "input": [0],
+    "output": "F"
+  },
+  {
+    "input": [100],
+    "output": "A"
+  },
+  {
+    "input": [89],
+    "output": "B"
+  },
+  {
+    "input": [79],
+    "output": "C"
+  },
+  {
+    "input": [69],
+    "output": "D"
+  }
+]

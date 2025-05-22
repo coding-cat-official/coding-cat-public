@@ -1,0 +1,11 @@
+{
+  "title": "Compiler Boot Phase: Structure Integrity",
+  "name": "structure_check",
+  "difficulty": "easy",
+  "author": "ChatGPT, refined by Eric",
+  "category": "String-2",
+  "question_type": [
+    "haystack"
+  ]
+}
+

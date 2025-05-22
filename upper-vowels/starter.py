@@ -1,1 +1,0 @@
-def vowel_caps(s):

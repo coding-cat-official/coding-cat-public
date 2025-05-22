@@ -1,0 +1,1 @@
+def start_word(s: str, word: str) -> str:

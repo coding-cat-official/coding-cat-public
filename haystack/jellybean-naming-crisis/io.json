@@ -1,0 +1,26 @@
+[
+  {
+    "input": [["pickle punch", "sour socks", "pickle punch", "wasabi whirl"]],
+    "output": ["pickle punch", "sour socks", "wasabi whirl"]
+  },
+  {
+    "input": [["rotten egg", "clam chowder", "rotten egg", "rotten egg", "garlic blast"]],
+    "output": ["rotten egg", "clam chowder", "garlic blast"]
+  },
+  {
+    "input": [["toothpaste twist", "cough syrup", "moldy cheese"]],
+    "output": ["toothpaste twist", "cough syrup", "moldy cheese"]
+  },
+  {
+    "input": [[]],
+    "output": []
+  },
+  {
+    "input": [["vomit swirl", "vomit swirl", "vomit swirl"]],
+    "output": ["vomit swirl"]
+  },
+  {
+    "input": [["dirty socks", "pickle punch", "sour socks", "pickle punch", "dirty socks"]],
+    "output": ["dirty socks", "pickle punch", "sour socks"]
+  }
+]

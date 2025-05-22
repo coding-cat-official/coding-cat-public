@@ -1,0 +1,10 @@
+{
+  "title": "Camel to Snake",
+  "name": "camel_to_snake",
+  "difficulty": "medium",
+  "author": "ChatGPT",
+  "category": "String-2",
+  "question_type": [
+    "coding"
+  ]
+}

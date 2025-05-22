@@ -1,0 +1,10 @@
+{
+  "title": "Neighbouring Repeats",
+  "name": "neighbour_repeat",
+  "difficulty": "medium",
+  "author": "Panagiotis Stathopoulos",
+  "category": "List-3: Complex Loop",
+  "question_type": [
+    "coding"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Counting Vowels",
+  "name": "count_vowels_mutation",
+  "difficulty": "easy",
+  "author": "Oliver",
+  "category": "String-2",
+  "question_type": [
+    "mutation"
+  ]
+}

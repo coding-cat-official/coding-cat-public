@@ -1,0 +1,10 @@
+{
+  "title": "ListSplitter",
+  "name": "list_splitter_mutation",
+  "difficulty": "medium",
+  "author": "Alex Segal",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}

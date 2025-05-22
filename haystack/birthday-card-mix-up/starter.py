@@ -1,0 +1,1 @@
+def birthday_card_mixup(birthdayCardNumbers: list[int], numberOfStudents: int) -> list[int]

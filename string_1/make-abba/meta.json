@@ -1,0 +1,10 @@
+{
+  "title": "Make ABBA",
+  "name": "make_abba",
+  "difficulty": "medium",
+  "author": "ChatGPT, edited by Eric",
+  "category": "String-1",
+  "question_type": [
+    "coding"
+  ]
+}

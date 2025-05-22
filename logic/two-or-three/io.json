@@ -1,0 +1,30 @@
+[
+  {
+    "input": [6],
+    "output": false
+  },
+  {
+    "input": [12],
+    "output": false
+  },
+  {
+    "input": [2],
+    "output": true
+  },
+  {
+    "input": [3],
+    "output": true
+  },
+  {
+    "input": [0],
+    "output": false
+  },
+  {
+    "input": [-6],
+    "output": false
+  },
+  {
+    "input": [-3],
+    "output": true
+  }
+]

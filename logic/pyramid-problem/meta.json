@@ -1,0 +1,10 @@
+{
+  "title": "Pyramid Volume",
+  "name": "pyramid_volume",
+  "difficulty": "easy",
+  "author": "Vincent Friedl",
+  "category": "Logic",
+  "question_type": [
+    "coding"
+  ]
+}

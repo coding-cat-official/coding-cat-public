@@ -1,0 +1,26 @@
+[
+  {
+    "input": [[ "wallet", "gas station", "midnight" ], [ "gas station", "cigarettes", "wallet" ]],
+    "output": [ "wallet", "gas station" ]
+  },
+  {
+    "input": [[ "nothing", "no idea", "was asleep" ], [ "nothing", "tv", "asleep" ]],
+    "output": [ "nothing" ]
+  },
+  {
+    "input": [[ "saw a bike", "left turn", "helmet" ], [ "red light", "helmet", "bike" ]],
+    "output": [ "helmet" ]
+  },
+  {
+    "input": [[ "receipt", "7:01pm", "parking lot" ], [ "7:01pm", "receipt", "bag" ]],
+    "output": [ "receipt", "7:01pm" ]
+  },
+  {
+    "input": [[ "he yelled", "I ran" ], [ "she screamed", "I froze" ]],
+    "output": [ ]
+  },
+  {
+    "input": [[ "light", "light", "car", "crash" ], [ "crash", "light", "horn" ]],
+    "output": [ "light", "crash" ]
+  }
+]

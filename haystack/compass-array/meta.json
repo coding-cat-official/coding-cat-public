@@ -1,0 +1,10 @@
+{
+  "title": "Compass Array Rotation",
+  "name": "decode_artifact",
+  "difficulty": "medium",
+  "author": "ChatGPT, edited by Eric",
+  "category": "List-1: Indexing",
+  "question_type": [
+    "haystack"
+  ]
+}

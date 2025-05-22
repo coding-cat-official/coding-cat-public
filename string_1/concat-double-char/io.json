@@ -1,0 +1,7 @@
+[
+  {"input": ["abc", "cat"], "output": "abcat"},
+  {"input": ["dog", "go"],  "output": "dogo"},
+  {"input": ["aa",  "a"],   "output": "aa"},
+  {"input": ["",   "start"],"output": "start"},
+  {"input": ["end", ""],    "output": "end"}
+]

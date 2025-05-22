@@ -1,0 +1,10 @@
+{
+  "title": "Same Value",
+  "name": "same_value_mutation",
+  "difficulty": "easy",
+  "author": "Mattieux Fournier",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "mutation"
+  ]
+}

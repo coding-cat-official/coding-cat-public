@@ -1,0 +1,10 @@
+{
+  "title": "make-series",
+  "name": "series",
+  "difficulty": "medium",
+  "author": "William Poirier",
+  "category": "List-2: Iterating",
+  "question_type": [
+    "coding"
+  ]
+}
