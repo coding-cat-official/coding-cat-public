@@ -1,8 +1,0 @@
-{
-  "title": "Mystery Recipe Reconstruction",
-  "name": "unique_ingredients",
-  "difficulty": "medium",
-  "author": "ChatGPT, edited by Eric",
-  "category": "List-2: Iterating",
-  "question_type": ["haystack"]
-}
