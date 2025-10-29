@@ -1,0 +1,22 @@
+[
+  {
+    "input": [[1, "apple", true, 2, "banana", false]],
+    "output": [[1, 2], [true, false], ["apple", "banana"]]
+  },
+  {
+    "input": [["hello", 42, false, 0, "world"]],
+    "output": [[42, 0], [false], ["hello", "world"]]
+  },
+  {
+    "input": [[]],
+    "output": [[], [], []]
+  },
+  {
+    "input": [[true, "yes", false, 99, 100, "no"]],
+    "output": [[99, 100], [true, false], ["yes", "no"]]
+  },
+  {
+    "input": [["only strings here", "and", "no", "others"]],
+    "output": [[], [], ["only strings here", "and", "no", "others"]]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "input": ["I love to decode"],
+    "output": true
+  },
+  {
+    "input": ["coding and cobe"],
+    "output": true
+  },
+  {
+    "input": ["cofe is life"],
+    "output": true
+  },
+  {
+    "input": [""],
+    "output": false
+  },
+  {
+    "input": ["co2"],
+    "output": false
+  },
+  {
+    "input": ["no coes here"],
+    "output": false
+  },
+  {
+    "input": ["cooe and cope and cole"],
+    "output": true
+  }
+]

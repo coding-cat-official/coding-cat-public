@@ -1,0 +1,35 @@
+[
+  {
+    "input": [["hi", "bye"], ["hi", "hello"]],
+    "output": 1
+  },
+  {
+    "input": [["apple", "banana", "cherry"], ["apple", "banana", "grape"]],
+    "output": 2
+  },
+  {
+    "input": [["cat", "dog"], ["mouse", "dog"]],
+    "output": 1
+  },
+  {
+    "input": [["a", "b", "c"], ["a", "x", "c"]],
+    "output": 2
+  },
+  {
+    "input": [["one", "two", "three"], ["one", "two", "three"]],
+    "output": 3
+  },
+  {
+    "input": [["one", "two", "three"], ["four", "five", "six"]],
+    "output": 0
+  },
+  {
+    "input": [["match", "nope"], ["match", "nope"]],
+    "output": 2
+  },
+  {
+    "input": [["repeat", "repeat", "repeat"], ["repeat", "different", "repeat"]],
+    "output": 2
+  }
+]
+

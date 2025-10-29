@@ -1,0 +1,22 @@
+[
+  {
+    "input": [[["apple", 1], ["banana", 2], ["cherry", 3]]],
+    "output": [1, 2, 3]
+  },
+  {
+    "input": [[["x", 10], ["y", 20], ["z", 30]]],
+    "output": [10, 20, 30]
+  },
+  {
+    "input": [[["item1", 5], ["item2", 15], ["item3", 25], ["item4", 35]]],
+    "output": [5, 15, 25, 35]
+  },
+  {
+    "input": [[["single", 42]]],
+    "output": [42]
+  },
+  {
+    "input": [[]],
+    "output": []
+  }
+]

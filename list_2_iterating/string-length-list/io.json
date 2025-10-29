@@ -1,0 +1,22 @@
+[  
+  {    
+    "input": [["apple", "banana", "cherry"]],
+    "output": [["apple", 5], ["banana", 6], ["cherry", 6]]
+  },
+  {
+    "input": [["hello", "world"]],
+    "output": [["hello", 5], ["world", 5]]
+  },
+  {
+    "input": [["a", "bb", "ccc", "dddd"]],
+    "output": [["a", 1], ["bb", 2], ["ccc", 3], ["dddd", 4]]
+  },
+  {
+    "input": [["one", "two", "three", "four"]],
+    "output": [["one", 3], ["two", 3], ["three", 5], ["four", 4]]
+  },
+  {
+    "input": [["hi", "there", "how", "are", "you"]],
+    "output": [["hi", 2], ["there", 5], ["how", 3], ["are", 3], ["you", 3]]
+  }
+]
