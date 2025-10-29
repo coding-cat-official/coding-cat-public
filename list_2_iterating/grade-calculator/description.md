@@ -1,6 +1,10 @@
-You want to calculate your final grade for Discrete Math. Your teacher informs you that the two lowest test scores will be discarded from your six tests for your final grade. 
+You want to calculate your final grade for Discrete Math. Your teacher informs you that the two
+lowest test scores will be discarded from your six tests for your final grade. However, in order to
+get a quiz grade you must complete all 6 quizzes; failure to complete even on test will result in a
+0.
 
-Given a list of integers from range of 0 to 100 with a length of 6, remove the two lowest value and then calculate your average for the remaining 4 marks. However, if have a failing final grade (under 60) or if you are missing a test, your mark will automatically be 0. 
+After checking there are 6 grades, and after removing the lowest two grades, if your average on the
+remaining four quizzes is below 60%, you get a zero overall.
 
 *Note:* Round the average to the nearest integer.
 
