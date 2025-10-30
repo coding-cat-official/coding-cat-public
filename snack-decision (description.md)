@@ -1,0 +1,10 @@
+Write afunction `def snack_decision(snacks: list, is_bulking: bool) -> int` thatdetermines the best number of calories based on the snacks calorie count and the and following conditions:
+
+-If you are bulking, pick a snack with the highest calorie count.
+-If you are cutting, pick the snack with the lowest calorie count.
+-The list will always have atleast one snack.
+
+For example:
+- If `snacks` is `[100, 200, 300]` and `is_bulking` is `True`, you should choose the highest calorie snack, so the output is `300`.
+-If `snacks` is `[400, 150, 250]` and `is_bulking` is `False`, you should choose the lowest calorie snack, which is `150`.
+-If `snacks` is `[50, 75, 25, 100]` and `is_bulking` is True, you should choose the highest calorie snack, so the output is `150`.
