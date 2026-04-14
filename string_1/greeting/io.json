@@ -2,5 +2,14 @@
   {"input": ["Bob"], "output": "Hello Bob!"},
   {"input": ["Alice"], "output": "Hello Alice!"},
   {"input": ["Eric"], "output": "Hello Eric!"},
-  {"input": [""], "output": "Hello !"}
+  {"input": ["John Doe"], "output": "Hello John Doe!"},
+  {"input": ["Jane Smith"], "output": "Hello Jane Smith!"},
+  {"input": ["O'Neil"], "output": "Hello O'Neil!"},
+  {"input": ["Li"], "output": "Hello Li!"},
+  {"input": ["Anne-Marie"], "output": "Hello Anne-Marie!"},
+  {"input": ["😊"], "output": "Hello 😊!"},
+  {"input": ["123"], "output": "Hello 123!"},
+  {"input": ["Dr. Robert"], "output": "Hello Dr. Robert!"},
+  {"input": ["  "], "output": "Hello   !"},
+  {"input": ["Jean-Luc"], "output": "Hello Jean-Luc!"}
 ]

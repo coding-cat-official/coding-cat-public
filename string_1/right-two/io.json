@@ -2,5 +2,14 @@
   {"input": ["Hello"], "output": "loHel"},
   {"input": ["java"], "output": "vaja"},
   {"input": ["Hi"], "output": "Hi"},
-  {"input": ["ab"], "output": "ab"}
+  {"input": ["ab"], "output": "ab"},
+  {"input": ["abcdef"], "output": "efabcd"},
+  {"input": ["rotation"], "output": "onrotati"},
+  {"input": ["Python"], "output": "onPyth"},
+  {"input": ["xy"], "output": "xy"},
+  {"input": ["12345"], "output": "45123"},
+  {"input": ["aabbcc"], "output": "ccaabb"},
+  {"input": ["test"], "output": "stte"},
+  {"input": ["code"], "output": "deco"},
+  {"input": ["zz"], "output": "zz"}
 ]

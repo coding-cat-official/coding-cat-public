@@ -3,5 +3,13 @@
   {"input": ["abba"],    "output": "bb"},
   {"input": ["code"],    "output": "od"},
   {"input": ["tyty"],    "output": "yt"},
-  {"input": ["aa"],      "output": "aa"}
+  {"input": ["aa"],      "output": "aa"},
+  {"input": ["middle"],      "output": "dd"},
+  {"input": ["testing"],      "output": "st"},
+  {"input": ["python"],      "output": "th"},
+  {"input": ["zzzz"],      "output": "zz"},
+  {"input": ["abcd"],      "output": "bc"},
+  {"input": ["xy"],      "output": "xy"},
+  {"input": ["hello!"],      "output": "ll"},
+  {"input": ["aabbcc"],      "output": "bb"}
 ]

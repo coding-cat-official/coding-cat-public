@@ -1,7 +1,15 @@
 [
   {"input": ["hippo", "hi"],   "output": "hi"},
   {"input": ["hippo", "xip"],  "output": "hip"},
-  {"input": ["hippo", "zip"],  "output": ""},
+  {"input": ["hippo", "zip"],  "output": "hip"},
   {"input": ["h",     "a"],    "output": "h"},
-  {"input": ["abc",   "abc"],  "output": "abc"}
+  {"input": ["abc",   "abc"],  "output": "abc"},
+  {"input": ["abc",   "xbc"],  "output": "abc"},
+  {"input": ["abc",   "axc"],  "output": ""},
+  {"input": ["a",      "a"],   "output": "a"},
+  {"input": ["a",      "b"],   "output": "a"},
+  {"input": ["a",      "ab"],  "output": ""},
+  {"input": ["hello",  "he"],  "output": "he"},
+  {"input": ["hello",  "xe"],  "output": "he"},
+  {"input": ["hello",  "helloo"], "output": ""}
 ]

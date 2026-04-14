@@ -3,5 +3,13 @@
   {"input": ["abc"],    "output": false},
   {"input": [""],       "output": true},
   {"input": ["😊😊"],   "output": true},
-  {"input": ["x"],      "output": false}
+  {"input": ["x"],      "output": false},
+  {"input": ["hello!"], "output": true},
+  {"input": ["hello"],  "output": false},
+  {"input": ["12345678"], "output": true},
+  {"input": ["1234567"],  "output": false},
+  {"input": [" "],      "output": false},
+  {"input": ["  "],     "output": true},
+  {"input": ["😊"],     "output": false},
+  {"input": ["😊😊😊"],"output": false}
 ]

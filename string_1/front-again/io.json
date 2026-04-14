@@ -1,7 +1,15 @@
 [
   {"input": ["edited"],  "output": true},
   {"input": ["edit"],    "output": false},
-  {"input": ["level"],   "output": true},
+  {"input": ["level"],   "output": false},
   {"input": ["aa"],      "output": true},
-  {"input": ["abcab"],   "output": false}
+  {"input": ["abcab"],   "output": true},
+  {"input": ["noon"], "output": false},
+  {"input": ["hello"], "output": false},
+  {"input": ["hellohe"], "output": true},
+  {"input": ["abxxab"], "output": true},
+  {"input": ["abab"], "output": true},
+  {"input": ["eoe"], "output": false},
+  {"input": ["testtest"], "output": false},
+  {"input": [""], "output": true}
 ]

@@ -1,5 +1,15 @@
 [
   {"input": ["i", "Yay"], "output": "<i>Yay</i>"},
   {"input": ["b", "Hello"], "output": "<b>Hello</b>"},
-  {"input": ["cite", "Text"], "output": "<cite>Text</cite>"}
+  {"input": ["cite", "Text"], "output": "<cite>Text</cite>"},
+  {"input": ["p", "Paragraph"], "output": "<p>Paragraph</p>"},
+  {"input": ["div", "content"], "output": "<div>content</div>"},
+  {"input": ["h1", "Title"], "output": "<h1>Title</h1>"},
+  {"input": ["em", "Emphasizez"], "output": "<em>Emphasizez</em>"},
+  {"input": ["strong", "Important"], "output": "<strong>Important</strong>"},
+  {"input": ["span", "Inline"], "output": "<span>Inline</span>"},
+  {"input": ["a", "Link"], "output": "<a>Link</a>"},
+  {"input": ["ul", "List"], "output": "<ul>List</ul>"},
+  {"input": ["li", "Item"], "output": "<li>Item</li>"},
+  {"input": ["h2", "Subtitle"], "output": "<h2>Subtitle</h2>"}
 ]

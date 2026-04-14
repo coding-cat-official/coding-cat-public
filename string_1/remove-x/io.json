@@ -4,5 +4,12 @@
   {"input": ["Hix"], "output": "Hi"},
   {"input": ["Hi"], "output": "Hi"},
   {"input": ["x"], "output": ""},
-  {"input": [""], "output": ""}
+  {"input": ["abcx"], "output": "abc"},
+  {"input": ["xx"], "output": ""},
+  {"input": ["abcd"], "output": "abcd"},
+  {"input": ["xaxb"], "output": "axb"},
+  {"input": ["bxx"], "output": "bx"},
+  {"input": ["xabx"], "output": "ab"},
+  {"input": ["hello"], "output": "hello"},
+  {"input": ["hexllo"], "output": "hexllo"}
 ]

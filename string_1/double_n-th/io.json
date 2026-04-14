@@ -22,5 +22,33 @@
   {
     "input": ["", -1],
     "output": ""
+  },
+  {
+    "input": ["programming", 2],
+    "output": "prroggraammminng"
+  },
+  {
+    "input": ["hi", 3],
+    "output": "hi"
+  },
+  {
+    "input": ["bonjour", -2],
+    "output": ""
+  },
+  {
+    "input": ["null", 0],
+    "output": ""
+  },
+  {
+    "input": ["", -2],
+    "output": ""
+  },
+  {
+    "input": ["abcdefg", 3],
+    "output": "abccdeffg"
+  },
+  {
+    "input": ["aaaaaa", 1],
+    "output": "aaaaaaaaaaaa"
   }
 ]
