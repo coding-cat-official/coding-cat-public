@@ -1,5 +1,5 @@
 from typing import List
 
-def biggerTwo(a: List[int], b: List[int]) -> List[int]:
+def bigger_two(a: List[int], b: List[int]) -> List[int]:
     # Your code here
     pass
