@@ -34,5 +34,13 @@
   {
   "input": [[-3, -3]],
   "output": false
+  },
+  {
+    "input": [[20, 30]],
+    "output": false
+  },
+  {
+    "input": [[22, 33]],
+    "output": false
   }
 ]
