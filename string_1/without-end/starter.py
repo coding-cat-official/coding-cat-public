@@ -1,1 +1,0 @@
-def without_end(s: str) -> str:

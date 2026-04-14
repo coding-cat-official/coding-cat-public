@@ -1,6 +1,9 @@
-Write a function `start_word(s: str, word: str) -> str` that returns the beginning of `s` if `word` **matches** `s` at the front **except** the first character need not match.  
-If it matches, return that front portion of `s`; otherwise return an empty string.  
-The parameter `word` is at least length 1.  
+Write a function `start_word(s: str, word: str) -> str` that does the following:
+
+* Check if the substring of `s` starting from the second character matches the substring from `word` starting from its second character.
+* If it matches, return the first part of `s` that has the same length as word.
+* If it doesn't match, return an empty string `""`
+
 Examples:
 * `("hippo", "hi")` → `"hi"`
 * `("hippo", "xip")` → `"hip"`

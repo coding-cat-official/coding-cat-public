@@ -1,1 +1,0 @@
-def the_end(s: str, front: bool) -> str:

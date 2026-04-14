@@ -1,1 +1,0 @@
-def half_string(s: str) -> str:
