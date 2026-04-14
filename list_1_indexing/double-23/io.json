@@ -18,5 +18,21 @@
   {
     "input": [[2]],
     "output": false
+  },
+  {
+    "input": [[0]],
+    "output": false
+  },
+  {
+    "input": [[100, 3]],
+    "output": false
+  },
+  {
+  "input": [[-2, -2]],
+  "output": false
+  },
+  {
+  "input": [[-3, -3]],
+  "output": false
   }
 ]
