@@ -1,1 +1,1 @@
-def series(n: int) -> float:
+def make_series(n: int) -> float:

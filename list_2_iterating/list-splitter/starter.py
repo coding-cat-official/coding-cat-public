@@ -1,2 +1,2 @@
-def elementArranger(a):
+def list_splitter(a):
     

@@ -1,1 +1,1 @@
-def final_grade(list):
+def grade_calculator(list):

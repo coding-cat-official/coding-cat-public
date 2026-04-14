@@ -1,1 +1,1 @@
-def median_num(nums):
+def median_in_list(nums):

@@ -1,1 +1,2 @@
-def is_same(array):
+def same_value(array):
+    

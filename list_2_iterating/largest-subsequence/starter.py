@@ -1,2 +1,2 @@
-def largest_sum(nums, is_even):
+def largest_subsequence(nums, is_even):
     return

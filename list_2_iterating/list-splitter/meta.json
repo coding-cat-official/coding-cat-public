@@ -1,6 +1,6 @@
 {
   "title": "ListSplitter",
-  "name": "elementArranger",
+  "name": "list_splitter",
   "difficulty": "medium",
   "author": "Alex Segal",
   "category": "List-2: Iterating",

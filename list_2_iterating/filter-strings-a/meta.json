@@ -1,6 +1,6 @@
 {
   "title": "Filter Strings Containing 'a'",
-  "name": "strings_args",
+  "name": "filter_strings_a",
   "difficulty": "easy",
   "author": "Narshael",
   "category": "List-2: Iterating",

@@ -1,1 +1,1 @@
-def sum_of_odd(lst):
+def sum_odd(lst):

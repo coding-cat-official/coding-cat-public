@@ -1,1 +1,2 @@
-def list_max_min(nums):
+def list_sum_max_min(nums):
+    

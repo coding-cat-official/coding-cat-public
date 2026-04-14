@@ -1,6 +1,6 @@
 {
   "title": "make-series",
-  "name": "series",
+  "name": "make_series",
   "difficulty": "medium",
   "author": "William Poirier",
   "category": "List-2: Iterating",

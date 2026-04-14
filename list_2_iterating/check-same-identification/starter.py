@@ -1,2 +1,2 @@
-def check_id(l1, l2, target) -> bool:
+def check_element_id(l1, l2, target) -> bool:
 

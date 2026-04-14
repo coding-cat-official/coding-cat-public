@@ -1,1 +1,1 @@
-def is_exponential(lst):
+def exponential_sequence_checker(lst):

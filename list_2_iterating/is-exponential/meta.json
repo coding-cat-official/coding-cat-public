@@ -1,6 +1,6 @@
 {
   "title": "Exponential Sequence Checker",
-  "name": "is_exponential",
+  "name": "exponential_sequence_checker",
   "difficulty": "easy",
   "author": "ChatGPT",
   "category": "List-2: Iterating",

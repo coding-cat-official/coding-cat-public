@@ -1,1 +1,1 @@
-def unique_sum(lst):
+def sum_elements(lst):

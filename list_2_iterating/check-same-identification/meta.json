@@ -1,6 +1,6 @@
 {
   "title": "Check Element ID",
-  "name": "check_id",
+  "name": "check_element_id",
   "difficulty": "medium",
   "author": "Lo\u00efc Arthur Ndjiongue Nzenang",
   "category": "List-2: Iterating",

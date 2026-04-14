@@ -1,1 +1,1 @@
-def assign_roll_numbers(students):
+def roll_numbers(students):
