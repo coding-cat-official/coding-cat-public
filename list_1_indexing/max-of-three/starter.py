@@ -1,5 +1,5 @@
 from typing import List
 
-def maxOfThree(nums: List[int]) -> int:
+def max_of_three(nums: List[int]) -> int:
     # Your code here
     pass
