@@ -48,7 +48,7 @@ for name in "${sorted_names[@]}"; do
 done
 
 write ""
-write "const problems = ["
+write "export const problems = ["
 for name in "${sorted_names[@]}"; do
   write "  $name,"
 done
