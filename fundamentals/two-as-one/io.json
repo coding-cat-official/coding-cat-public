@@ -18,5 +18,25 @@
   {
     "input": [8, 8, 15],
     "output": false
+  },
+  {
+    "input": [0, 1, 10],
+    "output": false
+  },
+  {
+    "input": [9, 19, 10],
+    "output": true
+  },
+  {
+    "input": [50, 29, 21],
+    "output": true
+  },
+  {
+    "input": [0, 0, 0],
+    "output": true
+  },
+  {
+    "input": [5, 5, 5],
+    "output": false
   }
 ]

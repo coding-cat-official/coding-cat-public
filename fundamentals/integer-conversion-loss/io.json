@@ -18,5 +18,25 @@
   {
     "input": [42.01],
     "output": true
+  },
+  {
+    "input": [50.000000001],
+    "output": true
+  },
+  {
+    "input": [0.0],
+    "output": false
+  },
+  {
+    "input": [110.5],
+    "output": true
+  },
+  {
+    "input": [-30.07],
+    "output": true
+  },
+  {
+    "input": [-55.57],
+    "output": true
   }
 ]

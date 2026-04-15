@@ -8,8 +8,20 @@
     "output": true
   },
   {
+    "input": [36],
+    "output": false
+  },
+  {
     "input": [44],
     "output": true
+  },
+  {
+    "input": [55],
+    "output": true
+  },
+  {
+    "input": [67],
+    "output": false
   },
   {
     "input": [10],

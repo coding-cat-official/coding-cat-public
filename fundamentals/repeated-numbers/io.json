@@ -1,0 +1,42 @@
+[
+  {
+    "input": [11],
+    "output": 11.11
+  },
+  {
+    "input": [5],
+    "output": 5.5
+  },
+  {
+    "input": [123],
+    "output": 123.123
+  },
+  {
+    "input": [0],
+    "output": 0.0
+  },
+  {
+    "input": [99],
+    "output": 99.99
+  },
+  {
+    "input": [567],
+    "output": 567.567
+  },
+  {
+    "input": [10],
+    "output": 10.10
+  },
+  {
+    "input": [105],
+    "output": 105.105
+  },
+  {
+    "input": [22],
+    "output": 22.22
+  },
+  {
+    "input": [5005],
+    "output": 5005.5005
+  }
+]

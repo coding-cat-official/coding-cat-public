@@ -18,5 +18,25 @@
   {
     "input": [999],
     "output": 999
+  },
+  {
+    "input": [-10000],
+    "output": 10000
+  },
+  {
+    "input": [55],
+    "output": 55
+  },
+  {
+    "input": [-1024],
+    "output": 1024
+  },
+  {
+    "input": [43110],
+    "output": 43110
+  },
+  {
+    "input": [-1],
+    "output": 1
   }
 ]
