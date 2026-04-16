@@ -4,20 +4,20 @@
     "output": false
   },
   {
-    "input": [12],
-    "output": false
+    "input": [4],
+    "output": true
   },
   {
-    "input": [2],
+    "input": [9],
     "output": true
+  },
+  {
+    "input": [7],
+    "output": false
   },
   {
     "input": [3],
     "output": true
-  },
-  {
-    "input": [0],
-    "output": false
   },
   {
     "input": [-6],
@@ -32,11 +32,11 @@
     "output": false
   },
   {
-    "input": [2000],
+    "input": [0],
     "output": true
   },
   {
-    "input": [66],
+    "input": [11],
     "output": false
   }
 ]
