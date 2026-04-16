@@ -33,6 +33,14 @@
   {
     "input": [""],
     "output": ""
+  },
+  {
+    "input": ["AbCdEfGh"],
+    "output": "AdGbEhCf"
+  },
+  {
+    "input": ["a b!c d?e"],
+    "output": "a!d c?b e"
   }
 
 ]

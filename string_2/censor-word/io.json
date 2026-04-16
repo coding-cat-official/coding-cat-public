@@ -26,5 +26,17 @@
   {
     "input": ["", "word"],
     "output": ""
+  },
+  {
+    "input": ["bad,bad! bad?", "bad"],
+    "output": "***,***! ***?"
+  },
+  {
+    "input": ["test test", "test"],
+    "output": "**** ****"
+  },
+  {
+    "input": ["test", ""],
+    "output": "test"
   }
 ]

@@ -1,4 +1,4 @@
-Create a new string which is made of characters of string A which are also present in string B at either the same spot, the spot before, or the spot after. Both strings A and B are the same size. 
+Write a function `range_chars(a: str, b: str) -> str` to create a new string which is made of characters of string A which are also present in string B at either the same spot, the spot before, or the spot after. Both strings A and B are the same size. 
 
 For example:
 - `range_chars("flopped", "helping") -> "lpp"`

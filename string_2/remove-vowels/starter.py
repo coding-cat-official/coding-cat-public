@@ -1,2 +1,3 @@
-def remove_vowels(strng: str) -> str:
-
+def remove_vowels(string: str) -> str:
+# Your code here
+    pass

@@ -30,5 +30,13 @@
   {
     "input": [""],
     "output": ""
+  },
+  {
+    "input": ["aabbccd"],
+    "output": "d"
+  },
+  {
+    "input": ["aAbBABac"],
+    "output": "c"
   }
 ]

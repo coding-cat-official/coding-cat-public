@@ -34,5 +34,9 @@
   {
     "input": ["noChangeNeeded"],
     "output": "no_change_needed"
+  },
+  {
+    "input": ["XMLHttpRequestJSONParser"],
+    "output": "x_m_l_http_request_j_s_o_n_parser"
   }
 ]

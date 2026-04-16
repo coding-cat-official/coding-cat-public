@@ -26,5 +26,17 @@
   {
     "input": ["cooe and cope and cole"],
     "output": true
+  },
+  {
+    "input": ["coze is here"],
+    "output": true
+  },
+  {
+    "input": ["acope and coze and code"],
+    "output": true
+  },
+  {
+    "input": ["coxa coke coo"],
+    "output": true
   }
 ]

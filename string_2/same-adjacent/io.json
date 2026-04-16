@@ -18,5 +18,25 @@
   {
     "input": ["ababababa", "b"],
     "output": 0
+  },
+  {
+    "input": ["", "c"],
+    "output": 0
+  },
+  {
+    "input": ["cc", ""],
+    "output": 0
+  },
+  {
+    "input": ["cc", "c"],
+    "output": 2
+  },
+  {
+    "input": ["xxxxxxx", "x"],
+    "output": 7
+  },
+  {
+    "input": ["!!@@!!", "!"],
+    "output": 4
   }
 ]

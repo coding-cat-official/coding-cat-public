@@ -18,5 +18,25 @@
   {
     "input": ["EricMayhewistTHEbest"],
     "output": 3
+  },
+  {
+    "input": ["a"],
+    "output": 0
+  },
+  {
+    "input": ["aa"],
+    "output": 0
+  },
+  {
+    "input": ["#a#a#a#"],
+    "output": 2
+  },
+  {
+    "input": ["hello!h!e!hh"],
+    "output": 2
+  },
+  {
+    "input": ["abc defg"],
+    "output": 0
   }
 ]

@@ -1,4 +1,4 @@
-Write a function `every_other_repeated(a, b)` that counts how many substrings of length two, formed by taking every other letter from string `a` match the last two letters of string `b`.
+Write a function `every_other_repeated(a: str, b: str) -> int` that counts how many substrings of length two, formed by taking every other letter from string `a` match the last two letters of string `b`.
 
 For example:
 - `every_other_repeated("ooooo", "ooooo")` → `3`

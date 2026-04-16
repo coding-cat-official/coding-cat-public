@@ -1,2 +1,3 @@
-def count_vowels(string):
-  
+def count_vowels(s: str) -> int:
+  # Your code here
+  pass

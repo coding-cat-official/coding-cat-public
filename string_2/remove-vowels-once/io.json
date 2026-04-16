@@ -18,5 +18,25 @@
   {
     "input": ["Symbol"],
     "output": "Smbl"
+  },
+  {
+    "input": ["aeiouy"],
+    "output": ""
+  },
+  {
+    "input": ["Education"],
+    "output": "dctn"
+  },
+  {
+    "input": ["rhythms"],
+    "output": "rhthms"
+  },
+  {
+    "input": [""],
+    "output": ""
+  },
+  {
+    "input": ["a x a"],
+    "output": " x a"
   }
 ]
