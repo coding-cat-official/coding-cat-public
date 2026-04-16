@@ -9,7 +9,7 @@
   {"input": ["abc", "def"], "output": "abcdef"},
   {"input": ["a", "a"],     "output": "a"},
   {"input": ["a", "b"],     "output": "ab"},
-  {"input": ["x", "y"],     "output": "xy"},
-  {"input": ["x", ""],      "output": "x"},
-  {"input": ["", "y"],      "output": "y"}
+  {"input": ["a", "A"],     "output": "aA"},
+  {"input": ["end.", ".start"], "output": "end.start"},
+  {"input": ["hello ", " orange"], "output": "hello orange"}
 ]
