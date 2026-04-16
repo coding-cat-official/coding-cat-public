@@ -8,6 +8,14 @@
     "output": false
   },
   {
+    "input": [false, true, true],
+    "output": true
+  },
+  {
+    "input": [true, false, false],
+    "output": false
+  },
+  {
     "input": [true, false, true],
     "output": true
   },

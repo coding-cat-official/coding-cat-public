@@ -26,5 +26,17 @@
   {
     "input": [3.0, 5.0, 2.0],
     "output": true
+  },
+  {
+    "input": [-3.0, -10.0, 0.0],
+    "output": true
+  },
+  {
+    "input": [0.0, 5.0, -5.0],
+    "output": true
+  },
+  {
+    "input": [100.0, -99.0, -101.0],
+    "output": false
   }
 ]

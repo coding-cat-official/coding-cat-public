@@ -1,4 +1,3 @@
-
 [
   {
     "input": [3, 3, 4],
@@ -18,6 +17,26 @@
   },
   {
     "input": [7, 8, 9],
+    "output": false
+  },
+  {
+    "input": [-5, -2, -5],
+    "output": true
+  },
+  {
+    "input": [-10, 10, 9],
+    "output": false
+  },
+  {
+    "input": [1000, 1000, 999],
+    "output": true
+  },
+  {
+    "input": [10, 10, 10],
+    "output": true
+  },
+  {
+    "input": [0, 9, 8],
     "output": false
   }
 ]

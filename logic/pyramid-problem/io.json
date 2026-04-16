@@ -4,11 +4,11 @@
     "output": "That's a big pyramid!"
   },
   {
-    "input": [0, 3, 12],
+    "input": [0, 3, 120],
     "output": "Baby pyramid"
   },
   {
-    "input": [-7, 4, 1],
+    "input": [7, 4, 1],
     "output": "Baby pyramid"
   },
   {
@@ -16,7 +16,27 @@
     "output": "Baby pyramid"
   },
   {
-    "input": [250, 1, 0.3],
+    "input": [80, 1, 1],
     "output": "I mean, it's alright..."
+  },
+  {
+    "input": [3, 1, 1],
+    "output": "Baby pyramid"
+  },
+  {
+    "input": [5, 5, 5],
+    "output": "That's a big pyramid!"
+  },
+  {
+    "input": [1, 2, 3],
+    "output": "Baby pyramid"
+  },
+  {
+    "input": [100, 100, 100],
+    "output": "That's a big pyramid!"
+  },
+  {
+    "input": [4, 20, 26],
+    "output": "That's a big pyramid!"
   }
 ]

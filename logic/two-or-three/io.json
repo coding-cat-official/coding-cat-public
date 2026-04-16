@@ -26,5 +26,17 @@
   {
     "input": [-3],
     "output": true
+  },
+  {
+    "input": [55],
+    "output": false
+  },
+  {
+    "input": [2000],
+    "output": true
+  },
+  {
+    "input": [66],
+    "output": false
   }
 ]
