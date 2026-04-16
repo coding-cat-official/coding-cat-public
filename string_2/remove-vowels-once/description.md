@@ -1,4 +1,4 @@
-Write a function `remove_vowels_once(word: str) -> str` that takes a string and returns a new string with all the      vowels (a, e, i, o, u, y) removed. Only remove the vowels, the first time they are printed in the word.
+Write a function `remove_vowels_once(word: str) -> str` that takes a string and returns a new string with all the vowels (a, e, i, o, u, y) removed. Only remove the vowels, the first time they are printed in the word.
 
 For example:
 - `remove_vowels_once("train")` → `"trn"`  (The first "a" and "i" were removed)

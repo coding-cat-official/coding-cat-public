@@ -1,5 +1,5 @@
 Oh no! The letter pixie took consonants from these words!
-Write a function `double_letter(word)` given a string, double the second consonant in the string to form the actual word. 
+Write a function `double_letter(word: str) -> str` given a string, double the second consonant in the string to form the actual word. 
 
 
 For example:

@@ -1,3 +1,3 @@
-def same_adjacent(str, char):
-# Your code here
+def same_adjacent(s: str, char: str) -> int:
+    # Your code here
     pass

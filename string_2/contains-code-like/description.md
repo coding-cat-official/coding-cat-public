@@ -1,4 +1,4 @@
-Write a function `contains_code_like(s)` that takes a string `s` and returns `True` if the string contains the word "code" with any character in place of the third character. Specifically, the function should return `True` if anywhere in the string `s` there is a substring that matches the pattern "co?e", where `?` stands for any single character.
+Write a function `contains_code_like(s: str) -> bool` that takes a string `s` and returns `True` if the string contains the word "code" with any character in place of the third character. Specifically, the function should return `True` if anywhere in the string `s` there is a substring that matches the pattern "co?e", where `?` stands for any single character.
 
 For example:
 - `contains_code_like("I love to decode")` should return `True` because it contains "code".
