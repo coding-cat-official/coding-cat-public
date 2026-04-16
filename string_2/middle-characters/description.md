@@ -1,4 +1,4 @@
-Given a string, return the number of times the first character is repeated excluding at the first and lastindex. Keep in mind that upper-case and lower-case letters are counted as the same.
+Write a function `middle_characters(word: str) -> int` given a string, return the number of times the first character is repeated excluding at the first and lastindex. Keep in mind that upper-case and lower-case letters are counted as the same.
 
 For example:
 - `middle_characters("abanAnab")` → `3`

@@ -2,7 +2,7 @@ Write a function `contains_code_like(s)` that takes a string `s` and returns `Tr
 
 For example:
 - `contains_code_like("I love to decode")` should return `True` because it contains "code".
-- `contains_code_like("coding and cobe")` should return `True` because it contains "cobe" (which fits the pattern).
+- `contains_code_like("coding and cobe")` should return `True` because it contains "cobe".
 - `contains_code_like("cofe is life")` should return `True` because it contains "cofe".
 - `contains_code_like("cone")` should return `False` because it does not contain a substring that fits the pattern.
 

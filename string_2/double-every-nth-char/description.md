@@ -1,4 +1,4 @@
-Given a string and a positive integer n, return a modified string where every character at position n and its multiples is doubled. Count positions starting from 1.
+Write a function `double_nth_char(text: str, n: int) -> str` given a string and a positive integer n, return a modified string where every character at position n and its multiples is doubled. Count positions starting from 1.
 
 For example:
 - double_nth(“hello", 2) → 'heelllo' (doubles chars at positions 2,4)
