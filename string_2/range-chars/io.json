@@ -22,5 +22,21 @@
   {
     "input": ["123", "435"],
     "output": "3"
+  },
+  {
+    "input": ["AbcD", "abcd"],
+    "output": "bc"
+  },
+  {
+    "input": ["!@#$", "@!#$"],
+    "output": "!@#$"
+  },
+  {
+    "input": ["aa aa", "aaaaa"],
+    "output": "aaaa"
+  },
+  {
+    "input": ["112233", "221133"],
+    "output": "1233"
   }
 ]

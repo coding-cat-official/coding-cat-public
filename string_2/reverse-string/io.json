@@ -18,5 +18,25 @@
   {
     "input": ["001000111010"],
     "output": "010111000100"
+  },
+  {
+    "input": ["a"],
+    "output": "a"
+  },
+  {
+    "input": ["hello!"],
+    "output": "!olleh"
+  },
+  {
+    "input": ["a1b2c3d4"],
+    "output": "4d3c2b1a"
+  },
+  {
+    "input": ["a b c d"],
+    "output": "d c b a"
+  },
+  {
+    "input": ["Love"],
+    "output": "evoL"
   }
 ]

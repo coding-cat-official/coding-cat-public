@@ -18,5 +18,25 @@
   {
     "input": ["xxxxxxx", "x", "z"],
     "output": 0
+  },
+  {
+    "input": ["abcdef", "a", "f"],
+    "output": 0
+  },
+  {
+    "input": ["ababa", "a", "b"],
+    "output": 4
+  },
+  {
+    "input": ["baab", "a", "b"],
+    "output": 2
+  },
+  {
+    "input": ["aaaa", "a", "a"],
+    "output": 0
+  },
+  {
+    "input": ["xyabz", "a", "b"],
+    "output": 1
   }
 ]

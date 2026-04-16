@@ -16,11 +16,19 @@
       "output": 0
     },
     {
-      "input": ["hello", "l"],
+      "input": ["aaaaaaa", "a"],
       "output": 1
     },
     {
-        "input": ["RAHHahh", "h"],
-        "output": 1
+      "input": ["AAaAAaaA", "a"],
+      "output": 1
+    },
+    {
+      "input": ["xxxyxxxxzxx", "x"],
+      "output": 3
+    },
+    {
+      "input": ["bbbabbbbabbb", "b"],
+      "output": 3
     }
   ]

@@ -30,5 +30,29 @@
   {
     "input": ["Don't bother with capital letters"],
     "output": 9
+  },
+  {
+    "input": ["hmm"],
+    "output": 0
+  },
+  {
+    "input": ["beautiful sky"],
+    "output": 6
+  },
+  {
+    "input": ["AEiouYaeIOuy"],
+    "output": 12
+  },
+  {
+    "input": ["C0d1ng 1s Aw3s0m3!!! yeS"],
+    "output": 3
+  },
+  {
+    "input": ["queueing queues quietly"],
+    "output": 13
+  },
+  {
+    "input": ["syzygy rhythm crypt"],
+    "output": 5
   }
 ]

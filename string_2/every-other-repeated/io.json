@@ -18,5 +18,25 @@
   {
     "input": ["loool", "hello"],
     "output": 1
+  },
+  {
+    "input": ["ab", "cab"],
+    "output": 0
+  },
+  {
+    "input": ["", "zzax"],
+    "output": 0
+  },
+  {
+    "input": ["AcxLapX", "zzax"],
+    "output": 2
+  },
+  {
+    "input": ["aaaaa", "xxaa"],
+    "output": 3
+  },
+  {
+    "input": ["a a a a", "xa "],
+    "output": 0
   }
 ]

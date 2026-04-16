@@ -18,5 +18,25 @@
   {
     "input": ["hello world!"],
     "output": "hll wrld!"
+  },
+  {
+    "input": ["AEIOUaeiou"],
+    "output": ""
+  },
+  {
+    "input": ["rhythms"],
+    "output": "rhythms"
+  },
+  {
+    "input": ["h3ll0 w0rld!"],
+    "output": "h3ll0 w0rld!"
+  },
+  {
+    "input": [""],
+    "output": ""
+  },
+  {
+    "input": ["nice one"],
+    "output": "nc n"
   }
 ]

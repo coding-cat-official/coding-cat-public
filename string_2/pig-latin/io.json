@@ -26,5 +26,17 @@
   {
     "input": [""],
     "output": ""
+  },
+  {
+    "input": ["APPLE"],
+    "output": "Appleway"
+  },
+  {
+    "input": ["yellow"],
+    "output": "ellowyay"
+  },
+  {
+    "input": ["hello!"],
+    "output": "ello!hay"
   }
 ]

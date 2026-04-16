@@ -18,5 +18,25 @@
     {
         "input": ["bo"],
         "output": "bo"
+    },
+    {
+        "input": ["aio"],
+        "output": "aio"
+    },
+    {
+        "input": ["aeiobcd"],
+        "output": "aeiobccd"
+    },
+    {
+        "input": ["a e dog"],
+        "output": "a e dogg"
+    },
+    {
+        "input": ["BaNaNa"],
+        "output": "BaNNaNa"
+    },
+    {
+        "input": ["hi there!"],
+        "output": "hi tthere!"
     }
 ]

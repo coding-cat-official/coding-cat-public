@@ -30,6 +30,14 @@
     {
         "input": ["java", 3],
         "output": "javva"
+    },
+    {
+        "input": ["xyz", 1],
+        "output": "xxyyzz"
+    },
+    {
+        "input": ["abcdef", 5],
+        "output": "abcdeef"
     }
 
 ]
