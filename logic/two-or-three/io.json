@@ -33,7 +33,7 @@
   },
   {
     "input": [0],
-    "output": true
+    "output": false
   },
   {
     "input": [11],
