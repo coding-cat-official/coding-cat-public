@@ -1,1 +1,0 @@
-def is_century_year(year: int) -> bool:

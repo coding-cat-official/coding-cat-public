@@ -1,0 +1,42 @@
+[
+  {
+    "input": [1],
+    "output": 60
+  },
+  {
+    "input": [0],
+    "output": 0
+  },
+  {
+    "input": [3],
+    "output": 180
+  },
+  {
+    "input": [10],
+    "output": 600
+  },
+  {
+    "input": [25],
+    "output": 1500
+  },
+  {
+    "input": [-1],
+    "output": -60
+  },
+  {
+    "input": [100],
+    "output": 6000
+  },
+  {
+    "input": [-50],
+    "output": -3000
+  },
+  {
+    "input": [5],
+    "output": 300
+  },
+  {
+    "input": [50000],
+    "output": 3000000
+  }
+]

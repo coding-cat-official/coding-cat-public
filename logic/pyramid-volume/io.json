@@ -1,0 +1,42 @@
+[
+  {
+    "input": [5, 6, 7],
+    "output": "That's a big pyramid!"
+  },
+  {
+    "input": [3, 6, 6],
+    "output": "I mean, it's alright..."
+  },
+  {
+    "input": [2, 3, 5],
+    "output": "Baby pyramid"
+  },
+  {
+    "input": [5, 5, 5],
+    "output": "That's a big pyramid!"
+  },
+  {
+    "input": [40, 20, 26],
+    "output": "That's a big pyramid!"
+  },
+  {
+    "input": [2, 6, 10],
+    "output": "That's a big pyramid!"
+  },
+  {
+    "input": [3, 13, 3],
+    "output": "I mean, it's alright..."
+  },
+  {
+    "input": [5, 5, 3],
+    "output": "I mean, it's alright..."
+  },
+  {
+    "input": [9, 4, 2],
+    "output": "Baby pyramid"
+  },
+  {
+    "input": [0, 1, 2],
+    "output": "Baby pyramid"
+  }
+]

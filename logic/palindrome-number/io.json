@@ -4,6 +4,10 @@
     "output": true
   },
   {
+    "input": [1331],
+    "output": true
+  },
+  {
     "input": [123],
     "output": false
   },
@@ -21,6 +25,18 @@
   },
   {
     "input": [-121],
+    "output": false
+  },
+  {
+    "input": [2332],
+    "output": true
+  },
+  {
+    "input": [556676655],
+    "output": true
+  },
+  {
+    "input": [5050],
     "output": false
   }
 ]

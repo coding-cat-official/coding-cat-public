@@ -18,5 +18,17 @@
   {
     "input": [false, true, true],
     "output": false
+  },
+  {
+    "input": [true, true, true],
+    "output": false
+  },
+  {
+    "input": [false, true, false],
+    "output": true
+  },
+  {
+    "input": [true, false, true],
+    "output": false
   }
 ]

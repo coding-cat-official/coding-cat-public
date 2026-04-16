@@ -20,7 +20,23 @@
     "output": true
   },
   {
-    "input": [1, 0.2],
+    "input": [10, 0.20],
+    "output": false
+  },
+  {
+    "input": [99, 0.99],
+    "output": true
+  },
+  {
+    "input": [55, 0.55],
+    "output": true
+  },
+  {
+    "input": [15, 0.15],
+    "output": true
+  },
+  {
+    "input": [20, 0.22],
     "output": false
   }
 ]

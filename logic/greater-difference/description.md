@@ -1,1 +1,0 @@
-Write a function `greater_difference(a: int, b: int, c: int) -> bool` that takes three integer inputs: `a`, `b`, and `c`. The function should return `True` if the absolute difference between `a` and `b` is greater than `c`, and `False` otherwise.

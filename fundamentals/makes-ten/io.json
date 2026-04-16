@@ -18,5 +18,25 @@
   {
     "input": [10, 10],
     "output": true
+  },
+  {
+    "input": [-10, -10],
+    "output": false
+  },
+  {
+    "input": [35, -25],
+    "output": true
+  },
+  {
+    "input": [-55, 55],
+    "output": false
+  },
+  {
+    "input": [-1, 11],
+    "output": true
+  },
+  {
+    "input": [0, 0],
+    "output": false
   }
 ]

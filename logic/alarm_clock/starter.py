@@ -1,1 +1,0 @@
-def alarm_clock(day: int, vacation: bool) -> str:

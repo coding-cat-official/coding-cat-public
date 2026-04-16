@@ -1,1 +1,0 @@
-def power_of_two(n: int) -> bool:
