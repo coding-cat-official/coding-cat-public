@@ -7,4 +7,4 @@ Write a function `pyramid_volume(length: int, width: int, height: int) -> str` t
 For example:
 - `pyramid_volume(5, 6, 7) → 70 → "That's a big pyramid!"`
 - `pyramid_volume(3, 6, 6) → 36 → "I mean, it's alright..."`
-- `pyramid_volume(2, 3, 4) → 24 → "Baby pyramid"`
+- `pyramid_volume(2, 3, 5) → 10 → "Baby pyramid"`
