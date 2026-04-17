@@ -1,8 +1,15 @@
-
 [
   {"input": ["123abc"],   "output": true},
   {"input": ["12a3bc"],   "output": false},
   {"input": ["00xx"],     "output": true},
   {"input": ["9Z"],       "output": true},
-  {"input": ["ab12"],     "output": false}
+  {"input": ["ab12"],     "output": false},
+  {"input": ["4567abcd"], "output": true},
+  {"input": ["1234abcd"], "output": true},
+  {"input": ["123x5678"], "output": false},
+  {"input": ["0000zzzz"], "output": true},
+  {"input": ["98765432"], "output": true},
+  {"input": ["  "], "output": false},
+  {"input": ["12ab34cd"], "output": false},
+  {"input": ["11112222"], "output": true}
 ]

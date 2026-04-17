@@ -3,5 +3,13 @@
   {"input": [""],      "output": "<>"},
   {"input": ["123"],   "output": "<123>"},
   {"input": ["<tag>"], "output": "<<tag>>"},
-  {"input": ["&"],     "output": "<&>"}
+  {"input": ["&"],     "output": "<&>"},
+  {"input": ["hello world"], "output": "<hello world>"},
+  {"input": ["!"], "output": "<!>"},
+  {"input": ["a"], "output": "<a>"},
+  {"input": ["<>"], "output": "<<>>"},
+  {"input": ["{}"], "output": "<{}>"},
+  {"input": ["<>123"], "output": "<<>123>"},
+  {"input": ["😀"], "output": "<😀>"},
+  {"input": ["<tag>"], "output": "<<tag>>"}
 ]

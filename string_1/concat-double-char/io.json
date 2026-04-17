@@ -3,5 +3,13 @@
   {"input": ["dog", "go"],  "output": "dogo"},
   {"input": ["aa",  "a"],   "output": "aa"},
   {"input": ["",   "start"],"output": "start"},
-  {"input": ["end", ""],    "output": "end"}
+  {"input": ["end", ""],    "output": "end"},
+  {"input": ["hello", "orange"], "output": "hellorange"},
+  {"input": ["test", "test"],    "output": "testest"},
+  {"input": ["abc", "def"], "output": "abcdef"},
+  {"input": ["a", "a"],     "output": "a"},
+  {"input": ["a", "b"],     "output": "ab"},
+  {"input": ["a", "A"],     "output": "aA"},
+  {"input": ["end.", ".start"], "output": "end.start"},
+  {"input": ["hello ", " orange"], "output": "hello orange"}
 ]

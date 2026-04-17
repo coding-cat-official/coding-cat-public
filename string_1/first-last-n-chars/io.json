@@ -3,5 +3,13 @@
   {"input": ["Python", 1],    "output": "Pn"},
   {"input": ["edge", 2],      "output": "edge"},
   {"input": ["abc", 0],       "output": ""},
-  {"input": ["aabbcc", 3],    "output": "aabbcc"}
+  {"input": ["aabbcc", 3],    "output": "aabbcc"},
+  {"input": ["abcdef", 2], "output": "abef"},
+  {"input": ["hello", 4], "output": "hellello"},
+  {"input": ["world", 5], "output": "worldworld"},
+  {"input": ["test", 1], "output": "tt"},
+  {"input": ["example", 3], "output": "exaple"},
+  {"input": ["data", 2], "output": "data"},
+  {"input": ["x", 1], "output": "xx"},
+  {"input": ["openai", 0], "output": ""}
 ]

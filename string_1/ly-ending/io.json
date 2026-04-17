@@ -3,5 +3,18 @@
   {"input": ["sad"],      "output": false},
   {"input": ["fly"],      "output": true},
   {"input": ["LY"],       "output": false},
-  {"input": ["ly"],       "output": true}
+  {"input": ["ly"],       "output": true},
+  {"input": ["apply"], "output": true},
+  {"input": ["flyer"], "output": false},
+  {"input": ["lyric"], "output": false},
+  {"input": ["daily"], "output": true},
+  {"input": ["ally"], "output": true},
+  {"input": ["delay"], "output": false},
+  {"input": ["lying"], "output": false},
+  {"input": ["family"], "output": true},
+  {"input": ["only"], "output": true},
+  {"input": ["slyly"], "output": true},
+  {"input": [" "], "output": false},
+  {"input": ["bully"], "output": true},
+  {"input": ["flyby"], "output": false}
 ]
