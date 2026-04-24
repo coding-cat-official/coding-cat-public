@@ -18,5 +18,25 @@
   {
     "input": [[120, 127, 131, 160]],
     "output": [127, 131]
+  },
+  {
+    "input": [[5]],
+    "output": [5]
+  },
+  {
+    "input": [[1, 2, 4, 5, 6, 8]],
+    "output": [1, 2, 5]
+  },
+  {
+    "input": [[10, 20, 30, 50]],
+    "output": "There are no prime numbers in this list"
+  },
+  {
+    "input": [[45, 54, 63, 72, 81, 90]],
+    "output": "There are no prime numbers in this list"
+  },
+  {
+    "input": [[1, 50, 97]],
+    "output": [1, 97]
   }
 ]

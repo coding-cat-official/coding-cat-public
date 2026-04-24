@@ -18,5 +18,25 @@
   {
     "input": ["amicAl"],
     "output": ["a","i","A"]
+  },
+  {
+    "input": ["bing bang BOOM"],
+    "output": ["i", "a", "O", "O"]
+  },
+  {
+    "input": ["XXXXXXX"],
+    "output": []
+  },
+  {
+    "input": [""],
+    "output": []
+  },
+  {
+    "input": ["aAeE"],
+    "output": ["a", "A", "e", "E"]
+  },
+  {
+    "input": ["vowels VOWELS"],
+    "output": ["o", "e", "O", "E"]
   }
 ]

@@ -18,5 +18,25 @@
   {
     "input": [[6,"nervous",26,"vulture",7]],
     "output": ["nervous","vulture"]
+  },
+  {
+    "input": [["hello", 123, 0.959, "goodbye"]],
+    "output": ["hello", "goodbye"]
+  },
+  {
+    "input": [["wow", "python", "never"]],
+    "output": ["wow", "python", "never"]
+  },
+  {
+    "input": [[293, 9005, "yes"]],
+    "output": ["yes"]
+  },
+  {
+    "input": [[25, 76, 37, 55, 28, 95]],
+    "output": []
+  },
+  {
+    "input": [["woah there"]],
+    "output": ["woah there"]
   }
 ]

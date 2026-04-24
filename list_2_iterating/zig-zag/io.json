@@ -26,5 +26,17 @@
   {
     "input": ["!?., "],
     "output": "! ?,."
+  },
+  {
+    "input": ["012345"],
+    "output": "051423"
+  },
+  {
+    "input": ["cdnctagio"],
+    "output": "codingcat"
+  },
+  {
+    "input": ["thomas"],
+    "output": "tshaom"
   }
 ]
