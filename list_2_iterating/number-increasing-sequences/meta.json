@@ -1,6 +1,6 @@
 {
   "title": "Number of Increasing Sequences",
-  "name": "nbr_increasing_sequences",
+  "name": "num_increasing_sequences",
   "difficulty": "hard",
   "author": "Jerome Lavoie",
   "category": "List-2: Iterating",

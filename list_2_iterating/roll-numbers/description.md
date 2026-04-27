@@ -9,6 +9,6 @@ If you get an empty list or an empty string, give the output “Invalid List”.
 **Hint:** Find a way to arrange the list in an increasing order using built-in python functions
 
 For example:
-- `assign_roll_numbers([“James”, “Eric”, “Antman”]) → [[1, “Antman”], [2, “Eric”], [3, “James”]]`
-- `assign_roll_numbers([“Khan”, “Singh”, “Maha”, “Karl”]) → [[1, “Karl”], [2, “Khan”], [3, “Maha”], [4, “Singh”]]`
-- `assign_roll_numbers([“A”, “Aa”, “a”]) → [[1, “A”], [2, “Aa”], [3, “a”]]`
+- `roll_numbers([“James”, “Eric”, “Antman”]) → [[1, “Antman”], [2, “Eric”], [3, “James”]]`
+- `roll_numbers([“Khan”, “Singh”, “Maha”, “Karl”]) → [[1, “Karl”], [2, “Khan”], [3, “Maha”], [4, “Singh”]]`
+- `roll_numbers([“A”, “Aa”, “a”]) → [[1, “A”], [2, “Aa”], [3, “a”]]`
