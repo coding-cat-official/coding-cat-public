@@ -4,5 +4,7 @@
   "difficulty": "easy",
   "author": "Eric",
   "category": "List-2: Iterating",
-  "question_type": [ "coding" ]
+  "question_type": [
+    "coding"
+  ]
 }

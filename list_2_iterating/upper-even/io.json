@@ -14,6 +14,30 @@
 	{
 		"input":["YESSSSS"],
 		"output":"YeSsSsS"
+	},
+	{
+		"input":["pythonn"],
+		"output":"PyThOnN"
+	},
+	{
+		"input":["WHERE"],
+		"output":"WhErE"
+	},
+	{
+		"input":["LorEMIpsuM"],
+		"output":"LoReMiPsUm"
+	},
+	{
+		"input":["SeaRCH"],
+		"output":"SeArCh"
+	},
+	{
+		"input":["oPpOsItE"],
+		"output":"OpPoSiTe"
+	},
+	{
+		"input":["GoogooGaga"],
+		"output":"GoOgOoGaGa"
 	}
 ]
 

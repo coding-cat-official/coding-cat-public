@@ -22,5 +22,21 @@
   {
     "input": [["Ferrari", "Tesla", "Honda", ""]],
     "output": "Invalid list"
+  },
+  {
+    "input": [["abc", "ghi", "def"]],
+    "output": [[1, "abc"], [2, "def"], [3, "ghi"]]
+  },
+  {
+    "input": [["Almost", "never", "always"]],
+    "output": [[1, "Almost"], [2, "always"], [3, "never"]]
+  },
+  {
+    "input": [["First", "Second", "Third", "Fourth"]],
+    "output": [[1, "First"], [2, "Second"], [3, "Third"], [4, "Fourth"]]
+  },
+  {
+    "input": [["Wagon", "Alien", "Stock"]],
+    "output": [[1, "Alien"], [2, "Stock"], [3, "Wagon"]]
   }
 ]

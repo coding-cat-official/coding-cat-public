@@ -1,4 +1,4 @@
-Write a function `string_length_lists(lst)` that takes a list of strings and returns a list of list. Each inner list should contain a string and its corresponding length.
+Write a function `string_length_list(lst)` that takes a list of strings and returns a list of list. Each inner list should contain a string and its corresponding length.
 
 
 ```python

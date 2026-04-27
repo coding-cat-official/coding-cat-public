@@ -28,6 +28,14 @@
     "output": 2
   },
   {
+    "input": [["hi", "hi1", "hi2"], ["hello", "hi1", "hi"]],
+    "output": 1
+  },
+  {
+    "input": [["yes", "no"], ["no", "yes"]],
+    "output": 0
+  },
+  {
     "input": [["repeat", "repeat", "repeat"], ["repeat", "different", "repeat"]],
     "output": 2
   }

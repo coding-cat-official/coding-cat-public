@@ -18,5 +18,25 @@
   {
     "input": [["only strings here", "and", "no", "others"]],
     "output": [[], [], ["only strings here", "and", "no", "others"]]
+  },
+  {
+    "input": [["string", true, 1]],
+    "output": [[1], [true], ["string"]]
+  },
+  {
+    "input": [[true, false, 0]],
+    "output": [[0], [true, false], []]
+  },
+  {
+    "input": [[1, "hello", "2", true]],
+    "output": [[1], [true], ["hello", "2"]]
+  },
+  {
+    "input": [["string here", 200, 400, 500, "final"]],
+    "output": [[200, 400, 500], [], ["string here", "final"]]
+  },
+  {
+    "input": [["boom", 293, false]],
+    "output": [[293], [false], ["boom"]]
   }
 ]

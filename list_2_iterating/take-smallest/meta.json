@@ -1,8 +1,10 @@
 {
   "title": "Take Smallest",
   "name": "take_smallest",
-  "difficulty": "easy",
+  "difficulty": "medium",
   "author": "Eric",
   "category": "List-2: Iterating",
-  "question_type": [ "coding" ]
+  "question_type": [
+    "coding"
+  ]
 }

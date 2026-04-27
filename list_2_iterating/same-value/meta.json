@@ -1,6 +1,6 @@
 {
   "title": "Same Value",
-  "name": "is_same",
+  "name": "same_value",
   "difficulty": "easy",
   "author": "Mattieux Fournier",
   "category": "List-2: Iterating",

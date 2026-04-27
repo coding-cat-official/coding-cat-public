@@ -1,2 +1,4 @@
-def Third_Largest(numbers: list[int]) -> int:
+def third_largest(numbers: list[int]) -> int:
+    # Put your code here
+    pass
     

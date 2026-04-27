@@ -8,6 +8,34 @@
       "output": ["Armin", "Mikasa", "Gabi"]
   },
   {
+      "input": [["one", "apple", "three", "banana"]],
+      "output": ["apple", "banana"]
+  },
+  {
+      "input": [[]],
+      "output": []
+  },
+  {
+      "input": [["hello", "hi", "how are you?", "amazing!"]],
+      "output": ["how are you?", "amazing!"]
+  },
+  {
+      "input": [["Simon", "coding", "python"]],
+      "output": []
+  },
+  {
+      "input": [["box", "in a box"]],
+      "output": ["in a box"]
+  },
+  {
+      "input": [["awesome!", "giraffe", "Dawson", "Kangaroo", "fan"]],
+      "output": ["awesome!", "giraffe", "Dawson", "Kangaroo", "fan"]
+  },
+  {
+      "input": [["Cool", "yeah", "woohoo", "awooga"]],
+      "output": ["yeah", "awooga"]
+  },
+  {
       "input": [["Toop", "Bop", "Wham", "Bleep"]],
       "output": ["Wham"]
   }

@@ -18,5 +18,25 @@
   {
     "input": [["hi", "there", "how", "are", "you"]],
     "output": [["hi", 2], ["there", 5], ["how", 3], ["are", 3], ["you", 3]]
+  },
+  {
+    "input": [["one", "two", "three"]],
+    "output": [["one", 3], ["two", 3], ["three", 5]]
+  },
+  {
+    "input": [["python", "is", "cool"]],
+    "output": [["python", 6], ["is", 2], ["cool", 4]]
+  },
+  {
+    "input": [["hi"]],
+    "output": [["hi", 2]]
+  },
+  {
+    "input": [["bang", "pop", "kaboom", "yippee"]],
+    "output": [["bang", 4], ["pop", 3], ["kaboom", 6], ["yippee", 6]]
+  },
+  {
+    "input": [["bye", "goodbye"]],
+    "output": [["bye", 3], ["goodbye", 7]]
   }
 ]
