@@ -17,7 +17,7 @@ In Python, there are many data types, but the most common ones you'll see on Cod
 
 There are quite a few more types to learn about, but to keep things simple, these are just some to start with. For more information on types, check out [this blog post]()
 
-You can get the type of a variable by running `type()` on it. Have a look at the starter code. *Don't worry about `__name__`, it will not come up* This function will return a `str` representing the type of the variable `number`. It currently does not use `var`.
+You can get the type of a variable by running `type()` on it. Have a look at the starter code. *Don't worry about `__name__`, it will not come up in later problems.* This function will return a `str` representing the type of the variable `number`. It currently does not use `var`.
 
 For example:
 `num = 5, word = "hello", no = False`

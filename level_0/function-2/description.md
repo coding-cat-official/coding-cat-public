@@ -1,8 +1,8 @@
-Write a function `function2(num1, num2):` that takes in 2 numbers, `num1` and `num2` and returns their sum.
+Write a function `function2(num1, num2)` that takes in 2 numbers, `num1` and `num2` and returns their sum.
 
 Parameters are where functions get a little more dynamic. Values are passed to the function in the parentheses after the name when it is called, and then they are available within the function as variables.
 
-You can call the parameters whatever you want, `num1` and `num2` are just suggestions.
+For any function you write, you can call the parameters whatever you want, `num1` and `num2` are just suggestions.
 
 Example:
 
