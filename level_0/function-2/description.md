@@ -2,6 +2,8 @@ Write a function `function2(num1, num2):` that takes in 2 numbers, `num1` and `n
 
 Parameters are where functions get a little more dynamic. Values are passed to the function in the parentheses after the name when it is called, and then they are available within the function as variables.
 
+You can call the parameters whatever you want, `num1` and `num2` are just suggestions.
+
 Example:
 
 `function2(10, 25)`
@@ -18,6 +20,8 @@ def get_difference(num1, num2):
 
 # Running `get_difference(10, 25)` would return -15.
 ```
+
+You can create your own variables like I did with `diff` here, simply give it a name and a value!
 
 If you aren't sure how your code is running, `print` statements can help you figure that out! Just be sure to remove them later once you know everything works!
 
