@@ -1,0 +1,18 @@
+[
+  {
+    "input": [true, false],
+    "output": "bool1"
+  },
+  {
+    "input": [false, true],
+    "output": "bool2"
+  },
+  {
+    "input": [true, true],
+    "output": "bool1"
+  },
+  {
+    "input": [false, false],
+    "output": "nope"
+  }
+]
