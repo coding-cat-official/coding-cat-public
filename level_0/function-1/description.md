@@ -1,6 +1,6 @@
 Write a function called `function1()` that always returns `True`.
 
-The format to define a new function in Python is `def function_name():`. Don't forget the colon!
+To define a new function in Python, write `def function_name():` in the code box below. Don't forget the colon!
 
 Any lines after the definition needs to be indented. You can indent with the Tab key.
 

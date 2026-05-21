@@ -1,6 +1,4 @@
-Write a function `function6(bool1, bool2)` that takes two booleans as input, and returns `"bool1"` if `bool1` is `True`, otherwise return `"bool2"` if `bool2` is `True`, otherwise return `"nope"`. 
-
-This problem will require the conditional statements `if`, `elif` and `else`.
+If you want to use conditions in your code, you're going to need the conditional statements `if`, `elif` and `else`.
 
 `if` statements are formatted like this:
 ```
@@ -33,3 +31,7 @@ else:
     # if all above was False (num is between 6 and 9), do this
 # do this afterwards, regardless of num
 ```
+
+<hr/>
+
+Write a function `function6(bool1, bool2)` that takes two booleans as input, and returns `"bool1"` if `bool1` is `True`, otherwise return `"bool2"` if `bool2` is `True`, otherwise return `"nope"`. 

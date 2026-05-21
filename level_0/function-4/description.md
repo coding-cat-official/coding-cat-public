@@ -1,6 +1,4 @@
-Write a function `function4(num)` that takes as input an `int` and returns `True` if `num` is greater than or equal to 10, and `False` otherwise.
-
-Now that we know about booleans, we can move on to operators that use and compare them.
+If you want to compare multiple values to each other, you're going to need to know about some comparison operators.
 
 There are a couple ways to compare two values:
 - `==`: returns `True` if the values are equal in value and `False` otherwise.
@@ -19,3 +17,12 @@ There are a couple ways to compare two values:
   - `2 > 5` → `False`
   - `20 >= 20` → `True`
   - `1 > 1` → `False`
+
+<hr/>
+
+Write a function `function4(num)` that takes as input an `int` and returns `True` if `num` is greater than or equal to 10, and `False` otherwise.
+
+For example:
+- `function4(5)` → `False`
+- `function4(11)` → `True`
+- `function4(10)` → `True`

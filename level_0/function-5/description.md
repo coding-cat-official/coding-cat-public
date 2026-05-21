@@ -1,15 +1,4 @@
-Write a function `function5(age, has_ticket, is_vip)` that returns `True` if a person can enter a venue, and `False` otherwise.
-The function takes as input and `int` for the person's `age`, and two `bool`s for whether they have their ticket and if they are a VIP.
-The rules are:
-- They must be 18 or older *and* have their ticket
-- *Or* they must be a VIP (VIPs always get in, no matter what)
-
-For example:
-- `function5(18, True, False)` → `True`
-- `function5(20, False, False)` → `False`, they don't have their ticket
-- `function5(16, False, True)` → `True`, while underage and without ticket, they are a VIP
-
-This problem will require us to learn about the `and` and `or` logical operators.
+If you want to combine and compare multiple conditions together, you're going to need the `and` and `or` keywords.
 
 Python has three logical operators for combining conditions:
 - `and`: both sides must be `True`
@@ -47,3 +36,16 @@ VS
 True and False
 False  # different result!
 ```
+
+<hr/>
+
+Write a function `function5(age, has_ticket, is_vip)` that returns `True` if a person can enter a venue, and `False` otherwise.
+The function takes as input and `int` for the person's `age`, and two `bool`s for whether they have their ticket and if they are a VIP.
+The rules are:
+- They must be 18 or older *and* have their ticket
+- *Or* they must be a VIP (VIPs always get in, no matter what)
+
+For example:
+- `function5(18, True, False)` → `True`
+- `function5(20, False, False)` → `False`, they don't have their ticket
+- `function5(16, False, True)` → `True`, while underage and without ticket, they are a VIP
