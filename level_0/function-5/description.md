@@ -12,7 +12,7 @@ True or False → True
 not True → False
 ```
 
-When mixing `and` and `or`, use parentheses to make your intent clear. In the order or operations, `and` comes before `or`.
+When mixing `and` and `or`, like when using PEMDAS, use parentheses to prioritize operations and make your intent clear. In the order or operations, `and` comes before `or`.
 
 Example:
 ```
@@ -25,17 +25,20 @@ c = False
 ```
 a or b and c
 True or True and False
-True or (True and False)  # 'and' evaluated first
+True or [True and False]  # 'and' evaluated first, True and False → False 
 True or False
 True
 ```
 VS
 ```
 (a or b) and c
-(True or True) and False  # parentheses first
+(True or True) and False
+[(True or True)] and False  # parentheses first, True or True → True
 True and False
-False  # different result!
+False
 ```
+See how the parentheses affects the order of operations?
+
 
 <hr/>
 

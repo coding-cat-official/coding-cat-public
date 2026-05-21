@@ -1,5 +1,17 @@
 [
   { 
+    "input": [18, true, false], 
+    "output": true 
+  },
+  { 
+    "input": [20, false, false], 
+    "output": false
+  },
+  { 
+    "input": [16, false, true], 
+    "output": true 
+  },
+  { 
     "input": [25, true, false], 
     "output": true 
   },
@@ -14,10 +26,6 @@
   { 
     "input": [16, false, false], 
     "output": false 
-  },
-  { 
-    "input": [16, false, true], 
-    "output": true 
   },
   { 
     "input": [16, true, true], 
