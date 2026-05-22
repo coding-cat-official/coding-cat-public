@@ -1,54 +1,28 @@
-If you want to combine and compare multiple conditions together, you're going to need the `and` and `or` keywords.
+If you want to compare multiple values to each other, you're going to need to know about some comparison operators.
 
-Python has three logical operators for combining conditions:
-- `and`: both sides must be `True`
-- `or`: at least one side must be `True`
-- `not`: flips `True` to `False` and vice versa (not used in this problem but good to know!)
+There are a couple ways to compare two values:
+- `==`: returns `True` if the values are equal in value and `False` otherwise.
+  - `5 == 5` → `True`
+  - `"word" == 'word'` → `True` (the single VS double quotes do not change the value)
+  - `"word" == "Word"` → `False` (capitalization matter when using `str`!!)
+  - `5 == "5"` → `False` (one is an `int`, the other a `str`)
 
-Example:
-```
-True and False → False
-True or False → True
-not True → False
-```
+- `!=`: returns `True` if values are **not** equal in value and `False` otherwise. The opposite of the previous operator.
+  - `5 != 5` → `False`
+  - `"word" != 'word'` → `False`
+  - `5 != "5"` → `True`
 
-When mixing `and` and `or`, like when using PEMDAS, use parentheses to prioritize operations and make your intent clear. In the order or operations, `and` comes before `or`.
-
-Example:
-```
-a = True
-b = True
-c = False
-```
-
-
-```
-a or b and c
-True or True and False
-True or [True and False]  # 'and' evaluated first, True and False → False 
-True or False
-True
-```
-VS
-```
-(a or b) and c
-(True or True) and False
-[(True or True)] and False  # parentheses first, True or True → True
-True and False
-False
-```
-See how the parentheses affects the order of operations?
-
+- `>` / `<` / `>=` / `<=`: works the same as it does in math. Returns `True` if the equality is true, and `False` otherwise.
+  - `5 < 10` → `True`
+  - `2 > 5` → `False`
+  - `20 >= 20` → `True`
+  - `1 > 1` → `False`
 
 <hr/>
 
-Write a function `function6(age, has_ticket, is_vip)` that returns `True` if a person can enter a venue, and `False` otherwise.
-The function takes as input and `int` for the person's `age`, and two `bool`s for whether they have their ticket and if they are a VIP.
-The rules are:
-- They must be 18 or older *and* have their ticket
-- *Or* they must be a VIP (VIPs always get in, no matter what)
+Write a function `function6(num)` that takes as input an `int` and returns `True` if `num` is greater than or equal to 10, and `False` otherwise.
 
 For example:
-- `function6(18, True, False)` → `True`
-- `function6(20, False, False)` → `False`, they don't have their ticket
-- `function6(16, False, True)` → `True`, while underage and without ticket, they are a VIP
+- `function6(5)` → `False`
+- `function6(11)` → `True`
+- `function6(10)` → `True`

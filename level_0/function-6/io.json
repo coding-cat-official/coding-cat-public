@@ -1,38 +1,22 @@
 [
-  { 
-    "input": [18, true, false], 
-    "output": true 
-  },
-  { 
-    "input": [20, false, false], 
+  {
+    "input": [5],
     "output": false
   },
-  { 
-    "input": [16, false, true], 
-    "output": true 
+  {
+    "input": [11],
+    "output": true
   },
-  { 
-    "input": [25, true, false], 
-    "output": true 
+  {
+    "input": [10],
+    "output": true
   },
-  { 
-    "input": [25, false, false], 
-    "output": false 
+  {
+    "input": [100000],
+    "output": true
   },
-  { 
-    "input": [16, true, false], 
-    "output": false 
-  },
-  { 
-    "input": [16, false, false], 
-    "output": false 
-  },
-  { 
-    "input": [16, true, true], 
-    "output": true 
-  },
-  { 
-    "input": [25, false, true], 
-    "output": true 
+  {
+    "input": [-10],
+    "output": false
   }
 ]

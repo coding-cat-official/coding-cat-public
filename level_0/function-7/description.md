@@ -1,53 +1,54 @@
-If you want to use conditions in your code, you're going to need the conditional statements `if`, `elif` and `else`.
+If you want to combine and compare multiple conditions together, you're going to need the `and` and `or` keywords.
 
-`if` statements are formatted like this:
-```
-if condition:
-    # do things if condition == True
-# do this afterwards, regardless of result
-```
+Python has three logical operators for combining conditions:
+- `and`: both sides must be `True`
+- `or`: at least one side must be `True`
+- `not`: flips `True` to `False` and vice versa (not used in this problem but good to know!)
 
 Example:
 ```
-note = ""
-if num > 10:
-    note = "number greater than 10"
-return note
+True and False → False
+True or False → True
+not True → False
 ```
 
-`if` statements can be paired with an `else` statement. As you might guess, the contents of `else` run when the `if` condition is `False`.
-
-`else` statements are formatted like this:
-```
-note = ""
-if num >= 10:
-    note = "num is 10 or greater"
-else:
-    note = "num is less than 10"
-return note
-```
-
-Finally, you can chain `if` statements together to make branching paths using `elif`. `elif` statements combine `else` and `if` to make a statement that only runs if the `if` above it was `False`.
-
-Tip: You don't have to check if a `bool` is `==` to `True`, `bool`s can be their own condition! For example, if `x` is a `bool`, you can just write `if x:`, and it means the same as `if x == True:`
+When mixing `and` and `or`, like when using PEMDAS, use parentheses to prioritize operations and make your intent clear. In the order or operations, `and` comes before `or`.
 
 Example:
 ```
-note = ""
-if num >= 10:
-    note = "num is 10 or greater"
-elif num <= 5:   # only checks this if num >= 10 is False
-    note = "num is 5 or less"
-else:
-    note = "num is between 6 and 9"
-return note
+a = True
+b = True
+c = False
 ```
+
+
+```
+a or b and c
+True or True and False
+True or [True and False]  # 'and' evaluated first, True and False → False 
+True or False
+True
+```
+VS
+```
+(a or b) and c
+(True or True) and False
+[(True or True)] and False  # parentheses first, True or True → True
+True and False
+False
+```
+See how the parentheses affects the order of operations?
+
 
 <hr/>
 
-Write a function `function7(bool1, bool2)` that takes two booleans as input. If `bool1` is `True` it should return `1`, elif `bool2` is `True` it should return `2`, else return `0`.
+Write a function `function7(age, has_ticket, is_vip)` that returns `True` if a person can enter a venue, and `False` otherwise.
+The function takes as input and `int` for the person's `age`, and two `bool`s for whether they have their ticket and if they are a VIP.
+The rules are:
+- They must be 18 or older *and* have their ticket
+- *Or* they must be a VIP (VIPs always get in, no matter what)
 
-Some examples:
-- `function7(True, False)` → `1`
-- `function7(False, True)` → `2`
-- `function7(False, False)` → `0`
+For example:
+- `function7(18, True, False)` → `True`
+- `function7(20, False, False)` → `False`, they don't have their ticket
+- `function7(16, False, True)` → `True`, while underage and without ticket, they are a VIP

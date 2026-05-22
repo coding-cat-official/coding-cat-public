@@ -1,28 +1,18 @@
-If you want to compare multiple values to each other, you're going to need to know about some comparison operators.
+A very useful math operator to know about in coding is `%`, the Modulus Operator.
 
-There are a couple ways to compare two values:
-- `==`: returns `True` if the values are equal in value and `False` otherwise.
-  - `5 == 5` → `True`
-  - `"word" == 'word'` → `True` (the single VS double quotes do not change the value)
-  - `"word" == "Word"` → `False` (capitalization matter when using `str`!!)
-  - `5 == "5"` → `False` (one is an `int`, the other a `str`)
-
-- `!=`: returns `True` if values are **not** equal in value and `False` otherwise. The opposite of the previous operator.
-  - `5 != 5` → `False`
-  - `"word" != 'word'` → `False`
-  - `5 != "5"` → `True`
-
-- `>` / `<` / `>=` / `<=`: works the same as it does in math. Returns `True` if the equality is true, and `False` otherwise.
-  - `5 < 10` → `True`
-  - `2 > 5` → `False`
-  - `20 >= 20` → `True`
-  - `1 > 1` → `False`
+Also called the remainder operator, it is used to get the remainder of the division of two `int`s. It can be used just like any other math operator.
+Example:
+```
+10 % 5 = 0 (10 divides cleanly by 5 with no remainder, so 0)
+7 % 3 = 1 (7 can be divided into 2 groups of 3, leaving a remainder of 1)
+6 % 10 = 6 (6 can't make one full group of 10, leaving a remainder of the whole 6)
+```
 
 <hr/>
 
-Write a function `function5(num)` that takes as input an `int` and returns `True` if `num` is greater than or equal to 10, and `False` otherwise.
+For this problem, you are a baker who bakes doughnuts. You ship them in boxes of 12. Write a function `function5(doughtnuts)` that takes an `int` representing a number of doughnuts, and returns an `int` representing the number of doughnuts remaining after you fill as many boxes of 12 as you can.
 
 For example:
-- `function5(5)` → `False`
-- `function5(11)` → `True`
-- `function5(10)` → `True`
+- `function5(48)` → `0` (48 goes cleanly into dozens, 0 remaining)
+- `function5(13)` → `1` (13 makes one dozen, with 1 remaining)
+- `function5(5)` → `5` (5 doesn't fill a dozen, so 5 remaining)
