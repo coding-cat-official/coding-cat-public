@@ -23,6 +23,6 @@ There are a couple ways to compare two values:
 Write a function `function5(num)` that takes as input an `int` and returns `True` if `num` is greater than or equal to 10, and `False` otherwise.
 
 For example:
-- `function4(5)` → `False`
-- `function4(11)` → `True`
-- `function4(10)` → `True`
+- `function5(5)` → `False`
+- `function5(11)` → `True`
+- `function5(10)` → `True`
