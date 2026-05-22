@@ -1,22 +1,22 @@
 [
   {
     "input": [5],
-    "output": 20
+    "output": 30
   },
   {
     "input": [10],
-    "output": 35
+    "output": 45
   },
   {
     "input": [0],
-    "output": 5
+    "output": 15
   },
   {
     "input": [100],
-    "output": 305
+    "output": 315
   },
   {
-    "input": [-5],
-    "output": -10
+    "input": [-10],
+    "output": -15
   }
 ]
