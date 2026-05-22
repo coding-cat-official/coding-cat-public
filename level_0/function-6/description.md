@@ -1,43 +1,54 @@
-If you want to use conditions in your code, you're going to need the conditional statements `if`, `elif` and `else`.
+If you want to combine and compare multiple conditions together, you're going to need the `and` and `or` keywords.
 
-`if` statements are formatted like this:
-```
-if condition:
-    # do things
-# do this afterwards, regardless of result
-```
+Python has three logical operators for combining conditions:
+- `and`: both sides must be `True`
+- `or`: at least one side must be `True`
+- `not`: flips `True` to `False` and vice versa (not used in this problem but good to know!)
 
 Example:
 ```
-if num > 10:
-    comment = "number greater than 10"
-return comment
+True and False → False
+True or False → True
+not True → False
 ```
 
-`if` statements can be paired with an `else` statement. As you might guess, the contents of `else` run when the `if` condition is `False`.
-
-`else` statements are formatted like this:
-```
-if num >= 10:
-    comment = "num is 10 or greater"
-else:
-    comment = "num is less than 10"
-return comment
-```
-
-Finally, you can chain `if` statements together to make branching paths using `elif`. `elif` statements combine `else` and `if` to make a statement that only runs if the `if` above it was `False`.
+When mixing `and` and `or`, like when using PEMDAS, use parentheses to prioritize operations and make your intent clear. In the order or operations, `and` comes before `or`.
 
 Example:
 ```
-if num >= 10:
-    comment = "num is 10 or greater"
-elif num <= 5:   # only checks this is num < 10
-    comment = "num is 5 or less"
-else:
-    comment = "num is between 6 and 9"
-return comment
+a = True
+b = True
+c = False
 ```
+
+
+```
+a or b and c
+True or True and False
+True or [True and False]  # 'and' evaluated first, True and False → False 
+True or False
+True
+```
+VS
+```
+(a or b) and c
+(True or True) and False
+[(True or True)] and False  # parentheses first, True or True → True
+True and False
+False
+```
+See how the parentheses affects the order of operations?
+
 
 <hr/>
 
-Write a function `function6(bool1, bool2)` that takes two booleans as input. If `bool1` is `True` it should return `1`, otherwise if `bool2` is `True` it should return `2`, else return `0`.
+Write a function `function6(age, has_ticket, is_vip)` that returns `True` if a person can enter a venue, and `False` otherwise.
+The function takes as input and `int` for the person's `age`, and two `bool`s for whether they have their ticket and if they are a VIP.
+The rules are:
+- They must be 18 or older *and* have their ticket
+- *Or* they must be a VIP (VIPs always get in, no matter what)
+
+For example:
+- `function6(18, True, False)` → `True`
+- `function6(20, False, False)` → `False`, they don't have their ticket
+- `function6(16, False, True)` → `True`, while underage and without ticket, they are a VIP
