@@ -1,14 +1,22 @@
-Parameters are where functions get a little more dynamic. Values are passed to the function in the parentheses after the name when it is called, and then they are available within the function as variables.
+<strong>Parameters</strong>
 
-For any function you write, you can call the parameters whatever you want, `num1` and `num2` are just suggestions.
+Parameters are where functions get a little more dynamic. Values are passed to the function in the parentheses `()` after the name when it is called, and then they are available within the function as variables.
 
-Example:
+For example, if you defined a function called `function2` with two parameters like this:
+```
+def function2(num1, num2):
+    # do stuff
+```
 
-`function2(10, 25)`
-* This is calling function2 with 10 and 25
-* In this execution, `num1` = 10 and `num2` = 25
+If you were to run `function2(10, 25)`:
+- This is calling `function2` with 10 and 25
+- In this execution, `num1` = 10 and `num2` = 25
 
-`return` statements are how you get things out of functions. Coding Cat takes the function you write and passes a set list of inputs, and checks the expected result against what your code returns.
+<hr/>
+
+<strong>Return Statements</strong>
+
+`return` statements are how you get things out of functions. Coding Cat takes the function you write and passes it a set list of inputs, and checks the expected result against what your code returns.
 
 For example:
 ```
@@ -23,8 +31,6 @@ You can create your own variables like I did with `diff` here, simply give it a 
 
 If you aren't sure how your code is running, `print` statements can help you figure that out! Just be sure to remove them later once you know everything works!
 
-Try writing `print(num1)` in your `function2` and see what happens!
-
 <hr/>
 
 Write a function `function2(num1, num2)` that takes in 2 numbers, `num1` and `num2` and returns their sum.
@@ -33,3 +39,5 @@ For example:
 - `function2(10, 25)` → `35`
 - `function2(1, 1)` → `2`
 - `function2(-5, -5)` → `-10`
+
+Note: Try writing `print(num1)` in your `function2` and see what happens!

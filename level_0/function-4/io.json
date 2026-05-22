@@ -1,6 +1,22 @@
 [
   {
     "input": [5],
-    "output": 10
+    "output": 20
+  },
+  {
+    "input": [10],
+    "output": 35
+  },
+  {
+    "input": [0],
+    "output": 5
+  },
+  {
+    "input": [100],
+    "output": 305
+  },
+  {
+    "input": [-5],
+    "output": -10
   }
 ]

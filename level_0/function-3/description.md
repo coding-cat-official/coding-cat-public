@@ -15,14 +15,21 @@ In Python, there are many data types, but the most common ones you'll see on Cod
 
 There are quite a few more types to learn about, but to keep things simple, these are just some to start with. For more information on types, check out [this blog post]()
 
-You can get the type of a variable by passing it to a pre-made Python function called `type()` by putting the variable within the parentheses like so `type(variable_name)`. 
+You can get the type of a variable by passing it to a pre-made Python function called `type()` by putting the variable within the parentheses like so: `type(variable_name)`. `type().__name__` returns a `str` that represents the type of variable entered.
 
-Have a look at the starter code. *Don't worry about `__name__`, it will not come up in later problems.* This function will return a `str` representing the type of the variable `number`. **It currently does not use `var`.**
+Example:
+```
+x = 5
+y = "hello"
+z = False
+```
 
-For example:
-`num = 5, word = "hello", no = False`
-- `type(num).__name__ → 'int'`
-- `type(word).__name__ → 'str'`
-- `type(no).__name__ → 'bool'`
+- `type(x).__name__` → `'int'`
+- `type(y).__name__` → `'str'`
+- `type(z).__name__` → `'bool'`
 
+<br/>
 
+Have a look at the starter code. When you hit run, the function will be passed different types of variables. We want it to return each variable's type. 
+
+**It currently only returns the type of the variable `number`, we want it to use `var`. Do not change `__name__`.**

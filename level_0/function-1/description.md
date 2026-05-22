@@ -1,4 +1,6 @@
-To define a new function in Python, write `def function_name():` in the code box below. Don't forget the colon!
+To define a new function in Python, write `def name_of_your_function():` in the code box below. Don't forget the colon!
+
+In general, you can name functions whatever you want, but for Coding Cat the name must be exactly as the problem asks.
 
 Any lines after the definition needs to be indented. You can indent with the Tab key.
 
@@ -14,4 +16,10 @@ Note: if you want to write notes for yourself in the code, you can add comments 
 
 Define a function called `function1()` that always returns `True`.
 
-For the moment, all the function should contain is `return True`. We'll cover `return` statements in the next problem.
+It should look like this:
+```
+def function1():
+    return True
+```
+
+Then hit the "Run" button below, or hit Alt + Enter!

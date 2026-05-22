@@ -1,4 +1,4 @@
-If you want to combine and compare multiple conditions together, you're going to need the `and` and `or` keywords.
+If you want to combine and compare multiple conditions together, you're going to need the `and` and `or` logical operators.
 
 Python has three logical operators for combining conditions:
 - `and`: both sides must be `True`
