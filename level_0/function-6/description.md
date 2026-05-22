@@ -20,9 +20,9 @@ There are a couple ways to compare two values:
 
 <hr/>
 
-Write a function `function6(num)` that takes as input an `int` and returns `True` if `num` is greater than or equal to 10, and `False` otherwise.
+Write a function `ten_or_greater(num)` that takes as input an `int` and returns `True` if `num` is greater than or equal to 10, and `False` otherwise.
 
 For example:
-- `function6(5)` → `False`
-- `function6(11)` → `True`
-- `function6(10)` → `True`
+- `ten_or_greater(5)` → `False`
+- `ten_or_greater(11)` → `True`
+- `ten_or_greater(10)` → `True`

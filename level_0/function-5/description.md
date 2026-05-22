@@ -14,9 +14,9 @@ For more information on Modulus, check out [this blog post]()
 
 For this problem, you are a baker who bakes doughnuts. You ship them in boxes of 12. 
 
-Write a function `function5(doughtnuts)` that takes an `int` representing a number of doughnuts, and returns an `int` representing the number of doughnuts remaining after you fill as many boxes of 12 as you can.
+Write a function `get_remaning_doughnuts(doughtnuts)` that takes an `int` representing a number of doughnuts, and returns an `int` representing the number of doughnuts remaining after you fill as many boxes of 12 as you can.
 
 For example:
-- `function5(48)` → `0` (48 goes cleanly into dozens, 0 remaining)
-- `function5(13)` → `1` (13 makes one dozen, with 1 remaining)
-- `function5(5)` → `5` (5 doesn't fill a dozen, so 5 remaining)
+- `get_remaning_doughnuts(48)` → `0` (48 goes cleanly into dozens, 0 remaining)
+- `get_remaning_doughnuts(13)` → `1` (13 makes one dozen, with 1 remaining)
+- `get_remaning_doughnuts(5)` → `5` (5 doesn't fill a dozen, so 5 remaining)

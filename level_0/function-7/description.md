@@ -42,13 +42,13 @@ See how the parentheses affects the order of operations?
 
 <hr/>
 
-Write a function `function7(age, has_ticket, is_vip)` that returns `True` if a person can enter a venue, and `False` otherwise.
+Write a function `check_venue_access(age, has_ticket, is_vip)` that returns `True` if a person can enter a venue, and `False` otherwise.
 The function takes as input and `int` for the person's `age`, and two `bool`s for whether they have their ticket and if they are a VIP.
 The rules are:
 - They must be 18 or older *and* have their ticket
 - *Or* they must be a VIP (VIPs always get in, no matter what)
 
 For example:
-- `function7(18, True, False)` → `True`
-- `function7(20, False, False)` → `False`, they don't have their ticket
-- `function7(16, False, True)` → `True`, while underage and without ticket, they are a VIP
+- `check_venue_access(18, True, False)` → `True`
+- `check_venue_access(20, False, False)` → `False`, they don't have their ticket
+- `check_venue_access(16, False, True)` → `True`, while underage and without ticket, they are a VIP

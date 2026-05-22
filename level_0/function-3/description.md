@@ -30,6 +30,6 @@ z = False
 
 <br/>
 
-Have a look at the starter code. When you hit run, the function will be passed different types of variables. We want it to return each variable's type. 
+Have a look at the starter code. There is already a function called `get_var_type(var)`. When you hit run, `get_var_type()` will be passed different types of variables. We want it to return each variable's type as a `str`. 
 
-**It currently only returns the type of the variable `number`, we want it to use `var`. Do not change `__name__`.**
+**It currently only returns the type of the variable `number`, we want it to use `var`. Do not touch `__name__`.**

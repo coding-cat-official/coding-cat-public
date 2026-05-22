@@ -33,11 +33,11 @@ If you aren't sure how your code is running, `print` statements can help you fig
 
 <hr/>
 
-Write a function `function2(num1, num2)` that takes in 2 numbers, `num1` and `num2` and returns their sum.
+Write a function `sum_nums(num1, num2)` that takes in 2 numbers, `num1` and `num2` and returns their sum.
 
 For example:
-- `function2(10, 25)` → `35`
-- `function2(1, 1)` → `2`
-- `function2(-5, -5)` → `-10`
+- `sum_nums(10, 25)` → `35`
+- `sum_nums(1, 1)` → `2`
+- `sum_nums(-5, -5)` → `-10`
 
-Note: Try writing `print(num1)` in your `function2` and see what happens!
+Note: Try writing `print(num1)` in your `sum_nums` and see what happens!

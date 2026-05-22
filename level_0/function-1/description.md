@@ -10,15 +10,15 @@ def new_function():
     # do something
 ```
 
-Note: if you want to write notes for yourself in the code, you can add comments with `#` as above. It won't affect the running code.
+Note: if you want to write notes for yourself in the code, you can add comments with `#` as above. It won't affect the code execution.
 
 <hr/>
 
-Define a function called `function1()` that always returns `True`.
+Define a function called `return_true()` that always returns `True`.
 
 It should look like this:
 ```
-def function1():
+def return_true():
     return True
 ```
 

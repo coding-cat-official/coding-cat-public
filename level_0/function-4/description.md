@@ -19,9 +19,9 @@ example_pemdas = (5 + 1) * (11 - 4) / 3
 
 <hr/>
 
-Write a function `function4(num)` that takes an `int` called `num` as input, multiplies it by 3, adds 5, then returns it.
+Write a function `plus_five_times_three(num)` that takes an `int` called `num` as input, adds 5, multiplies it by 3, then returns it.
 
 For example:
-- `function4(5)` → `20`
-- `function4(10)` → `35`
-- `function4(0)` → `5`
+- `plus_five_times_three(5)` → `24`
+- `plus_five_times_three(10)` → `39`
+- `plus_five_times_three(0)` → `15`

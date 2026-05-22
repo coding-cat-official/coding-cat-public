@@ -45,9 +45,9 @@ return note
 
 <hr/>
 
-Write a function `function8(bool1, bool2)` that takes two booleans as input. If `bool1` is `True` it should return `1`, elif `bool2` is `True` it should return `2`, else return `0`.
+Write a function `if_elif_else(bool1, bool2)` that takes two booleans as input. If `bool1` is `True` it should return `1`, elif `bool2` is `True` it should return `2`, else return `0`.
 
 Some examples:
-- `function8(True, False)` → `1`
-- `function8(False, True)` → `2`
-- `function8(False, False)` → `0`
+- `if_elif_else(True, False)` → `1`
+- `if_elif_else(False, True)` → `2`
+- `if_elif_else(False, False)` → `0`
