@@ -25,3 +25,5 @@ For example:
 - `plus_five_times_three(5)` → `24`
 - `plus_five_times_three(10)` → `39`
 - `plus_five_times_three(0)` → `15`
+
+Remember the order of operations!

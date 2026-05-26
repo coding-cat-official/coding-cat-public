@@ -1,6 +1,6 @@
 To define a new function in Python, write `def name_of_your_function():` in the code box below. Don't forget the colon!
 
-In general, you can name functions whatever you want, but for Coding Cat the name must be exactly as the problem asks.
+In general, you can name functions whatever you want, but for Coding Cat the name must be exactly as the problem asks. (The problem is at the bottom)
 
 Any lines after the definition needs to be indented. You can indent with the Tab key.
 

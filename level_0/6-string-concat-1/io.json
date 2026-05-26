@@ -1,0 +1,8 @@
+[
+  {"input": ["hey"],  "output": "!hey!"},
+  {"input": ["wow"],   "output": "!wow!"},
+  {"input": [""],      "output": "!!"},
+  {"input": ["!"], "output": "!!!"},
+  {"input": ["_"],     "output": "!_!"},
+  {"input": ["hello world"], "output": "!hello world!"}
+]

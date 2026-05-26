@@ -1,8 +1,8 @@
 {
-  "title": "1: Function Definition",
-  "name": "return_true",
+  "title": "Is Even",
+  "name": "is_even",
   "difficulty": "easy",
-  "author": "Luke Weaver",
+  "author": "",
   "category": "Level 0",
   "question_type": [
     "coding"

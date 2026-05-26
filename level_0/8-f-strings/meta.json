@@ -1,8 +1,8 @@
 {
-  "title": "6: Comparison Operators",
-  "name": "ten_or_greater",
+  "title": "8: Formatted Strings",
+  "name": "hello_greeting",
   "difficulty": "easy",
-  "author": "",
+  "author": "Luke Weaver",
   "category": "Level 0",
   "question_type": [
     "coding"

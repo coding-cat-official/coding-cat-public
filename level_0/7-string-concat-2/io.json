@@ -1,0 +1,22 @@
+[
+  {
+    "input": ["cat", 5],
+    "output": "catcatcatcatcat"
+  },
+  {
+    "input": ["gebfcsvfs", 1],
+    "output": "gebfcsvfs"
+  },
+  {
+    "input": ["nothing", 0],
+    "output": ""
+  },
+  {
+    "input": ["*", 10],
+    "output": "**********"
+  },
+  {
+    "input": ["#", 50],
+    "output": "##################################################"
+  }
+]

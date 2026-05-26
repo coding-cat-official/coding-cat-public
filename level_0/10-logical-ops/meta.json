@@ -1,8 +1,8 @@
 {
-  "title": "7: Logical Operators",
+  "title": "10: Logical Operators",
   "name": "check_venue_access",
   "difficulty": "easy",
-  "author": "",
+  "author": "Luke Weaver",
   "category": "Level 0",
   "question_type": [
     "coding"

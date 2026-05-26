@@ -1,0 +1,42 @@
+[
+  {
+    "input": [4],
+    "output": true
+  },
+  {
+    "input": [7],
+    "output": false
+  },
+  {
+    "input": [0],
+    "output": true
+  },
+  {
+    "input": [-2],
+    "output": true
+  },
+  {
+    "input": [13],
+    "output": false
+  },
+  {
+    "input": [100],
+    "output": true
+  },
+  {
+    "input": [57],
+    "output": false
+  },
+  {
+    "input": [-1000],
+    "output": true
+  },
+  {
+    "input": [19],
+    "output": false
+  },
+  {
+    "input": [20],
+    "output": true
+  }
+]

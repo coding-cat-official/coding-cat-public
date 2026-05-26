@@ -8,13 +8,13 @@ Example:
 6 % 10 = 6 (6 can't make one full group of 10, leaving a remainder of the whole 6)
 ```
 
-For more information on Modulus, check out [this blog post]()
+For more information on Modulus and other math operators, check out [this blog post](/#/blogs/math_operators).
 
 <hr/>
 
-For this problem, you are a baker who bakes doughnuts. You ship them in boxes of 12. 
+Imagine you are a baker who makes doughnuts. You ship them in boxes of 12.
 
-Write a function `get_remaining_doughnuts(doughtnuts)` that takes an `int` representing a number of doughnuts, and returns an `int` representing the number of doughnuts remaining after you fill as many boxes of 12 as you can.
+Write a function `get_remaining_doughnuts(doughnuts)` that takes an `int` representing a number of doughnuts, and returns an `int` representing the number of doughnuts remaining after you fill as many boxes of 12 as you can.
 
 For example:
 - `get_remaining_doughnuts(48)` → `0` (48 goes cleanly into dozens, 0 remaining)
