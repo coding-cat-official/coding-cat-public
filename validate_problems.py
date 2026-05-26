@@ -97,12 +97,15 @@ def validate_problem(problem_path, rel_path):
         if not os.path.isfile(st):
             error(rel_path, "missing starter.py for coding/haystack question")
         else:
-            # ensure function def matches meta.name
-            if name:
-                content = open(st, encoding='utf-8').read()
-                pat = rf"def\s+{re.escape(name)}\s*\("
-                if not re.search(pat, content):
-                    error(rel_path, f"starter.py does not define function '{name}()'")
+            # ensure starter.py either defines a function that matches meta.name or is empty
+            content = open(st, encoding='utf-8').read()
+            if content.strip(): # non-empty - validate function name
+                if not name:
+                    error(rel_path, "starter.py is non-empty but meta.json has no 'name' field to validate against")
+                else: 
+                    pat = rf"def\s+{re.escape(name)}\s*\("
+                    if not re.search(pat, content):
+                        error(rel_path, f"starter.py is non-empty and does not define function '{name}()'")
         # should not have mutation files
         muts = glob.glob(os.path.join(problem_path, 'mutation_*.py'))
         if muts:

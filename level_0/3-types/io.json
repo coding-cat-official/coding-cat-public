@@ -1,0 +1,18 @@
+[
+  {
+    "input": [5],
+    "output": "int"
+  },
+  {
+    "input": ["howdy"],
+    "output": "str"
+  },
+  {
+    "input": [true],
+    "output": "bool"
+  },
+  {
+    "input": [5.6],
+    "output": "float"
+  }
+]
