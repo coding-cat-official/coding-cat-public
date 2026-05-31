@@ -1,0 +1,1 @@
+def snack_decision(snacks: list, is_bulking: bool) -> int
