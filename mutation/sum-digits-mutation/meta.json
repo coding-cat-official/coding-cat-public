@@ -1,0 +1,10 @@
+{
+  "title": "Sum of digits",
+  "name": "sum_digits_mutation",
+  "difficulty": "easy",
+  "author": "Oliver",
+  "category": "Fundamentals",
+  "question_type": [
+    "mutation"
+  ]
+}
